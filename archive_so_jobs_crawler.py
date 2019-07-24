@@ -1,7 +1,10 @@
 import feedparser
 import argparse
 import requests
+import os
+import json
 from bs4 import BeautifulSoup
+from utilities.common_utils import make_sure_path_exists
 
 root_url = 'https://web.archive.org/'
 
@@ -45,7 +48,7 @@ def parse_all_pages(all_pages, keep_all_updates=False):
     :param all_pages: The dictionary mapping each datetime string into its RSS content (raw string).
     :param keep_all_updates: Whether to keep all updates of each ad in the final list, or to only keep the final
     update.
-    :return: A list of all the ads.
+    :return: A dict of all the ads.
     """
 
     all_ads = dict()
@@ -59,11 +62,28 @@ def parse_all_pages(all_pages, keep_all_updates=False):
             current_ads = {entry['title_pub']: entry for entry in current_ads}
         all_ads.update(current_ads)
 
-    return list(all_ads.values())
+    return all_ads
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--page_files', type=str, required=True)
+    parser.add_argument('--keep_all_updates', action='store_true')
+    parser.add_argument('--save_originals', action='store_true')
+    parser.add_argument('--output_dir', type=str, required=True)
+    args = parser.parse_args()
 
-    pass
+    list_of_filenames = [os.path.join(args.page_files, x) for x in os.listdir(args.page_files)]
+    all_pages = crawl_entire_page(list_of_filenames)
+    parsed_ads = parse_all_pages(all_pages, args.keep_all_updates)
+    make_sure_path_exists(args.output_dir)
+
+    with open(os.path.join(args.output_dir, 'all_ads.json'), 'w') as f:
+        json.dump(parsed_ads, f)
+
+    if args.save_originals:
+        with open(os.path.join(args.output_dir, 'jobs_rss_raw.json'), 'w') as f:
+            json.dump(all_pages, f)
+
 
 if __name__ == '__main__':
     main()
