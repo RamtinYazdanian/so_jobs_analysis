@@ -161,7 +161,7 @@ def find_matching_tags(n_gram_list, tags_to_originals):
 def create_entity_item_bags(entity_text, so_tags, forbidden_subtag_map,
                               n_grams=4, textual_field_to_use='summary'):
     new_col_name = textual_field_to_use + '_tags'
-    entity_text.loc[new_col_name] = entity_text[textual_field_to_use]. \
+    entity_text[new_col_name] = entity_text[textual_field_to_use]. \
         apply(lambda x: get_ngram_bags_for_tags(clean_html(x), n_grams))
 
     # This is where the tags get detected and the forbidden tags are eliminated.
