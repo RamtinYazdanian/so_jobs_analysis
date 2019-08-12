@@ -61,8 +61,47 @@ def generate_n_grams(tokens, return_string=True, n=3):
     else:
         return generate_n_grams(tokens, return_string=return_string, n=n-1)
 
-def tokenise_stem_punkt_and_stopword(text, punkt_to_remove=PUNKT, remove_numbers=False
-                                     , stopword_set=None, ngram_stopwords=None, do_stem = False):
+def remove_all_code(text):
+    opening_str = '&lt;code&gt;'
+    closing_str = '&lt;/code&gt;'
+    opening_code = [(m.start(), 1) for m in re.finditer(opening_str, text)]
+    if len(opening_code) == 0:
+        return text
+    closing_code = [(m.start(), -1) for m in re.finditer(closing_str, text)]
+
+    all_code = sorted(opening_code+closing_code, key=itemgetter(0))
+
+    code_tag_counter = 0
+    text_counter = 0
+    result = ''
+
+    result += text[text_counter:all_code[code_tag_counter][0]]
+
+    while code_tag_counter < len(all_code):
+        depth_counter = all_code[code_tag_counter][1]
+        starting_code_tag_counter = code_tag_counter
+        while depth_counter > 0:
+            code_tag_counter += 1
+            try:
+                depth_counter += all_code[code_tag_counter][1]
+            except Exception as e:
+                raise Exception(text + '\n' + str(depth_counter) + '\n' + str(code_tag_counter))
+        code_between_tags = text[all_code[starting_code_tag_counter][0]+len(opening_str):all_code[code_tag_counter][0]]
+        if len(code_between_tags.split()) < CODE_SNIPPET_MIN_TOKENS and len(code_between_tags) < CODE_SNIPPET_MIN_CHARS:
+            result += code_between_tags
+        text_counter = all_code[code_tag_counter][0] + len(closing_str)
+        if code_tag_counter == len(all_code) - 1:
+            end_point = len(text)
+        else:
+            end_point = all_code[code_tag_counter+1][0]
+        code_tag_counter += 1
+        result += text[text_counter:end_point]
+
+    return result
+
+def tokenise_stem_punkt_and_stopword(text, punkt_to_remove=PUNKT, remove_periods=False, remove_numbers=False
+                                     , stopword_set=None, ngram_stopwords=None, do_stem = False,
+                                     remove_code=False):
 
     """
     Handles text and tokenises it. By default lowercases, removes all HTML tags and escaped characters such as
@@ -74,6 +113,9 @@ def tokenise_stem_punkt_and_stopword(text, punkt_to_remove=PUNKT, remove_numbers
 
     # Lowercases the whole text.
     text = text.lower()
+
+    if (remove_code):
+        text = remove_all_code(text)
     # Removes HTML tags that are one character long. The whitespace is necessary to distinguish between an innocent <
     # (which is ' &lt; ') and a < that's part of an HTML tag. Same with next regex and &gt;.
     # This comes first because the second pattern would not understand these and would skip to the next &gt;.
@@ -91,7 +133,10 @@ def tokenise_stem_punkt_and_stopword(text, punkt_to_remove=PUNKT, remove_numbers
     if punkt_to_remove is not None:
         tokenised = " ".join("".join([" " if ch in punkt_to_remove else ch for ch in text]).split()).split()
     else:
+        if remove_periods:
+            text = re.sub(r'\.+ ', ' ', text)
         tokenised = text.split()
+
     # Removes stopwords and numbers.
     if remove_numbers:
         tokenised = [x for x in tokenised if not is_number(x)]
