@@ -45,6 +45,18 @@ def load_SO_tags(tag_csv_filename, filter_by_count=-1, remove_textless=True, syn
 
     return tag_to_original_mapping, tags, tags_df
 
+def get_tags(tags_list):
+    opening_str = '&lt;'
+    closing_str = '&gt;'
+    opening_tag = [m.end() for m in re.finditer(opening_str, tags_list)]
+    closing_tag = [m.start() for m in re.finditer(closing_str, tags_list)]
+
+    result_list = []
+    for i in range(len(opening_tag)):
+        result_list.append(tags_list[opening_tag[i]:closing_tag[i]])
+
+    return result_list
+
 def clean_html(raw_html):
   cleanr = re.compile('<.*?>')
   clean_text = re.sub(cleanr, ' ', raw_html)

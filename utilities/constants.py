@@ -2,6 +2,8 @@ STOP_POS = ['DT', 'IN', 'TO', 'PRP', 'PRP$']
 
 PUNKT = '!"$%&\'()*,-./:;<=>?@[\\]^_`{|}~‘’–…'
 
+DT_FORMAT = '%Y-%m-%dT%H:%M:%S.%f'
+
 STOPWORDS = {
         'i',
         'me',
