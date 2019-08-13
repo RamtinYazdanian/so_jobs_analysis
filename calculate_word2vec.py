@@ -1,7 +1,7 @@
 from pyspark import SparkConf
 from pyspark.sql import SparkSession, DataFrame
 from pyspark.ml.feature import Word2Vec
-from utilities.common_utils import get_field
+from utilities.common_utils import get_field, make_sure_path_exists
 from utilities.text_utils import tokenise_stem_punkt_and_stopword
 from utilities.constants import STOPWORDS, PUNKT
 import pickle
@@ -43,6 +43,7 @@ def main():
     vectors_df = model.getVectors().toPandas()
     print(vectors_df.head(20))
 
+    make_sure_path_exists(args.output_dir)
     with open(os.path.join(args.output_dir, 'word_to_vec_df.pkl'), 'wb') as f:
         pickle.dump(vectors_df, f)
 
