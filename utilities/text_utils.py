@@ -139,6 +139,7 @@ def tokenise_stem_punkt_and_stopword(text, punkt_to_remove=PUNKT, remove_periods
     text = re.sub(b'&[^&;]+;', ' ', text)
     # N-gram stopwords are removed before tokenisation. This feature should be used cautiously, avoid using it for
     # unigrams and be careful that the ngrams couldn't be a substring of a bigger n-gram.
+    text = text.decode('utf-8')
     if ngram_stopwords is not None:
         for ngram in ngram_stopwords:
             text = text.replace(ngram, '')
