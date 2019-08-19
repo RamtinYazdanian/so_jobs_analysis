@@ -128,7 +128,7 @@ def tokenise_stem_punkt_and_stopword(text, punkt_to_remove=PUNKT, remove_periods
     text = text.lower()
 
     if (remove_code):
-        text = str(remove_all_code(text))
+        text = remove_all_code(text).decode('utf-8')
     # Removes HTML tags that are one character long. The whitespace is necessary to distinguish between an innocent <
     # (which is ' &lt; ') and a < that's part of an HTML tag. Same with next regex and &gt;.
     # This comes first because the second pattern would not understand these and would skip to the next &gt;.
