@@ -132,14 +132,13 @@ def tokenise_stem_punkt_and_stopword(text, punkt_to_remove=PUNKT, remove_periods
     # Removes HTML tags that are one character long. The whitespace is necessary to distinguish between an innocent <
     # (which is ' &lt; ') and a < that's part of an HTML tag. Same with next regex and &gt;.
     # This comes first because the second pattern would not understand these and would skip to the next &gt;.
-    text = re.sub(b'(<(\S){1}>)', ' ', text)
+    text = re.sub(r'(<(\S){1}>)', ' ', text)
     # Removes HTML tags more than 1 character long.
-    text = re.sub(b'(<(\S){1}(.*?)(\S){1}>)', ' ', text)
+    text = re.sub(r'(<(\S){1}(.*?)(\S){1}>)', ' ', text)
     # Removes any remaining special, escaped characters.
-    text = re.sub(b'&[^&;]+;', ' ', text)
+    text = re.sub(r'&[^&;]+;', ' ', text)
     # N-gram stopwords are removed before tokenisation. This feature should be used cautiously, avoid using it for
     # unigrams and be careful that the ngrams couldn't be a substring of a bigger n-gram.
-    text = text.decode('utf-8')
     if ngram_stopwords is not None:
         for ngram in ngram_stopwords:
             text = text.replace(ngram, '')

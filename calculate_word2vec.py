@@ -30,9 +30,9 @@ def main():
                                 map(lambda x: (int(get_field(x, 'Id')), x))
     reduced_punkt = ''.join([x for x in PUNKT if x != '.'])
     in_rdd = in_rdd.map(lambda x: (x[0],
-            tokenise_stem_punkt_and_stopword(get_field(x[1], 'Title'), remove_numbers=True, remove_code=False,
+            tokenise_stem_punkt_and_stopword(get_field(x[1], 'Title').decode('utf-8'), remove_numbers=True, remove_code=False,
                                      punkt_to_remove=reduced_punkt, remove_periods=True, stopword_set=STOPWORDS),
-            tokenise_stem_punkt_and_stopword(get_field(x[1], 'Body'), remove_numbers=True, remove_code=True,
+            tokenise_stem_punkt_and_stopword(get_field(x[1], 'Body').decode('utf-8'), remove_numbers=True, remove_code=True,
                                      punkt_to_remove=reduced_punkt, remove_periods=True, stopword_set=STOPWORDS)))
     in_rdd = in_rdd.map(lambda x: (x[0], x[1]+x[2]))
 
