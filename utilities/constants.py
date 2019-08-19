@@ -2,6 +2,11 @@ STOP_POS = ['DT', 'IN', 'TO', 'PRP', 'PRP$']
 
 PUNKT = '!"$%&\'()*,-./:;<=>?@[\\]^_`{|}~‘’–…'
 
+# Minimum (token) length of a code snippet for its removal. Anything shorter than this will be kept.
+CODE_SNIPPET_MIN_TOKENS = 3
+# Minimum character length of a code snippet for its removal.
+CODE_SNIPPET_MIN_CHARS = 20
+
 DT_FORMAT = '%Y-%m-%dT%H:%M:%S.%f'
 
 STOPWORDS = {
