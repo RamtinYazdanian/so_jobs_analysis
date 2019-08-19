@@ -1,9 +1,9 @@
 from pyspark import SparkConf
 from pyspark.sql import SparkSession, DataFrame
 from pyspark.ml.feature import Word2Vec
-from common_utils import get_field, make_sure_path_exists
-from text_utils import tokenise_stem_punkt_and_stopword
-from constants import STOPWORDS, PUNKT
+from utilities.common_utils import get_field, make_sure_path_exists
+from utilities.text_utils import tokenise_stem_punkt_and_stopword
+from utilities.constants import STOPWORDS, PUNKT
 import pickle
 import os
 import argparse
