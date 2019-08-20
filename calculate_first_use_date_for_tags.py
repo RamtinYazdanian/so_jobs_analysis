@@ -28,7 +28,7 @@ def main():
     in_rdd = sc.textFile(args.posts).filter(lambda x: get_field(x, 'Id') is not None).\
                                 map(lambda x: (int(get_field(x, 'Id')), x))
 
-    in_rdd = in_rdd.filter(lambda x: get_field(x[1], 'Tags') is not None).\
+    in_rdd = in_rdd.filter(lambda x: get_field(x[1], 'Tags') is not None and get_field(x[1], 'CreationDate') is not None).\
                     map(lambda x: (datetime.strptime(get_field(x[1], 'CreationDate'), DT_FORMAT),
                                    get_tags(get_field(x[1], 'Tags')))).\
                     flatMap(lambda x: [(x[0], y) for y in x[1]])
