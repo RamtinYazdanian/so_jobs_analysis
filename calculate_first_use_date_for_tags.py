@@ -38,8 +38,8 @@ def main():
     tag_first_appearance = tag_first_appearance.toPandas()
 
     make_sure_path_exists(args.output_dir)
-    with open(os.path.join(args.output_dir, 'tag_earliest_appearance.pkl'), 'wb') as f:
-        pickle.dump(tag_first_appearance, f)
+    with open(os.path.join(args.output_dir, 'tag_earliest_appearance.csv'), 'w') as f:
+        tag_first_appearance.to_csv(f)
 
 if __name__ == '__main__':
     main()
