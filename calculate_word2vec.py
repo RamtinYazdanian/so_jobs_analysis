@@ -26,6 +26,8 @@ def main():
 
     sc = spark.sparkContext
 
+    whatever = open('/dlabdata1/yazdania/S2/so_data/sample_posts.xml', 'r').readlines()
+
     in_rdd = sc.textFile(args.posts).filter(lambda x: get_field(x, 'Id') is not None).\
                                 map(lambda x: (int(get_field(x, 'Id')), x))
     reduced_punkt = ''.join([x for x in PUNKT if x != '.'])
@@ -44,7 +46,8 @@ def main():
     vectors_df = model.getVectors().toPandas()
     print(vectors_df.head(20))
 
-    #make_sure_path_exists(args.output_dir)
+    spark.stop()
+    # make_sure_path_exists(args.output_dir)
     with open(os.path.join(args.output_dir, 'word_to_vec_df.pkl'), 'wb') as f:
         pickle.dump(vectors_df, f)
 
