@@ -15,7 +15,7 @@ def main():
 
     df = pickle.load(open(args.word2vec, 'rb'))
     words_map = {v:k for k,v in enumerate(df['word'].values)}
-    vectors_matrix = np.array(df['vector'].apply(lambda x: np.array(x).reshape((len(x)))).values)
+    vectors_matrix = np.array([list(x) for x in df['vector'].values])
 
     make_sure_path_exists(args.output_dir)
 
