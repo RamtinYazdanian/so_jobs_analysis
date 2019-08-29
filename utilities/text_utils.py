@@ -15,7 +15,7 @@ def is_number(s):
     except ValueError:
         return False
 
-def load_SO_tags(tag_csv_filename, filter_by_count=-1, remove_textless=True, synonym_filename=None):
+def load_SO_tags(tag_csv_filename, filter_by_count=-1, remove_textless=True, synonym_filename=None, do_stem=False):
     tags_df = pd.read_csv(tag_csv_filename)
     tags_df['TagName'] = tags_df['TagName'].astype(str)
     tags_df['Excerpt'] = tags_df['Excerpt'].astype(str)
@@ -28,6 +28,10 @@ def load_SO_tags(tag_csv_filename, filter_by_count=-1, remove_textless=True, syn
     # we transform each tag with a - into two versions: one where it's replaced by a space, and one where it's
     # replaced by '' (i.e. nothing).
     tag_to_original_mapping = dict()
+    if do_stem:
+        stemmer = PorterStemmer()
+    else:
+        stemmer = None
 
     if synonym_filename is not None:
         synonyms = json.load(open(synonym_filename, 'r', encoding='utf8'))
@@ -35,11 +39,22 @@ def load_SO_tags(tag_csv_filename, filter_by_count=-1, remove_textless=True, syn
         tags = {tag for tag in tags if tag not in synonyms}
         # The if at the end is necessary if we want to avoid putting back in tags that we have removed due to being
         # descriptionless or under the count threshold.
-        tag_to_original_mapping.update({x.replace('-', ' '): synonyms[x] for x in synonyms if synonyms[x] in tags})
-        tag_to_original_mapping.update({x.replace('-', ''): synonyms[x] for x in synonyms if synonyms[x] in tags})
-
-    tag_to_original_mapping.update({x.replace('-', ' '): x for x in tags})
-    tag_to_original_mapping.update({x.replace('-', ''): x for x in tags})
+        if stemmer is not None:
+            tag_to_original_mapping.update({' '.join([stemmer.stem(y) for y in x.split('-')]): synonyms[x]
+                                            for x in synonyms if synonyms[x] in tags})
+            tag_to_original_mapping.update({''.join([stemmer.stem(y) for y in x.split('-')]): synonyms[x]
+                                            for x in synonyms if synonyms[x] in tags})
+        else:
+            tag_to_original_mapping.update({x.replace('-', ' '): synonyms[x]
+                                            for x in synonyms if synonyms[x] in tags})
+            tag_to_original_mapping.update({x.replace('-', ''): synonyms[x]
+                                            for x in synonyms if synonyms[x] in tags})
+    if stemmer is not None:
+        tag_to_original_mapping.update({' '.join([stemmer.stem(y) for y in x.split('-')]): x for x in tags})
+        tag_to_original_mapping.update({''.join([stemmer.stem(y) for y in x.split('-')]): x for x in tags})
+    else:
+        tag_to_original_mapping.update({x.replace('-', ' '): x for x in tags})
+        tag_to_original_mapping.update({x.replace('-', ''): x for x in tags})
 
     tag_n_gram = dict(Counter([len(x.split('-')) for x in tags]))
     print(tag_n_gram)
@@ -161,7 +176,7 @@ def tokenise_stem_punkt_and_stopword(text, punkt_to_remove=PUNKT, remove_periods
     else:
         return tokenised
 
-def get_ngram_bags_for_tags(text, n_grams=4, stop_POS=STOP_POS, stopwords=None):
+def get_ngram_bags_for_tags(text, n_grams=4, stop_POS=STOP_POS, do_stem=False, stopwords=None):
     """
     Takes a piece of text, generates ngrams, removes undesired parts of speech and returns a bag of words.
     :param text: The piece of text
@@ -182,7 +197,7 @@ def get_ngram_bags_for_tags(text, n_grams=4, stop_POS=STOP_POS, stopwords=None):
     tokenised_with_pos = pos_tag(tokenise_stem_punkt_and_stopword(text, punkt_to_remove=custom_punkt,
                                                                   remove_numbers=False, stopword_set=None,
                                                                   ngram_stopwords=None,
-                                                                  do_stem=False))
+                                                                  do_stem=do_stem))
     ngrams_with_pos = generate_n_grams(tokenised_with_pos, return_string=False, n=n_grams)
     n_grams_stringified = []
     for ngram in ngrams_with_pos:
@@ -217,10 +232,10 @@ def find_matching_tags(n_gram_list, tags_to_originals):
     return list_of_originals
 
 def create_entity_item_bags(entity_text, so_tags, forbidden_subtag_map,
-                              n_grams=4, textual_field_to_use='summary'):
+                              n_grams=4, textual_field_to_use='summary', do_stem=False):
     new_col_name = textual_field_to_use + '_tags'
     entity_text[new_col_name] = entity_text[textual_field_to_use]. \
-        apply(lambda x: get_ngram_bags_for_tags(clean_html(x), n_grams))
+        apply(lambda x: get_ngram_bags_for_tags(clean_html(x), n_grams, do_stem=do_stem))
 
     # This is where the tags get detected and the forbidden tags are eliminated.
     entity_text[new_col_name] = entity_text[new_col_name].apply(lambda x:
