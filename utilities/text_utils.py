@@ -44,17 +44,23 @@ def load_SO_tags(tag_csv_filename, filter_by_count=-1, remove_textless=True, syn
                                             for x in synonyms if synonyms[x] in tags})
             tag_to_original_mapping.update({''.join([stemmer.stem(y) for y in x.split('-')]): synonyms[x]
                                             for x in synonyms if synonyms[x] in tags})
+            tag_to_original_mapping.update({'-'.join([stemmer.stem(y) for y in x.split('-')]): synonyms[x]
+                                            for x in synonyms if synonyms[x] in tags})
         else:
             tag_to_original_mapping.update({x.replace('-', ' '): synonyms[x]
                                             for x in synonyms if synonyms[x] in tags})
             tag_to_original_mapping.update({x.replace('-', ''): synonyms[x]
                                             for x in synonyms if synonyms[x] in tags})
+            tag_to_original_mapping.update({x: synonyms[x]
+                                            for x in synonyms if synonyms[x] in tags})
     if stemmer is not None:
         tag_to_original_mapping.update({' '.join([stemmer.stem(y) for y in x.split('-')]): x for x in tags})
         tag_to_original_mapping.update({''.join([stemmer.stem(y) for y in x.split('-')]): x for x in tags})
+        tag_to_original_mapping.update({'-'.join([stemmer.stem(y) for y in x.split('-')]): x for x in tags})
     else:
         tag_to_original_mapping.update({x.replace('-', ' '): x for x in tags})
         tag_to_original_mapping.update({x.replace('-', ''): x for x in tags})
+        tag_to_original_mapping.update({x: x for x in tags})
 
     tag_n_gram = dict(Counter([len(x.split('-')) for x in tags]))
     print(tag_n_gram)
