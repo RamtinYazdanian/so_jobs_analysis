@@ -157,7 +157,7 @@ amazon-athena,feature
 httpserver,concept
 visual-studio-2019,version
 rbenv,software
-rdp,protocol,
+rdp,protocol
 diacritic,concept
 jsonpath,concept
 gradient-descent,concept
