@@ -136,7 +136,7 @@ cpan,library
 androidx,library
 ode,concept
 gnome,api
-lattice,coresubet
+lattice,coresubset
 lattice,library
 razor-pages,coresubset
 razor-pages,feature
@@ -191,7 +191,7 @@ android-jetpack,library
 apollo-server,library
 neon,language
 sparkr,library
-spring-cloud-config,coresubet
+spring-cloud-config,coresubset
 istio,platform
 fuzzy-search,concept
 opensuse,software
