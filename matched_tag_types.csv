@@ -17,7 +17,7 @@ wxpython,wrapper
 swift4,version
 vue-component,feature
 vue-component,coresubset
-azure-function,framework
+azure-functions,framework
 material-ui,framework
 automapper,software
 maven-3,version
@@ -78,7 +78,7 @@ resttemplate,library
 laravel-5.6,version
 paramiko,library
 python-3.7,version
-azure-applicatin-insights,software
+azure-application-insights,software
 tidyr,library
 caliburn.micro,framework
 indexeddb,db
@@ -158,7 +158,7 @@ httpserver,concept
 visual-studio-2019,version
 rbenv,software
 rdp,protocol
-diacritic,concept
+diacritics,concept
 jsonpath,concept
 gradient-descent,concept
 force-layout,concept
@@ -307,7 +307,7 @@ workbox,software
 vmware-workstation,software
 algebraic-data-types,concept
 web-api-testing,concept
-surveymonkey-service
+surveymonkey,service
 java-module,feature
 java-module,coresubset
 replicaset,coresubset
@@ -439,7 +439,7 @@ aws-sam,framework
 opencv-python,deprecated
 readxl,library
 cloudify,platform
-pushdown-automata,concept
+pushdown-automaton,concept
 polly,library
 daydream,platform
 catkin,software
@@ -608,7 +608,7 @@ slab,feature
 automatic-failover,concept
 mirage,framework
 git-track,coresubset
-mainfold,software
+manifold,software
 aws-storage-gateway,software
 version-compatibility,concept
 account-linking,concept
@@ -629,7 +629,7 @@ floating-ip,feature
 floating-ip,coresubset
 argon,software
 h3,software
-sprng-modules,coresubset
+spring-modules,coresubset
 map-basic,language
 rls,software
 list-processing,concept
