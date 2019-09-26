@@ -15,6 +15,41 @@ def is_number(s):
     except ValueError:
         return False
 
+def handle_tag_variations(tag, map_to, stemmer=None):
+    # The number pattern is supposed to capture a single number of the form something(.something)*, which is not
+    # preceded by a - (because if it is, then we don't need to do this), so the assumption is that there is only
+    # ONE match.
+    # The parentheses around the pattern capture the largest group through re.findall.
+    tag_variants = [tag]
+
+    number_pattern = re.compile(r'[^-.](\d+(\.\d+)*)')
+    major_version_pattern = re.compile(r'^((\d+)(\.[0])*)')
+
+    matches = re.findall(number_pattern, tag)
+    if len(matches) > 0:
+        full_version_number = matches[0][0] # Why [0][0]? Because it's the first match, and then the first group there.
+        tag_variants.append(tag.replace(full_version_number, '-'+full_version_number))
+        major_version = re.findall(major_version_pattern, full_version_number)
+        # If this version is a major version, then we'll also include the major version without the .s
+        # Given the parentheses, this means the second group in the first match. The ^ forces it to have only one match.
+        if len(major_version) > 0 and major_version[0][0] == full_version_number:
+            tag_variants.append(
+                tag.replace(full_version_number, '-' + major_version[0][1]))
+
+    result_dict = dict()
+    if stemmer is not None:
+        for variant in tag_variants:
+            result_dict.update({' '.join([stemmer.stem(y) for y in variant.split('-')]): map_to})
+            result_dict.update({''.join([stemmer.stem(y) for y in variant.split('-')]): map_to})
+            result_dict.update({'-'.join([stemmer.stem(y) for y in variant.split('-')]): map_to})
+    else:
+        for variant in tag_variants:
+            result_dict.update({variant.replace('-', ' '): map_to})
+            result_dict.update({variant.replace('-', ''): map_to})
+            result_dict.update({variant: map_to})
+
+    return result_dict
+
 def load_SO_tags(tag_csv_filename, filter_by_count=-1, remove_textless=True, synonym_filename=None, do_stem=False):
     tags_df = pd.read_csv(tag_csv_filename)
     tags_df['TagName'] = tags_df['TagName'].astype(str)
@@ -39,28 +74,13 @@ def load_SO_tags(tag_csv_filename, filter_by_count=-1, remove_textless=True, syn
         tags = {tag for tag in tags if tag not in synonyms}
         # The if at the end is necessary if we want to avoid putting back in tags that we have removed due to being
         # descriptionless or under the count threshold.
-        if stemmer is not None:
-            tag_to_original_mapping.update({' '.join([stemmer.stem(y) for y in x.split('-')]): synonyms[x]
-                                            for x in synonyms if synonyms[x] in tags})
-            tag_to_original_mapping.update({''.join([stemmer.stem(y) for y in x.split('-')]): synonyms[x]
-                                            for x in synonyms if synonyms[x] in tags})
-            tag_to_original_mapping.update({'-'.join([stemmer.stem(y) for y in x.split('-')]): synonyms[x]
-                                            for x in synonyms if synonyms[x] in tags})
-        else:
-            tag_to_original_mapping.update({x.replace('-', ' '): synonyms[x]
-                                            for x in synonyms if synonyms[x] in tags})
-            tag_to_original_mapping.update({x.replace('-', ''): synonyms[x]
-                                            for x in synonyms if synonyms[x] in tags})
-            tag_to_original_mapping.update({x: synonyms[x]
-                                            for x in synonyms if synonyms[x] in tags})
-    if stemmer is not None:
-        tag_to_original_mapping.update({' '.join([stemmer.stem(y) for y in x.split('-')]): x for x in tags})
-        tag_to_original_mapping.update({''.join([stemmer.stem(y) for y in x.split('-')]): x for x in tags})
-        tag_to_original_mapping.update({'-'.join([stemmer.stem(y) for y in x.split('-')]): x for x in tags})
-    else:
-        tag_to_original_mapping.update({x.replace('-', ' '): x for x in tags})
-        tag_to_original_mapping.update({x.replace('-', ''): x for x in tags})
-        tag_to_original_mapping.update({x: x for x in tags})
+        for x in synonyms:
+            if synonyms[x] not in tags:
+                continue
+            tag_to_original_mapping.update(handle_tag_variations(x, synonyms[x], stemmer))
+
+    for x in tags:
+        tag_to_original_mapping.update(handle_tag_variations(x, x, stemmer))
 
     tag_n_gram = dict(Counter([len(x.split('-')) for x in tags]))
     print(tag_n_gram)
