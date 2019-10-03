@@ -17,6 +17,7 @@ def crawl_individual_page(page_datetime_or_url):
         true_url = page_datetime_or_url
 
     response = requests.get(true_url)
+    print(page_datetime_or_url)
     return response.text
 
 def parse_individual_page(rss_text):
