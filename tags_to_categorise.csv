@@ -1,633 +1,711 @@
-,Index,TagName,TagType,IsVersion,IsMajorVersion
-0,0,vuejs2,web-framework,True,True
-1,1,google-cloud-firestore,database,False,False
-2,2,json.net,web-framework,False,False
-3,3,ionic3,mobile-sdk,True,True
-4,4,mongodb-query,lang-concept,False,False
-5,5,firebase-cloud-messaging,cloud-solution,False,False
-6,6,pthreads,api,False,False
-7,7,java-stream,lang-feature,False,False
-8,8,google-cloud-functions,cloud-solution,False,False
-9,9,axios,web-library,False,False
-10,10,google-cloud-datastore,cloud-database,False,False
-11,11,angular5,web-framework,True,True
-12,12,linq-to-entities,lang-feature,False,False
-13,13,pyqt5,api,True,True
-14,14,wxpython,connector,False,False
-15,15,retrofit2,framework,True,True
-16,16,vue-component,lang-feature,False,False
-17,17,azure-functions,cloud-solution,False,False
-18,18,automapper,library,False,False
-19,19,maven-3,build-solution,True,True
-20,20,hql,language,False,False
-21,21,racket,language,False,False
-22,22,javamail,api,False,False
-23,23,python-3.6,language,True,False
-24,24,laravel-5.3,web-framework,True,False
-25,25,laravel-5.4,web-framework,True,False
-26,26,pymongo,database-connector,False,False
-27,27,c++17,language,True,True
-28,28,hyperledger-fabric,blockchain-solution,False,False
-29,29,wmi,api,False,False
-30,30,static-libraries,tech-concept,False,False
-31,31,typeerror,tech-concept,False,False
-32,32,pytorch,ml-framework,False,False
-33,33,react-navigation,lang-feature,False,False
-34,34,azure-cosmosdb,database-solution,False,False
-35,35,unity-container,lang-feature,False,False
-36,36,raspberry-pi3,hardware,True,True
-37,37,antlr,framework,False,False
-38,38,aws-api-gateway,cloud-solution,False,False
-39,39,lstm,ml-concept,False,False
-40,40,vuex,library,False,False
-41,41,boto3,cloud-sdk,True,True
-42,42,amazon-cognito,cloud-solution,False,False
-43,43,ionic4,mobile-sdk,True,True
-44,44,httpurlconnection,tech-concept,False,False
-45,45,asp.net-core-webapi,api,False,False
-46,46,angular-material2,library,True,True
-47,47,symfony4,web-framework,True,True
-48,48,azure-service-fabric,cloud-solution,False,False
-49,49,postback,tech-concept,False,False
-50,50,laravel-5.5,web-framework,True,False
-51,51,angular2-forms,lang-concept,False,False
-52,52,azure-pipelines,cloud-solution,False,False
-53,53,tidyverse,library,False,False
-54,54,vuetify.js,web-framework,False,False
-55,55,ngrx,library,False,False
-56,56,nsis,software-solution,False,False
-57,57,angular2-services,lang-feature,False,False
-58,58,xlsx,file-format,False,False
-59,59,keycloak,security-framework,False,False
-60,60,arkit,ar-framework,False,False
-61,61,setuptools,library,False,False
-62,62,roslyn,api,False,False
-63,63,nuxt.js,web-framework,False,False
-64,64,compiler-warnings,tech-concept,False,False
-65,65,gcloud,lang-feature,False,False
-66,66,okhttp,web-client,False,False
-67,67,soap-client,web-client,False,False
-68,68,emgucv,connector,False,False
-69,69,gremlin,language,False,False
-70,70,barcode-scanner,hardware,False,False
-71,71,iis-express,server-solution,False,False
-72,72,dask,library,False,False
-73,73,typescript-typings,lang-feature,False,False
-74,74,resttemplate,lang-feature,False,False
-75,75,laravel-5.6,web-framework,False,False
-76,76,paramiko,security-library,False,False
-77,77,python-3.7,language,True,False
-78,78,azure-application-insights,analytics-solution,False,False
-79,79,tidyr,library,False,False
-80,80,caliburn.micro,app-framework,False,False
-81,81,indexeddb,lang-feature,False,False
-82,82,react-hooks,lang-feature,False,False
-83,83,powermock,library,False,False
-84,84,amazon-sns,cloud-solution,False,False
-85,85,bean-validation,framework,False,False
-86,86,spring-webflux,library,False,False
-87,87,guzzle,web-client,,
-88,88,elf,file-format,False,False
-89,89,gatsby,library,False,False
-90,90,sha1,security-concept,False,False
-91,91,statsmodels,library,False,False
-92,92,slack-api,api,False,False
-93,93,word2vec,ml-concept,False,False
-94,94,poco,tech-concept,False,False
-95,95,lex,compiler-solution,False,False
-96,96,image-segmentation,tech-concept,False,False
-97,97,scala-collections,library,False,False
-98,98,webpack-2,build-solution,True,True
-99,99,static-linking,tech-concept,False,False
-100,100,node-red,connector,False,False
-101,101,ini,file-format,False,False
-102,102,glfw,library,False,False
-103,103,firebase-analytics,cloud-solution,False,False
-104,104,tensorboard,library,False,False
-105,105,next.js,web-framework,False,False
-106,106,redux-saga,connector,False,False
-107,107,spacy,library,False,False
-108,108,code-formatting,tech-concept,False,False
-109,109,xgboost,library,False,False
-110,110,jacoco,build-solution,False,False
-111,111,large-files,tech-concept,False,False
-112,112,gnupg,security-framework,False,False
-113,113,owl-carousel,library,False,False
-114,114,react-apollo,library,False,False
-115,115,shapefile,format,False,False
-116,116,azure-powershell,admin-solution,False,False
-117,117,knex.js,database-framework,False,False
-118,118,chef-recipe,lang-feature,False,False
-119,119,netcdf,standard,False,False
-120,120,kubectl,admin-solution,False,False
-121,121,apache-zeppelin,analytics-solution,False,False
-122,122,private-key,security-concept,False,False
-123,123,android-livedata,library,False,False
-124,124,p5.js,library,False,False
-125,125,cache-control,tech-concept,False,False
-126,126,server-sent-events,tech-concept,False,False
-127,127,lubridate,library,False,False
-128,128,azure-data-lake,cloud-solution,False,False
-129,129,rubymine,ide,False,False
-130,130,key-value-observing,tech-concept,False,False
-131,131,cpan,wiki,False,False
-132,132,androidx,library,False,False
-133,133,ode,math-concept,False,False
-134,134,gnome,ui,False,False
-135,135,lattice,library,False,False
-136,136,razor-pages,lang-feature,,
-137,137,android-camera2,library,True,True
-138,138,unit-of-work,tech-concept,False,False
-139,139,keytool,library,False,False
-140,140,webpack-4,build-solution,False,False
-141,141,azure-iot-hub,cloud-solution,False,False
-142,142,hmac,security-concept,False,False
-143,143,apollo-client,library,False,False
-144,144,traefik,connector,False,False
-145,145,autofill,tech-concept,False,False
-146,146,scikit-image,library,False,False
-147,147,arcore,framework,False,False
-148,148,epoch,tech-concept,False,False
-149,149,junit5,test-framework,True,True
-150,150,amazon-athena,cloud-solution,False,False
-151,151,httpserver,tech-concept,False,False
-152,152,visual-studio-2019,ide,True,True
-153,153,rbenv,library,False,False
-154,154,rdp,standard,False,False
-155,155,diacritics,tech-concept,False,False
-156,156,jsonpath,lang-concept,False,False
-157,157,gradient-descent,math-concept,False,False
-158,158,force-layout,lang-concept,False,False
-159,159,mcrypt,security-library,False,False
-160,160,gradle-plugin,build-solution,False,False
-161,161,minikube,server-solution,False,False
-162,162,java-11,language,True,True
-163,163,glew,library,False,False
-164,164,ionic-native,framework,False,False
-165,165,csproj,file-format,False,False
-166,166,sas-macro,meta-language,False,False
-167,167,informatica-powercenter,data-solution,False,False
-168,168,cpython,library,False,False
-169,169,azure-api-management,cloud-solution,False,False
-170,170,access-denied,tech-concept,False,False
-171,171,react-native-navigation,library,False,False
-172,172,google-cloud-ml,ml-cloud-solution,False,False
-173,173,tfs2017,dev-solution,False,False
-174,174,avx,language,False,False
-175,175,autoencoder,ml-concept,False,False
-176,176,dlib,library,False,False
-177,177,keep-alive,tech-concept,False,False
-178,178,tslint,lang-feature,False,False
-179,179,ramda.js,library,False,False
-180,180,autosuggest,tech-concept,False,False
-181,181,android-keystore,lang-feature,False,False
-182,182,virtuemart,software-solution,False,False
-183,183,android-jetpack,library,False,False
-184,184,apollo-server,server-solution,False,False
-185,185,neon,language,False,False
-186,186,sparkr,library,False,False
-187,187,spring-cloud-config,cloud-solution,False,False
-188,188,istio,management-solution,False,False
-189,189,opensuse,os,False,False
-190,190,arm-template,lang-feature,False,False
-191,191,vue-cli,lang-feature,False,False
-192,192,serial-communication,tech-concept,False,False
-193,193,openshift-origin,container-solution,False,False
-194,194,ambari,management-solution,False,False
-195,195,docker-for-windows,container-solution,False,False
-196,196,iphone-x,hardware,True,True
-197,197,actioncable,library,False,False
-198,198,aws-iot,connector,False,False
-199,199,ngrx-store,library,False,False
-200,200,azure-virtual-network,network-solution,False,False
-201,201,azure-machine-learning-studio,ml-solution,False,False
-202,202,web3,web-framework,False,False
-203,203,google-sites,web-solution,False,False
-204,204,monad-transformers,tech-concept,False,False
-205,205,ngx-bootstrap,connector,False,False
-206,206,mgo,connector,False,False
-207,207,azure-stream-analytics,analytics-solution,False,False
-208,208,postgresql-9.6,database,True,False
-209,209,image-compression,tech-concept,False,False
-210,210,dynamics-365,management-solution,False,False
-211,211,php-7.2,language,True,False
-212,212,laravel-mix,web-api,False,False
-213,213,semantic-ui-react,library,False,False
-214,214,http-authentication,tech-concept,False,False
-215,215,google-play-console,admin-tool,False,False
-216,216,grid-search,ml-concept,False,False
-217,217,cucumber-java,collab-solution,False,False
-218,218,amazon-sagemaker,ml-solution,False,False
-219,219,data-fitting,math-concept,False,False
-220,220,firedac,library,False,False
-221,221,topojson,format,False,False
-222,222,sinch,sdk,False,False
-223,223,specs2,library,False,False
-224,224,ngrx-effects,library,False,False
-225,225,mxnet,ml-framework,False,False
-226,226,automata,math-concept,False,False
-227,227,aidl,language,False,False
-228,228,eigenvalue,math-concept,False,False
-229,229,node-sass,connector,False,False
-230,230,hibernate-annotations,lang-feature,False,False
-231,231,unix-socket,connector,False,False
-232,232,angular-template,lang-feature,False,False
-233,233,rvalue,tech-concept,False,False
-234,234,react-native-firebase,library,False,False
-235,235,kotlin-android-extensions,library,False,False
-236,236,cntk,library,False,False
-237,237,netlify,deployment-solution,False,False
-238,238,powerapps,software-solution,False,False
-239,239,tpl-dataflow,library,False,False
-240,240,react-router-redux,library,False,False
-241,241,kotlin-coroutines,library,False,False
-242,242,web-push,web-api,False,False
-243,243,numerical-integration,math-concept,False,False
-244,244,coreml,ml-framework,False,False
-245,245,bulma,web-framework,False,False
-246,246,web3js,library,False,False
-247,247,functional-dependencies,tech-concept,False,False
-248,248,truffle,dev-solution,False,False
-249,249,tensorflow.js,ml-library,False,False
-250,250,azure-automation,management-solution,False,False
-251,251,netstat,admin-tool,False,False
-252,252,mapstruct,lang-feature,False,False
-253,253,oidc,connector,False,False
-254,254,managed-c++,deprecated-standard,False,False
-255,255,ansible-inventory,solution-feature,False,False
-256,256,google-vr,vr-framework,False,False
-257,257,apostrophe,tech-concept,False,False
-258,258,richtext,tech-concept,False,False
-259,259,error-code,tech-concept,False,False
-260,260,aws-codebuild,software-solution,False,False
-261,261,yolo,library,False,False
-262,262,powershell-ise,ide,False,False
-263,263,zoho,company,False,False
-264,264,azure-cognitive-services,ml-solution,False,False
-265,265,django-2.0,web-framework,True,True
-266,266,ngrok,web-proxy,False,False
-267,267,partial-classes,tech-concept,False,False
-268,268,uicontrol,framework-feature,False,False
-269,269,mockmvc,framework-feature,False,False
-270,270,frameset,lang-feature,False,False
-271,271,amazon-lex,ml-solution,False,False
-272,272,undertow,server-solution,False,False
-273,273,memory-barriers,tech-concept,False,False
-274,274,net-http,web-api,False,False
-275,275,c#-7.0,language,True,True
-276,276,joi,lang-feature,False,False
-277,277,p-value,math-concept,False,False
-278,278,watchdog,tech-concept,False,False
-279,279,fixed-point,tech-concept,False,False
-280,280,pundit,library,False,False
-281,281,opcode,tech-concept,False,False
-282,282,windows-firewall,security-software,False,False
-283,283,android-instrumentation,lang-feature,False,False
-284,284,vmware-workstation,vm-software,False,False
-285,285,workbox,server-solution,False,False
-286,286,algebraic-data-types,tech-concept,False,False
-287,287,web-api-testing,tech-concept,False,False
-288,288,surveymonkey,survey-service,False,False
-289,289,replicaset,lang-concept,False,False
-290,290,java-module,lang-feature,False,False
-291,291,superagent,web-api,False,False
-292,292,save-as,tech-concept,False,False
-293,293,secret-key,security-concept,False,False
-294,294,.net-core-2.0,web-framework,True,True
-295,295,php4,language,True,True
-296,296,aws-serverless,cloud-solution,False,False
-297,297,laravel-dusk,test-api,False,False
-298,298,azure-kubernetes,container-solution,False,False
-299,299,azure-api-apps,cloud-solution,False,False
-300,300,tfs2018,dev-solution,True,True
-301,301,orc,format,False,False
-302,302,pwm,tech-concept,False,False
-303,303,rpa,tech-concept,False,False
-304,304,changeset,tech-concept,False,False
-305,305,firebase-cli,admin-tool,False,False
-306,306,swift5,language,True,True
-307,307,wit.ai,ml-solution,False,False
-308,308,django-1.11,web-framework,True,False
-309,309,azure-container-service,container-solution,False,False
-310,310,wavelet,math-concept,False,False
-311,311,mern,dev-solution,False,False
-312,312,rssi,tech-concept,False,False
-313,313,inode,tech-concept,False,False
-314,314,react-context,lang-feature,False,False
-315,315,holoviews,library,False,False
-316,316,ecmascript-2017,language,True,True
-317,317,aot,lang-feature,False,False
-318,318,arcmap,software-tool,False,False
-319,319,maven-failsafe-plugin,framework-feature,False,False
-320,320,read-the-docs,collab-solution,False,False
-321,321,django-2.1,web-framework,True,False
-322,322,sightly,language,False,False
-323,323,np-complete,math-concept,False,False
-324,324,prisma,connector,False,False
-325,325,snort,security-tool,False,False
-326,326,heroku-cli,admin-tool,False,False
-327,327,geotiff,standard,False,False
-328,328,hyperparameters,ml-concept,False,False
-329,329,http-response-codes,tech-concept,False,False
-330,330,css-variables,lang-concept,False,False
-331,331,browser-plugin,web-tool,False,False
-332,332,jigsaw,framework,False,False
-333,333,runtime-permissions,lang-feature,False,False
-334,334,aws-codecommit,versioning-solution,False,False
-335,335,fabric8,management-solution,False,False
-336,336,qt3d,library,False,False
-337,337,dot-product,math-concept,False,False
-338,338,multinomial,math-concept,False,False
-339,339,zipkin,server-tool,False,False
-340,340,dbeaver,database-tool,False,False
-341,341,windows-10-desktop,ui,False,False
-342,342,elastica,library,False,False
-343,343,saga,tech-concept,False,False
-344,344,background-subtraction,tech-concept,False,False
-345,345,element-ui,library,False,False
-346,346,kotlin-extension,lang-concept,False,False
-347,347,dotnet-cli,admin-tool,False,False
-348,348,ack,software-tool,False,False
-349,349,c++-concepts,language,True,False
-350,350,ipfs,standard,False,False
-351,351,batch-normalization,ml-concept,False,False
-352,352,mixed-content,tech-concept,False,False
-353,353,spatial-index,tech-concept,False,False
-354,354,jenkins-slave,framework-concept,False,False
-355,355,reactive-forms,framework-concept,False,False
-356,356,bloc,tech-concept,False,False
-357,357,go-ethereum,library,False,False
-358,358,eiffel,language,False,False
-359,359,quantization,tech-concept,False,False
-360,360,splitter,tech-concept,False,False
-361,361,otrs,management-solution,False,False
-362,362,msg,file-format,False,False
-363,363,mle,ml-concept,False,False
-364,364,swift-package-manager,build-tool,False,False
-365,365,data-partitioning,tech-concept,False,False
-366,366,docker-swarm-mode,framework-feature,False,False
-367,367,cryptocurrency,security-concept,False,False
-368,368,centroid,math-concept,False,False
-369,369,design-by-contract,tech-concept,False,False
-370,370,eeprom,hardware,False,False
-371,371,scss-mixins,lang-feature,False,False
-372,372,vbox,lang-feature,False,False
-373,373,lottie,library,False,False
-374,374,nano,ide,False,False
-375,375,serde,framework,False,False
-376,376,bacon.js,library,False,False
-377,377,directory-listing,tech-concept,False,False
-378,378,generative-adversarial-network,ml-concept,False,False
-379,379,django-1.10,web-framework,True,False
-380,380,image-caching,tech-concept,False,False
-381,381,geth,library,False,False
-382,382,kvc,tech-concept,False,False
-383,383,seq2seq,library,False,False
-384,384,reentrancy,tech-concept,False,False
-385,385,recompose,library,False,False
-386,386,blazemeter,test-solution,False,False
-387,387,ftp-server,tech-concept,False,False
-388,388,ico,file-format,False,False
-389,389,fasttext,ml-library,False,False
-390,390,mongodb-replica-set,lang-feature,False,False
-391,391,watson-assistant,ml-solution,False,False
-392,392,servo,hardware-concept,False,False
-393,393,non-deterministic,math-concept,False,False
-394,394,webpack-3,build-tool,True,True
-395,395,kestrel,library,False,False
-396,396,m4,language,False,False
-397,397,html-validation,tech-concept,False,False
-398,398,jwt-auth,standard,False,False
-399,399,monorepo,tech-concept,False,False
-400,400,color-mapping,tech-concept,False,False
-401,401,mixture-model,ml-concept,False,False
-402,402,elasticsearch-query,lang-concept,False,False
-403,403,circle-pack,math-concept,False,False
-404,404,ff,library,False,False
-405,405,persistent-volumes,framework-feature,False,False
-406,406,forex,commerce-concept,False,False
-407,407,session-scope,lang-concept,False,False
-408,408,aws-sam,cloud-framework,False,False
-409,409,readxl,library,False,False
-410,410,opencv-python,deprecated-library,False,False
-411,411,cloudify,cloud-solution,False,False
-412,412,pushdown-automaton,math-concept,False,False
-413,413,polly,library,False,False
-414,414,typescript3.0,language,True,True
-415,415,daydream,vr-solution,False,False
-416,416,catkin,build-solution,False,False
-417,417,visual-recognition,ml-solution,False,False
-418,418,redux-framework,web-framework,False,False
-419,419,random-walk,math-concept,False,False
-420,420,row-level-security,tech-concept,False,False
-421,421,facebook-analytics,analytics-solution,False,False
-422,422,azure-container-registry,framework-feature,False,False
-423,423,free-monad,tech-concept,False,False
-424,424,bpf,network-connector,False,False
-425,425,jcache,api,False,False
-426,426,powershell-core,admin-tool,False,False
-427,427,unreal-blueprint,lang-feature,False,False
-428,428,stack-memory,tech-concept,False,False
-429,429,vue-material,web-framework,False,False
-430,430,google-slides,cloud-tool,False,False
-431,431,angular-elements,framework-feature,False,False
-432,432,volusion,commerce-solution,False,False
-433,433,orthogonal,math-concept,False,False
-434,434,bounded-contexts,tech-concept,False,False
-435,435,angular-testing,lang-concept,False,False
-436,436,conditional-breakpoint,tech-concept,False,False
-437,437,pwd,cmd-tool,False,False
-438,438,graphframes,library,False,False
-439,439,tailwind-css,web-framework,False,False
-440,440,s-expression,tech-concept,False,False
-441,441,metamask,web-tool,False,False
-442,442,wp-cli,admin-tool,False,False
-443,443,app-startup,tech-concept,False,False
-444,444,dl4j,library,False,False
-445,445,pisa,library,False,False
-446,446,run-configuration,tech-concept,False,False
-447,447,natural-join,tech-concept,False,False
-448,448,backpressure,tech-concept,False,False
-449,449,react-360,vr-framework,False,False
-450,450,google-vr-sdk,vr-sdk,False,False
-451,451,django-deployment,framework-concept,False,False
-452,452,launchpad,collab-solution,False,False
-453,453,dropout,ml-concept,False,False
-454,454,deap,compute-framework,False,False
-455,455,amazon-quicksight,analytics-solution,False,False
-456,456,auto-value,lang-feature,False,False
-457,457,cross-language,tech-concept,False,False
-458,458,watson-studio,ml-solution,False,False
-459,459,feature-descriptor,ml-concept,False,False
-460,460,zeus,library,False,False
-461,461,khan-academy,edu-platform,False,False
-462,462,facebook-instant-games,game-platform,False,False
-463,463,fabric.io,mobile-framework,False,False
-464,464,aws-ebs,framework-feature,False,False
-465,465,face-id,ml-solution,False,False
-466,466,binance,deprecated-api,False,False
-467,467,java-ee-8,language,True,True
-468,468,htop,cmd-tool,False,False
-469,469,specification-pattern,tech-concept,False,False
-470,470,action-mapping,lang-feature,False,False
-471,471,statechart,tech-concept,False,False
-472,472,varray,lang-feature,False,False
-473,473,spectron,test-framework,False,False
-474,474,python-regex,library,False,False
-475,475,configmap,lang-feature,False,False
-476,476,adobe-animate,gfx-tool,False,False
-477,477,kitura,server-framework,False,False
-478,478,mpd,audio-tool,False,False
-479,479,redis-server,database,False,False
-480,480,pprof,library,False,False
-481,481,sku,tech-concept,False,False
-482,482,airtable,database,False,False
-483,483,model-comparison,ml-concept,False,False
-484,484,subject-observer,tech-concept,False,False
-485,485,deform,library,False,False
-486,486,python-typing,lang-concept,False,False
-487,487,android-device-monitor,ui-tool,False,False
-488,488,authenticity-token,lang-feature,False,False
-489,489,knuth,person,False,False
-490,490,tmpfs,tech-concept,False,False
-491,491,openvino,ml-solution,False,False
-492,492,microprofile,microserv-framework,False,False
-493,493,ucp,network-library,False,False
-494,494,archer,dev-solution,False,False
-495,495,idoc,language,False,False
-496,496,mapping-model,tech-concept,False,False
-497,497,snowball,language,False,False
-498,498,referential-transparency,tech-concept,False,False
-499,499,dyno,container-solution,False,False
-500,500,kolmogorov-smirnov,math-concept,False,False
-501,501,reportng,library,False,False
-502,502,aws-codestar,cloud-solution,False,False
-503,503,alv,library,False,False
-504,504,steamvr,vr-game-platform,False,False
-505,505,srv,framework-feature,False,False
-506,506,blue-green-deployment,tech-concept,False,False
-507,507,cert-manager,admin-solution,False,False
-508,508,docker-engine,container-solution,False,False
-509,509,symfony-flex,library,False,False
-510,510,openvas,security-framework,False,False
-511,511,unit-type,tech-concept,False,False
-512,512,sld,format,False,False
-513,513,calico,compute-framework,False,False
-514,514,ether,commerce-concept,False,False
-515,515,adaptive-ui,library,False,False
-516,516,html-object,lang-concept,False,False
-517,517,chefdk,sdk,False,False
-518,518,spring-io,framework,False,False
-519,519,pathauto,library,False,False
-520,520,graphql-tools,library,False,False
-521,521,flowable,library,False,False
-522,522,seneca,library,False,False
-523,523,private-subnet,tech-concept,False,False
-524,524,sling-models,lang-concept,False,False
-525,525,torii,lang-feature,False,False
-526,526,siege,web-tool,False,False
-527,527,highrise,management-tool,False,False
-528,528,mlp,ml-concept,False,False
-529,529,quora,website,False,False
-530,530,shaderlab,language,False,False
-531,531,cucm,commerce-tool,False,False
-532,532,createml,ml-solution,False,False
-533,533,wagon,framework-feature,False,False
-534,534,cold-start,tech-concept,False,False
-535,535,tether,library,False,False
-536,536,windows-server-2019,os,True,True
-537,537,image-viewer,app,False,False
-538,538,hapi.js,web-framework,False,False
-539,539,raw-pointer,tech-concept,False,False
-540,540,ddl-trigger,lang-concept,False,False
-541,541,rook,library,False,False
-542,542,pvcs,dev-solution,False,False
-543,543,upx,compression-tool,False,False
-544,544,android-make,lang-concept,False,False
-545,545,decentralized-applications,tech-concept,False,False
-546,546,radium,library,False,False
-547,547,canary-deployment,tech-concept,False,False
-548,548,n3,language,False,False
-549,549,rcu,tech-concept,False,False
-550,550,pbr,tech-concept,False,False
-551,551,react-fullstack,web-framework,False,False
-552,552,nameko,microserv-framework,False,False
-553,553,jquery-ui-plugins,framework-feature,False,False
-554,554,contract-first,tech-concept,False,False
-555,555,azure-stack,cloud-solution,False,False
-556,556,ispf,management-tool,False,False
-557,557,elasticsearch-api,lang-concept,False,False
-558,558,unfold,tech-concept,False,False
-559,559,kurtosis,math-concept,False,False
-560,560,configuration-profile,config-format,False,False
-561,561,insomnia,web-client,False,False
-562,562,react-fiber,library,False,False
-563,563,apex-trigger,lang-concept,False,False
-564,564,fiddle,library,False,False
-565,565,no-framework,tech-concept,False,False
-566,566,.net-core-1.1,framework,True,False
-567,567,data-access-object,tech-concept,False,False
-568,568,reify,tech-concept,False,False
-569,569,p-np,math-concept,False,False
-570,570,pallet,framework,False,False
-571,571,crdt,data-format,False,False
-572,572,multi-catch,lang-feature,False,False
-573,573,automatic-failover,tech-concept,False,False
-574,574,chgrp,cmd-tool,False,False
-575,575,slab,lang-feature,False,False
-576,576,mirage,framework,False,False
-577,577,git-track,versioning-concept,False,False
-578,578,manifold,software-tool,False,False
-579,579,aws-storage-gateway,cloud-connector,False,False
-580,580,version-compatibility,tech-concept,False,False
-581,581,account-linking,tech-concept,False,False
-582,582,chirp,hardware-concept,False,False
-583,583,message-channel,framework-feature,False,False
-584,584,fmt,library,False,False
-585,585,cactus,test-framework,False,False
-586,586,neutrino,dev-tool,False,False
-587,587,ecmascript-2016,language,True,True
-588,588,oracle-analytics,lang-concept,False,False
-589,589,treeline,web-framework,False,False
-590,590,jakarta-ee,dev-solution,False,False
-591,591,docker-ee,container-solution,False,False
-592,592,floating-ip,tech-concept,False,False
-593,593,dtr,framework-feature,False,False
-594,594,geopackage,format,False,False
-595,595,argon,web-client,False,False
-596,596,spring-modules,lang-concept,False,False
-597,597,map-basic,language,False,False
-598,598,rls,ide,False,False
-599,599,option-type,lang-feature,False,False
-600,600,list-processing,tech-concept,False,False
-601,601,connection-points,framework-feature,False,False
-602,602,staging-table,tech-concept,False,False
-603,603,access-protection,tech-concept,False,False
-604,604,reaper,software-tool,False,False
-605,605,zen-of-python,tech-concept,False,False
-606,606,npn,standard,False,False
-607,607,sysdig,admin-tool,False,False
-608,608,tia-portal,admin-tool,False,False
-609,609,koa.js,framework,False,False
-610,610,astro,admin-tool,False,False
-611,611,authentication-flows,security-framework,False,False
-612,612,hibernate-query,language,False,False
-613,613,prototype-scope,lang-concept,False,False
-614,614,management-pack,management-tool,False,False
-615,615,haxl,library,False,False
-616,616,poet,web-framework,False,False
-617,617,code-elimination,tech-concept,False,False
-618,618,smack-stack,framework,False,False
-619,619,zig,language,False,False
-620,620,enclose,library,False,False
-621,621,dfd,tech-concept,False,False
-622,622,codemod,library,False,False
-623,623,colossus,framework,False,False
-624,624,relationship-extraction,ml-tool,False,False
-625,625,loadleveler,library,False,False
-626,626,es2018,language,True,True
-627,627,mix-and-match,tech-concept,False,False
-628,628,neptune,ml-solution,False,False
-629,629,dry-run,tech-concept,False,False
-630,630,docker-app,container-tool,False,False
-631,631,connect-rest,connector,False,False
+,TagName,TagType,IsVersion,IsMajorVersion,TagTypeRevised,Excerpt
+0,vuejs2,web-framework,True,True,web-framework,"Use this tag for questions specific to version 2 of Vue.js, an open-source, progressive Javascript framework for building user interfaces."
+1,google-cloud-firestore,database,False,False,cloud-database,"Cloud Firestore is an auto-scaling real-time document database for storing, syncing, and querying data for mobile, web and server development."
+2,json.net,web-framework,False,False,web-framework,Json.NET (also known as Newtonsoft.Json) is a popular high-performance JSON framework for .NET.
+3,ionic3,mobile-sdk,True,True,mobile-sdk,"Ionic 3 is the newer version of Ionic, an open source SDK that enables developers to build mobile apps using standard web technologies (HTML, CSS, and JavaScript).
+
+Ionic 3 is paired with Angular4 and above."
+4,mongodb-query,lang-concept,False,False,lang-concept,"This tag is for questions related to querying and updating MongoDB collections, either through the mongo shell or using a programming language driver."
+5,firebase-cloud-messaging,cloud-solution,False,False,cloud-solution,"Firebase Cloud Messaging (FCM) is the new version of GCM. It inherits the reliable and scalable GCM infrastructure, plus new features. It is a cross-platform solution that let user reliably deliver and receive messages and notifications at no cost. It supports Android, iOS, Desktop Web Browsers, the Mobile web with JavaScript or WebPush and Internet-of-Things (IoT) devices."
+6,pthreads,api,False,False,api,"Pthreads (POSIX Threads) is a standardised C-based API for creating and manipulating threads. It is currently defined by POSIX.1-2008 (IEEE Std 1003.1, 2013 Edition / The Open Group Base Specifications Issue 7)."
+7,java-stream,lang-feature,False,False,lang-feature,"Use this tag for questions related to the use of the Stream API. It was introduced in Java 8 and supports functional-style operations on streams of values, such as filter-map-reduce pipelines on collections."
+8,google-cloud-functions,cloud-solution,False,False,cloud-compute-solution,"Google Cloud Functions is a lightweight, event-based, asynchronous compute solution that allows you to create small, single-purpose functions written in Node.js, Python or Go that respond to cloud events without the need to manage a server or a runtime environment.
+"
+9,axios,web-library,False,False,web-library,Axios is an npm library for http requests from both browser and server.
+10,google-cloud-datastore,cloud-database,False,False,cloud-database,"Google Cloud Datastore is a scalable, fully-managed NoSQL document database for web and mobile applications.
+"
+11,angular5,web-framework,True,True,web-framework,"Questions about Angular version 5, the web framework from Google. Use this tag for Angular questions which are specific to only version 5. Use tag Angular for any Angular questions which are not specific to an individual version."
+12,linq-to-entities,lang-feature,False,False,lang-feature,"This tag is for questions about LINQ to Entities, which means LINQ queries using the ADO.NET Entity Framework. Note that this is different than LINQ to SQL or other LINQ providers.
+"
+13,pyqt5,api,True,True,ui-api,QT5 bindings for Python programming. This allows programmer to make QT5 graphical user interfaces using Python syntax.
+14,wxpython,connector,False,False,ui-connector,wxPython is a Python wrapper for the cross-platform C++ GUI API wxWidgets.
+15,retrofit2,framework,True,True,framework,"Retrofit2 is the second version of type-safe REST client Retrofit for Android and Java. It is developed by Square, Inc.
+"
+16,vue-component,lang-feature,False,False,lang-feature,Component is a powerful Vue feature that allows extending basic HTML elements to encapsulate reusable code.
+17,azure-functions,cloud-solution,False,False,cloud-compute-solution,"Azure Functions is an event driven, compute-on-demand experience that extends the existing Azure application platform with capabilities to implement code triggered by events occurring in Azure or third party services as well as on-premises systems. "
+18,automapper,library,False,False,library,A convention-based object-to-object mapper and transformer for .NET
+19,maven-3,build-solution,True,True,build-solution,"Apache Maven is a tool for project management and build automation. This tag is for questions relating to Maven version 3.x.  For non version-specific questions, please use the [maven] tag."
+20,hql,language,False,False,language,"Use this tag for questions concerning ""Hibernate Query Language"" (HQL), a query language used by Hibernate and NHibernate. Use the tag [hiveql] for questions about Hive Query Language."
+21,racket,language,False,False,language,Racket is an extensible multi-paradigm programming language in the Lisp/Scheme family.
+22,javamail,api,False,False,web-api,"A Java API to send and receive emails. JavaMail is part of Java EE, but can also be used in Java SE via a separate download."
+23,python-3.6,language,True,False,language,Version of the Python programming language released in December 2016. For issues specific to Python 3.6. Use more generic [python] and [python-3.x] tags where possible.
+24,laravel-5.3,web-framework,True,False,web-framework,"Laravel 5.3 is a past version of the open-source Model-View-Controller framework for PHP created by Taylor Otwell. It was released on August 23, 2016. Use it in addition to the laravel-5 tag if your question is specific to Laravel 5.3.  Use the laravel tag for general laravel related questions."
+25,laravel-5.4,web-framework,True,False,web-framework,"Laravel 5.4 is a past version of the open-source PHP web framework replaced by 5.5 version created by Taylor Otwell. It was released on January 24, 2017. Use it in addition to the laravel-5 tag if your question is specific to Laravel 5.4.  Use the laravel tag for general laravel related questions."
+26,pymongo,database-connector,False,False,database-connector,"PyMongo is the official Python driver for MongoDB created and maintained by MongoDB, Inc. Please mention the version of PyMongo you're using."
+27,c++17,language,True,True,language,"C++17 is the name of the C++ standard approved in 2017. It builds upon the previous C++14 standard, improving the core language and standard library, and adding a few new language features."
+28,hyperledger-fabric,blockchain-solution,False,False,blockchain-solution,Hyperledger Fabric is an implementation of blockchain technology. Use this tag for questions about this project. Another good idea is to reach out to the community at https://chat.hyperledger.org/ or https://lists.hyperledger.org/. Documentation can be found at http://hyperledger-fabric.readthedocs.io/en/latest/index.html. Refer development lifecycle and officially provided resources at https://wiki.hyperledger.org/display/fabric/
+29,wmi,api,False,False,os-api,Windows Management Instrumentation (WMI) is an API for managing the Windows operating system on local or remote computers.
+30,static-libraries,tech-concept,False,False,tech-concept,"A static library is an archive of object files. Used as a linker input, the linker extracts the object files it needs to carry on the linkage."
+31,typeerror,tech-concept,False,False,tech-concept,A TypeError is a specific type of error raised when an operation or function is applied to an object of inappropriate type. You might encounter it in Python or JavaScript.
+32,pytorch,ml-framework,False,False,ml-framework,"PyTorch is a deep learning framework that implements a dynamic computational graph, which allows you to change the way your neural network behaves on the fly and capable of performing backward automatic differentiation. "
+33,react-navigation,lang-feature,False,False,lang-feature,An easy-to-use navigation solution to be used across React and React Native projects
+34,azure-cosmosdb,database-solution,False,False,cloud-database,"Azure Cosmos DB is a globally distributed database service designed to enable users to elastically and independently scale throughput and storage across any number of geographical regions with a comprehensive SLA. You can develop document, key/value, or graph databases with Cosmos DB using a series of popular APIs and programming models."
+35,unity-container,lang-feature,False,False,lang-feature,"The Unity Application Block (i.e. Unity) is a lightweight, extensible dependency injection container for .NET with support for interception. "
+36,raspberry-pi3,hardware,True,True,hardware,"RPI QUESTIONS MUST BE PROGRAMMING RELATED. The Raspberry Pi 3 has BCM2837 1.2 GHz 64-bit quad processor based on the ARMv8 Cortex A53. Use the tag for questions that apply specifically to the Raspberry Pi Model 3, NOT other models."
+37,antlr,framework,False,False,compiler-framework,"ANTLR, ANother Tool for Language Recognition, is a language tool that provides a framework for constructing recognizers, interpreters, compilers, and translators from grammatical descriptions containing actions in a variety of target languages."
+38,aws-api-gateway,cloud-solution,False,False,cloud-api-solution,"Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale."
+39,lstm,ml-concept,False,False,ml-concept,Long Short Term Memory.  A neural network architecture that contains recurrent NN blocks that can remember a value for an arbitrary length of time. A very popular building block for deep NN. 
+40,vuex,library,False,False,framework-library,Vuex is a Flux-inspired Application Architecture for Vue.js.
+41,boto3,cloud-sdk,True,True,cloud-sdk,Boto 3 - The Amazon Web Services (AWS) SDK for Python
+42,amazon-cognito,cloud-solution,False,False,cloud-data-solution,Amazon Cognito is a simple user identity and data synchronization service that helps securely manage and synchronize mobile app data. 
+43,ionic4,mobile-sdk,True,True,mobile-sdk,"Ionic 4 is the newer version of Ionic, the open source SDK that enables developers to build performant, high-quality mobile apps using familiar web technologies (HTML, CSS, and JavaScript). Ionic 4 can be paired with Angular, React and Vue."
+44,httpurlconnection,tech-concept,False,False,tech-concept,HttpURLConnection instance is used to make a single request but the underlying network connection to the HTTP server may be transparently shared by other instances.
+45,asp.net-core-webapi,api,False,False,web-api,Questions about ASP.NET Core web APIs and web apps that are not dependent on MVC Views or Razor Pages
+46,angular-material2,library,True,True,framework-library,Angular Material is an implementation of Material Design in Angular 2/4/5/6. DO NOT use this tag for AngularJS Material questions.
+47,symfony4,web-framework,True,True,web-framework,Symfony is a PHP framework developed by SensioLabs. Symfony 4 was released November 2017.
+48,azure-service-fabric,cloud-solution,False,False,cloud-dev-solution,"Azure Service Fabric is a distributed systems platform used to build scalable, reliable, and easily-managed applications for the cloud. Service Fabric addresses the challenges in developing and managing cloud applications. By using Service Fabric developers and administrators can avoid solving complex infrastructure problems and focus instead on implementing mission critical, demanding workloads knowing that they are scalable, reliable, and manageable."
+49,postback,tech-concept,False,False,tech-concept,A postback is a technique in web development in which a page sends an HTTP POST back to the same form on the server.
+50,laravel-5.5,web-framework,True,False,web-framework,"Laravel 5.5 is a previous version, but the current LTS version, of the open-source PHP web framework created by Taylor Otwell. It was released on August 30, 2017. Use it in addition to the laravel-5 tag if your question is specific to Laravel 5.5. Use the laravel tag for general laravel related questions."
+51,angular2-forms,lang-concept,False,False,framework-concept,"An Angular form is a collection of data input controls. Use this tag for questions pertaining to template-driven and reactive forms including NgForm, FormGroup, FormControl, AbstractControl, FormBuilder, and Validators as well as data binding between forms and components."
+52,azure-pipelines,cloud-solution,False,False,cloud-build-solution,"Azure Pipelines provides build services (CI), that are free for open source projects and available in the GitHub marketplace. Azure Pipelines also provides release management for continuous delivery (CD) to any cloud and on-premises servers. With Azure Pipelines, you’ll be able to continuously build, test and deploy to any platform and cloud."
+53,tidyverse,library,False,False,library,"DO NOT USE if your question relates to one or two components of the tidyverse, such as dplyr or ggplot2. Use *those* tags, and tag with `r` as well for a better response."
+54,vuetify.js,web-framework,False,False,framework-framework,Vuetify.js is a semantic material component framework for Vue.js 2. Use this tag for questions specific to vuetify components and api. (If possible provide CodePen or JsFiddle reproducing your issue)
+55,ngrx,library,False,False,framework-library,NgRx provides a set of reactive libraries for Angular
+56,nsis,software-solution,False,False,build-solution,This tag is used for questions about the open source Nullsoft Scriptable Install System (NSIS) setup generator.
+57,angular2-services,lang-feature,False,False,framework-concept,"Use this tag for questions related to Angular 2 Services, which are JavaScript functions responsible for performing a single task. "
+58,xlsx,file-format,False,False,file-format,xlsx is the file extension for files created using the default format of Microsoft Excel 2007 or higher.
+59,keycloak,security-framework,False,False,security-framework,"Integrated Single Sign On (SSO) and Identity Manager (IDM) for browser apps and RESTful web services. 
+Built on top of JBoss / Wildfly and complies with OAuth 2.0, Open ID Connect, JSON Web Token (JWT) and SAML 2.0 specifications."
+60,arkit,ar-framework,False,False,ar-framework,"ARKit is Apple Augmented Reality framework introduced in iOS 11.0, which integrates the iOS or iPadOS device RGB camera data and motion sensor data to produce robust Augmented Reality experiences."
+61,setuptools,library,False,False,build-library,"Setuptools builds on Python’s distutils to provide easier building, distribution, and installation of libraries and applications."
+62,roslyn,api,False,False,compiler-api,Roslyn (aka .NET Compiler Platform) provides open-source C# and Visual Basic compilers with rich code analysis APIs. It enables building code analysis tools with the same APIs that are used by Visual Studio.
+63,nuxt.js,web-framework,False,False,framework-framework,"Nuxt.js is a framework for creating Vue.js applications, you can choose between Universal, Static Generated or Single Page application (inspired by Next.js)"
+64,compiler-warnings,tech-concept,False,False,tech-concept,Messages emitted by a compiler which indicate potential problems in code or configuration.
+65,gcloud,lang-feature,False,False,admin-tool,"gcloud is the main command line tool of Google Cloud SDK, which allows you to manage resources on Google Cloud Platform and perform various developer workflow tasks."
+66,okhttp,web-client,False,False,web-client,An HTTP+HTTP/2 client for Android and Java applications.
+67,soap-client,web-client,False,False,web-client,An application that calls upon a SOAP server.
+68,emgucv,connector,False,False,gfx-connector,"Emgu CV is a cross-platform .NET wrapper to the OpenCV image processing library. Allowing OpenCV functions to be called from .NET compatible languages such as C#, VB, C++-CLI, IronPython etc. The wrapper can be compiled in Mono and run on Linux or Mac OS X."
+69,gremlin,language,False,False,language,Gremlin is the graph traversal language and virtual machine of Apache TinkerPop™
+70,barcode-scanner,hardware,False,False,hardware,"A barcode reader (or barcode scanner) is an electronic device for reading printed barcodes. It consists of a light source, a lens and a light sensor translating optical impulses into electrical ones. "
+71,iis-express,server-solution,False,False,server-solution,"IIS Express is the developer version of full IIS that doesn't require Administrator rights to run.
+
+See also [tag:iis]"
+72,dask,library,False,False,analytics-library,Dask is a parallel computing and data analytics library for Python. It supports dynamic task scheduling optimized for computation as well as big data collections.
+73,typescript-typings,lang-feature,False,False,lang-feature,"Typings is the simple way to manage and install TypeScript definitions. It uses typings.json, which can resolve to the Typings Registry, GitHub, NPM, Bower, HTTP and local files. "
+74,resttemplate,lang-feature,False,False,framework-feature,"Use this tag for Spring's RestTemplate, a class for client-side HTTP communications and RESTful principles enforcement."
+75,laravel-5.6,web-framework,False,False,web-framework,"Laravel 5.6 is a previous version of the open-source PHP web framework created by Taylor Otwell. It was released on February 7, 2018. Use it in addition to the laravel-5 tag if your question is specific to Laravel 5.6. Use the Laravel tag for general Laravel related questions."
+76,paramiko,security-library,False,False,security-library,Paramiko is a Python module that implements the SSH2 protocol.
+77,python-3.7,language,True,False,language,"Version of the Python programming language released in June 27, 2018. For issues that are specific to Python 3.7. Use the more generic [python] and [python-3.x] tags where possible."
+78,azure-application-insights,analytics-solution,False,False,cloud-analytics-solution,"For programming questions about Microsoft's Azure Application Insights, which is a monitoring service for deployed live applications, allowing collection of availability, performance, usage, and other diagnostic data. It supports web services, Windows Store apps, and Windows Phone 8 apps."
+79,tidyr,library,False,False,library,"tidyr is an R package by Hadley Wickham for cleaning and reshaping data, designed to use the magrittr pipe (%>%) so as to interact well with dplyr and similar pipeable packages which emphasize tidy data. tidyr is the successor to reshape2."
+80,caliburn.micro,app-framework,False,False,mvc-framework,"A small, yet powerful framework, designed for building applications across all XAML platforms. Its strong support for MV* patterns will enable you to build your solution quickly, without the need to sacrifice code quality or testability."
+81,indexeddb,lang-feature,False,False,lang-feature,"indexedDB provides a way to store data in the browser using Javascript. Unlike relational databases, indexedDB uses a key-value store that is conceptually similar to HTML5's local storage. However, indexedDB is better than local storage for storing large amounts of data and for querying data more quickly.
+
+indexedDB is supported in IE, Chrome, Firefox, and Microsoft Edge, although support for specific features varies."
+82,react-hooks,lang-feature,False,False,framework-feature,Hooks is a new feature that allows developers to use state(s) and other React features without writing a class.
+83,powermock,library,False,False,library,"Use this tag for questions about PowerMock, a Java library for creating mock objects for classes and methods. Questions about PowerMock's extension for Mockito should be tagged [powermockito] instead."
+84,amazon-sns,cloud-solution,False,False,cloud-notif-service,"Amazon Simple Notification Service is a highly available, cloud hosted publish/subscribe manager."
+85,bean-validation,framework,False,False,framework,"Bean Validation, previously commonly called just ""JSR-303"", is an annotation based validation framework for javabean properties and parameters of arbitrary methods. Hibernate Validator is the reference implementation and the most widely used one."
+86,spring-webflux,library,False,False,framework-feature,"Spring Framework 5 includes a new spring-webflux module. The module contains support for reactive HTTP and WebSocket clients as well as for reactive server web applications including REST, HTML browser, and WebSocket style interactions.WebFlux can run on Servlet containers with support for the Servlet 3.1 Non-Blocking IO API as well as on other async runtimes such as Netty and Undertow. "
+87,guzzle,web-client,,,web-client,"Guzzle is a PHP HTTP client that makes it easy to send HTTP requests and trivial to integrate with web services. Guzzle can be used with cURL, PHP's stream wrapper, sockets, and non-blocking libraries like React."
+88,elf,file-format,False,False,file-format,"ELF stands for Executable and Linkable Format, a file format for files containing machine code."
+89,gatsby,library,False,False,framework-library,Gatsby is a modern site generator for React. It focus on performance and flexible data sources.
+90,sha1,security-concept,False,False,security-concept,"SHA-1 is a cryptographic hash function designed by the U.S. Government as a Federal Information Processing Standard. Recently, collisions have been detected, meaning that SHA1 is becoming more vulnerable to attacks, and its use for protecting data is not recommended."
+91,statsmodels,library,False,False,analytics-library,"Statsmodels is a Python module that allows users to explore data, estimate statistical models, and perform statistical tests."
+92,slack-api,api,False,False,api,"Slack is a real-time messaging, archiving and search tool for modern teams. Use this tag for programming questions related to the Slack API including the Web API, the RTM API and the Events API."
+93,word2vec,ml-concept,False,False,ml-concept,This tool provides an efficient implementation of the continuous bag-of-words and skip-gram architectures for computing vector representations of words. These representations can be subsequently used in many natural language processing applications and for further research. 
+94,poco,tech-concept,False,False,tech-concept,"Means Plain Old CLR Object, a simple object that does not follow any object model, convention or framework. For questions about the POCO C++ library, please use [poco-libraries]."
+95,lex,compiler-solution,False,False,compiler-solution,"Lex is a computer program that generates lexical analyzers (""scanners"" or ""lexers""). Lex is commonly used with the yacc parser generator. For questions about Amazon Lex, use the tag amazon-lex instead."
+96,image-segmentation,tech-concept,False,False,gfx-concept,Segmentation is a basic operation in image processing: its purpose is to group similar pixels into coherent regions = segments.
+97,scala-collections,library,False,False,library,Collection library for Scala Programming Language
+98,webpack-2,build-solution,True,True,build-solution,Version 2 of the Webpack bundler. Webpack takes modules with dependencies and generates static assets representing those modules.
+99,static-linking,tech-concept,False,False,tech-concept,"A static library or statically-linked library is a set of routines, external functions and variables which are resolved in a caller at compile-time and copied into a target application by a compiler, linker, or binder, producing an object file and a stand-alone executable. This executable and the process of compiling it are both known as a static build of the program."
+100,node-red,connector,False,False,connector,"Node-RED is a data-flow programming tool for wiring together hardware devices, APIs and online services in new and interesting ways."
+101,ini,file-format,False,False,file-format,"The INI file format includes text-based initialization information for programs. Its structure is composed of ""sections"" and ""properties""."
+102,glfw,library,False,False,gfx-library,"GLFW is a free, Open Source, multi-platform library for opening a window, creating an OpenGL context and managing input. It is easy to integrate into existing applications and does not lay claim to the main loop.
+
+GLFW is written in C and has native support for Windows, Mac OS X and many Unix-like systems using the X Window System, such as Linux and FreeBSD.
+
+GLFW is licensed under the zlib/libpng license."
+103,firebase-analytics,cloud-solution,False,False,cloud-analytics-solution,"Google Analytics for Firebase is a free, out-of-the-box analytics solution that inspires actionable insights based on app usage and user engagement. It integrates across Firebase and Google and provides you with unlimited reporting for up to 500 events that you can define using the SDK. Google Analytics reports help you understand clearly how your users behave, enabling you to make informed decisions regarding app marketing and performance optimizations."
+104,tensorboard,library,False,False,framework-library,"TensorBoard is a visualization suite for the TensorFlow library. It can be used to visualize the TensorFlow computation graph, plot quantitative metrics about the execution of the graph, and show additional data (e.g. images) that pass through it."
+105,next.js,web-framework,False,False,framework-framework,Next.js is a minimalistic framework for server-rendered React applications.
+106,redux-saga,connector,False,False,framework-connector,Redux-saga is a redux middleware library which designed for handling side effects in redux applications. It provides developers with the ability to manage asynchronous code synchronously.
+107,spacy,library,False,False,ml-library,Industrial strength Natural Language Processing (NLP) with Python and Cython
+108,code-formatting,tech-concept,False,False,design-concept,"Code formatting is the way to format the source code of programs,using spaces and tabs, improving legibility of source code."
+109,xgboost,library,False,False,ml-library,"XGBoost is a library for constructing boosted tree models in R, Python, Java, Scala, and C++. Use this tag for issues specific to the package (i.e. input/output, installation, functionality)."
+110,jacoco,build-solution,False,False,test-tool,"JaCoCo a coverage analysis tool. It runs as a JVM Agent and therefore does not require offline instrumentation.
+"
+111,large-files,tech-concept,False,False,tech-concept,"Large files, whether binary or text, can sometimes be problematic even for an experienced programmer. This tag should be used if issues arise relating to opening and/or writing large files in a text editor, managing resources that run to gigabytes, or strategic decisions for large amounts of data."
+112,gnupg,security-framework,False,False,security-framework,GNU Privacy Guard (GnuPG / GPG) is a cryptography suite implementing secret-key cryptography and public-key cryptography. GnuPG is the GNU project's complete and free implementation of the OpenPGP standard as defined by RFC4880. Use this tag for programmatic use of the GPG tool or its library. Questions about direct usage of the GPG tool or its graphical pendents belong on Super User.
+113,owl-carousel,library,False,False,framework-library,Owl Carousel is a touch-enabled jQuery plugin that lets you create a beautiful responsive carousel slider.
+114,react-apollo,library,False,False,framework-ui-library,"React Apollo allows you to fetch data from your GraphQL server and use it in building complex and reactive UIs using the React framework. React Apollo may be used in any context that React may be used. In the browser, in React Native, or in Node.js when you want to do server-side rendering."
+115,shapefile,format,False,False,map-format,"The Esri shapefile or simply a shapefile is a popular geospatial vector data format for geographic information systems (GIS) software. 
+
+Questions about shapefiles are best asked on the GIS Stack Exchange. "
+116,azure-powershell,admin-solution,False,False,cloud-admin-solution,"The Azure Module for Powershell allows administrators to accomplish many Windows Azure AD tenant-based administrative tasks such as user management, domain management and for configuring single sign-on"
+117,knex.js,database-framework,False,False,database-framework,"Knex.js is a query builder for Postgres, MySQL and SQLite3, Oracle and MS SQL Server.  It is designed to be flexible, portable, and fun to use. It features both traditional node style callbacks as well as a promise interface for cleaner async flow control, full featured query and schema builders, transaction support, connection pooling and standardized responses between different query clients and dialects."
+118,chef-recipe,lang-feature,False,False,lang-feature,A recipe is the most fundamental configuration element in Chef. Recipes specify which resources to manage and the order in which those resources will be applied.
+119,netcdf,standard,False,False,standard,"NetCDF (Network Common Data Form) is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data."
+120,kubectl,admin-solution,False,False,container-cmd-tool,kubectl is a command line interface for running commands against Kubernetes clusters
+121,apache-zeppelin,analytics-solution,False,False,analytics-tool,"Apache Zeppelin is a web-based notebook that enables data-driven interactive data analytics. You can make beautiful data-driven, interactive and collaborative documents with SQL, Python, Scala and more. It also supports Markdown syntax."
+122,private-key,security-concept,False,False,security-concept,"Private key that occurs in asymmetric cryptography algorithms such as RSA and Diffie-Hellman as the counterpart to a public key. The private key must never be divulged while the public key can be made available to everyone. If your question is not pertaining specifically to the private key (usage/encoding/etc.), you should use more appropriate tags such as [public-key-encryption], [digital-signature], [diffie-hellman] or even [cryptography]."
+123,android-livedata,library,False,False,library,Android LiveData holds the value and allow it to observe changes and also respects lifecycle of the app components.
+124,p5.js,library,False,False,library,"p5.js is a JavaScript library that starts with the original goal of processing, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today’s web."
+125,cache-control,tech-concept,False,False,tech-concept,The HTTP `Cache-Control` header specifies directives which override default HTTP caching behaviour.
+126,server-sent-events,tech-concept,False,False,tech-concept,"Server-Sent Events (SSE) are a a part of the HTML5 specification. SSE allows a uni-directional persistent connection between a client and server, such that the client makes only a single request and the server keeps pushing data to the client continuously, until the connection is closed."
+127,lubridate,library,False,False,library,lubridate is an R package that makes it easier to work with dates and time objects.
+128,azure-data-lake,cloud-solution,False,False,cloud-analytics-solution,"Azure Data Lake Analytics is a suite of three big data services in Microsoft Azure: HDInsight, Data Lake Store, and Data Lake Analytics.  These fully managed services make it easy to get started and easy to scale big data jobs written in Hive, Pig, Spark, Storm, and U-SQL.
+
+
+To learn more, check out: https://azure.microsoft.com/en-us/solutions/data-lake/"
+129,rubymine,ide,False,False,ide,"RubyMine is a commercial cross-platform IDE for Ruby and Ruby on Rails development, created and provided by JetBrains."
+130,key-value-observing,tech-concept,False,False,tech-concept,Key-value Observing or KVO is a technology for observing changes in object properties.
+131,cpan,wiki,False,False,wiki,"CPAN is the Comprehensive Perl Archive Network, a code and documentation archive of over 100,000 open-source Perl modules across more than 25,000 distributions written by more than 10,000 authors. This tag is not for general Perl questions; use [tag:perl] instead."
+132,androidx,library,False,False,mobile-library, New Android extension libraries (AndroidX) which represents an Android Support Library.
+133,ode,math-concept,False,False,math-concept,"An ODE (ordinary differential equation, in contrast to partial differential equation) is a differential equation containing a function or functions of exactly one independent variable."
+134,gnome,ui,False,False,ui,"GNOME is an open source desktop environment. It is composed of many API which form the GNOME Platform, and a set of official applications."
+135,lattice,library,False,False,library,lattice is a package that forms part of base R and allows the creation of trellis-type graphics.
+136,razor-pages,lang-feature,,,framework-feature,"Apply to questions related to Razor Pages, which are a feature of ASP.NET Core starting in ASP.NET Core version 2.0."
+137,android-camera2,library,True,True,mobile-library,The android.hardware.camera2 package provides an interface to individual camera devices connected to an Android device. It replaces the deprecated Camera class.
+138,unit-of-work,tech-concept,False,False,design-concept,One of the common design patterns in enterprise software development which allows one to maintain a list of objects affected by a business transaction and coordinates the writing out of changes and the resolution of concurrency problems. 
+139,keytool,library,False,False,security-tool,"Key and Certificate Management Tool: manages a keystore (database) of cryptographic keys, X.509 certificate chains, and trusted certificates."
+140,webpack-4,build-solution,False,False,build-solution,"Webpack is JavaScript module bundler. Webpack takes modules with dependencies and generates static assets representing those modules. Webpack's key features are rooted in extensibility and enabling developers to use best-practices in Web Architecture and Web Performance.
+
+For usage guidance consult the Webpack ""Guides"" section:
+https://webpack.js.org/guides/"
+141,azure-iot-hub,cloud-solution,False,False,cloud-connector-solution,Azure IoT Hub is a fully managed Microsoft service that enables reliable and secure bi-directional communications between millions of IoT devices and a solution backend.
+142,hmac,security-concept,False,False,security-concept,"In cryptography, HMAC (Hash-based Message Authentication Code) is a specific construction for calculating a message authentication code (MAC) involving a cryptographic hash function in combination with a secret key."
+143,apollo-client,library,False,False,ui-library,Apollo Client is a JavaScript library for building client UIs that fetch data using GraphQL.
+144,traefik,connector,False,False,web-proxy,Træfɪk is a modern HTTP reverse proxy and load balancer made to deploy microservices with ease
+145,autofill,tech-concept,False,False,tech-concept,"Autofill relates to auto-populating data into user interface forms, etc."
+146,scikit-image,library,False,False,cv-library,"scikit-image is a Python image processing toolbox for SciPy.
+"
+147,arcore,framework,False,False,ar-framework,"ARCore is a platform for building augmented reality apps on Android, designed to work on a wide variety of qualified Android phones running Nougat (7.0) and later."
+148,epoch,tech-concept,False,False,tech-concept,"Unix time, or POSIX time, is a system for describing points in time, defined as the number of seconds elapsed since midnight Coordinated Universal Time (UTC) of January 1, 1970, not counting leap seconds. This tag is *not* for epochs as used in neural networks/machine learning."
+149,junit5,test-framework,True,True,test-framework,Version 5 of the popular JUnit testing framework for the JVM. JUnit is a framework for writing repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks.
+150,amazon-athena,cloud-solution,False,False,cloud-database-tool,Amazon Athena is a service for running SQL queries against data stored on Amazon S3. Amazon Athena is part of Amazon Web Services (AWS).
+151,httpserver,tech-concept,False,False,tech-concept,An HTTP Server is any application which receives requests via the HTTP protocol and sends back the corresponding response to fulfill the request.
+152,visual-studio-2019,ide,True,True,ide,Visual Studio 2019 is a version of Microsoft's Visual Studio. Do not use this tag unless you have a specific question about this specific version.
+153,rbenv,library,False,False,versioning-library,"a simple version manager for Ruby, with a plugin system to modify its behaviour."
+154,rdp,standard,False,False,standard,"Remote Desktop Protocol (RDP) is a proprietary protocol developed by Microsoft, which provides a user with a graphical interface to another computer."
+155,diacritics,tech-concept,False,False,tech-concept,A Diacritic is a mark near or through an orthographic or phonetic character or combination of characters indicating a phonetic value different from that given the unmarked or otherwise marked element - http://www.merriam-webster.com/dictionary/diacritic
+156,jsonpath,lang-concept,False,False,lang-concept,JSONPath is a means of using XPath-like syntax to query JSON structures. Not to be confused with rest-assured's JsonPath implementation based on Groovy's Gpath. Use [tag:json-path-expression] for questions about JSON path expressions in general and for questions about JSON path expression DSLs.
+157,gradient-descent,math-concept,False,False,math-concept,Gradient Descent is an algorithm for finding the minimum of a function.  It iteratively calculates partial derivatives (gradients) of the function and descends in steps proportional to those partial derivatives.  One major application of Gradient Descent is fitting a parameterized model to a set of data: the function to be minimized is an error function for the model.
+158,force-layout,lang-concept,False,False,ui-concept,"Force layout is a kind of graph diagram, in which positions of nodes are obtained by a simulation of forces."
+159,mcrypt,security-library,False,False,security-library,"MCrypt, and the accompanying libmcrypt, are intended to be replacements for the old Unix crypt, except that they are under the GPL and support an ever-wider range of algorithms and modes. MCrypt has not been updated since 2007"
+160,gradle-plugin,build-solution,False,False,solution-concept,"Gradle is a project build automation tool. A Gradle plugin packages up reusable pieces of build logic, which can be used across many different projects and builds. Gradle allows you to implement your own custom plugins, so you can reuse your build logic, and share it with others."
+161,minikube,server-solution,False,False,container-vm-tool,Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day.
+162,java-11,language,True,True,language,"Use this tag for questions specific to Java 11, which is version 11 of the Java platform, released on  25 September 2018. In most cases you should also specify the java tag."
+163,glew,library,False,False,gfx-library,The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library. GLEW provides efficient run-time mechanisms for determining which OpenGL extensions are supported on the target platform.
+164,ionic-native,framework,False,False,mobile-sdk,"The tag specific for ionic-native, a replacement for using ngCordova and supports ionic 1, 2, 3 and 4, and since ngCordova tag is existing this tag must exist as well, the ngCordova is such a different tag and not related to ionic-native, so it is helpful to avoid any conflict between these two tags."
+165,csproj,file-format,False,False,file-format,A file with the 'csproj' file extension is a Visual Studio .NET C# Project file.
+166,sas-macro,meta-language,False,False,meta-language,A metaprogramming language used in the SAS suite to modify normal SAS code at run-time.
+167,informatica-powercenter,data-solution,False,False,data-connector-solution,"Informatica Powercenter is an ETL (Extract, Transform, and Load) tool developed by Informatica Corporation. ETL tools are used to integrate and move data between IT systems. In terms of market share, Powercenter is one of the leading data integration tools available."
+168,cpython,library,False,False,lang-implementation,"The reference implementation of the Python programming language. Use this tag for questions specific to this implementation, general Python questions should just be tagged with ""python""."
+169,azure-api-management,cloud-solution,False,False,cloud-api-solution,"Azure API Management is a cloud hosted service that can add many capabilities to an existing HTTP API on any platform.  This includes functions related to security, API key management, caching, documentation, and many other cross cutting policies. For more info, see : http://azure.microsoft.com/apim
+"
+170,access-denied,tech-concept,False,False,tech-concept,Error message/exception when access to a certain resource is denied due to insufficient privileges.
+171,react-native-navigation,library,False,False,framework-library,Use this tag for questions related to the React Native Navigation library that provides a complete native navigation solution for React Native apps.
+172,google-cloud-ml,ml-cloud-solution,False,False,ml-cloud-solution,Google Cloud ML Engine is a managed service that offers training and/or prediction services using Machine Learning models.
+173,tfs2017,dev-solution,False,False,dev-solution,Use this tag for version specific questions about Team Foundation Server (TFS )2017. Use [tfs] for general questions and use [azure-devops] for Azure DevOps questions.
+174,avx,language,False,False,language,Advanced Vector Extensions (AVX) is an extension to the x86 instruction set architecture for microprocessors from Intel and AMD.
+175,autoencoder,ml-concept,False,False,ml-concept,"An autoencoder, autoassociator or Diabolo network is an artificial neural network used for learning efficient codings. As such, it is part of the dimensionality reduction algorithms."
+176,dlib,library,False,False,library,Dlib is a general purpose cross platform open source software library written in C++
+177,keep-alive,tech-concept,False,False,tech-concept,"A feature of HTTP where the same connection is used for multiple requests, speeding up downloading of web pages with multiple resources."
+178,tslint,lang-feature,False,False,lang-feature,tslint is a static analysis linter for TypeScript.
+179,ramda.js,library,False,False,library,"Ramda is a functional utility library for Javascript, focusing on making it easy to build modular pipelines out of small, composable functions."
+180,autosuggest,tech-concept,False,False,ui-concept,"Autosuggest is an UI feature provided by applications, where the program predicts and shows a list of possible options that the user wants to choose from without the user actually typing it in completely."
+181,android-keystore,lang-feature,False,False,mobile-api,"The Android system requires that all installed applications be digitally signed with a certificate whose private key is held by the application's developer. 
+
+""Android keystore"" may also refer to Android Keystore System, introduced in API level 18, which allows storing cryptographic keys securely within an app. "
+182,virtuemart,software-solution,False,False,commerce-solution,VirtueMart is an Open Source E-Commerce solution for the Joomla! Content Management System. Virtuemart questions can also be asked on https://joomla.stackexchange.com
+183,android-jetpack,library,False,False,mobile-sdk,"Android Jetpack is a Google's set of libraries, tools and architectural guidance to build Android apps and provides common infrastructure code. "
+184,apollo-server,server-solution,False,False,server-solution,"Apollo Server is a GraphQL server for Express, Connect, Hapi and Koa, written in TypeScript"
+185,neon,language,False,False,language,NEON is a vector-processing instruction set for ARM processors.
+186,sparkr,library,False,False,analytics-library,SparkR is an R package that provides a light-weight frontend to use Apache Spark from R.
+187,spring-cloud-config,cloud-solution,False,False,server-solution,Spring Cloud Config provides server and client-side support for externalized configuration in a distributed system. 
+188,istio,management-solution,False,False,microserv-solution,Istio is an open-source platform for managing and securing microservices
+189,opensuse,os,False,False,os,"openSUSE is a free and opensource general purpose operating system built on top of the Linux kernel, developed by the community-supported openSUSE Project and sponsored by SUSE. "
+190,arm-template,lang-feature,False,False,cloud-solution-feature,"Azure Resource Manager(ARM) Templates are used to deploy all the resources required for an application to Azure. In the template, you define the resources that are needed for the application and specify deployment parameters to input values for different environments. They consist of JSON and expressions which you can use to construct values for your deployment. "
+191,vue-cli,lang-feature,False,False,admin-tool,Questions related to the use of vue-cli or the project templates created via vue-cli
+192,serial-communication,tech-concept,False,False,tech-concept,"Serial communication is the process of sending and receiving data via communication channel bit by bit sequentially, one bit at a time.
+"
+193,openshift-origin,container-solution,False,False,container-solution,"OpenShift Origin was the open source upstream project for OpenShift, a distribution of Kubernetes for the enterprise developed by Red Hat. OpenShift Origin is now known as OKD."
+194,ambari,management-solution,False,False,analytics-server-solution,"The Apache Ambari project is aimed at making Hadoop management simpler by developing software for provisioning, managing, and monitoring Apache Hadoop clusters. Ambari provides an intuitive, easy-to-use Hadoop management web UI backed by its RESTful APIs."
+195,docker-for-windows,container-solution,False,False,container-solution,"The docker-for-windows tag can be used to call attention to any issue relating to running Windows or Linux containers on a Windows host by using Docker for Windows.
+
+For more information, please see:  https://docs.docker.com/docker-for-windows/"
+196,iphone-x,hardware,True,True,hardware,Only use this tag for questions that specifically apply to the Apple iPhone X device. Use the [ios] tag for questions related to iOS. Hardware questions generally belonging to the iPhone X should be in the Ask Different community.
+197,actioncable,library,False,False,framework-library,"Action Cable is an open source technology shipped to us with Ruby On Rails 5. It uses websockets instead of traditional HTTP protocol and allows 2-way asynchronious data transfer. The best field of application for ActionCable is chat, single page applications and so on."
+198,aws-iot,connector,False,False,cloud-connector-solution,AWS IoT is Amazon's implementation of an IoT gateway.
+199,ngrx-store,library,False,False,framework-library,RxJS powered state management for Angular applications
+200,azure-virtual-network,network-solution,False,False,web-proxy,"The Azure Virtual Network allows VPN access to Azure, as well as creating subnets for deploying services in Azure."
+201,azure-machine-learning-studio,ml-solution,False,False,ml-solution,"For questions about Microsoft Azure Machine Learning Studio, a collaborative, drag-and-drop visual workspace to build, test, and deploy machine learning solutions without needing to write code."
+202,web3,web-framework,False,False,blockchain-framework,Web3 is the JavaScript framework for interacting with Ethereum blockchain. Use web3 for questions involving Ethereum Web3 framework.
+203,google-sites,web-solution,False,False,web-solution,Google Sites is an online open source platform for building static websites.
+204,monad-transformers,tech-concept,False,False,tech-concept,"Monad transformers are an abstraction for combining monads. This allows you to compose different computational effects, building up precisely controlled computational environments."
+205,ngx-bootstrap,connector,False,False,framework-connector,"Use this tag for any query related to ngx-bootstrap. ngx-bootstrap is an open-source project, which provides an easy way to quickly integrate Bootstrap 3 or Bootstrap 4 Components with Angular."
+206,mgo,connector,False,False,database-connector,mgo (pronounced as mango) is a MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
+207,azure-stream-analytics,analytics-solution,False,False,analytics-solution,Related to Microsoft Azure Cloud Analytics system
+208,postgresql-9.6,database,True,False,database,for PostgreSQL questions specific to version 9.6
+209,image-compression,tech-concept,False,False,cv-concept,The objective of image compression is to reduce irrelevance and redundancy of the image data in order to be able to store or transmit data in an efficient form. Image compression may be lossy or lossless.
+210,dynamics-365,management-solution,False,False,management-solution,"Use this tag for questions related to Microsoft Dynamics 365, which is wider umbrella to bring CRM, AX, PSA, HR, etc together."
+211,php-7.2,language,True,False,language,Use this tag for version-specific issues relating specifically to PHP 7.2.Use with the [php] tag
+212,laravel-mix,web-api,False,False,web-api,Laravel Mix provides a fluent API for defining Webpack build steps for your Laravel application using several common CSS and JavaScript pre-processors.
+213,semantic-ui-react,library,False,False,framework-ui-library,Semantic-UI-React is the official React integration for Semantic UI
+214,http-authentication,tech-concept,False,False,tech-concept,"HTTP authentication is a method for a HTTP user agent to provide a user name and a certain proof confirming the user's identity when making a request. Various proofs define different HTTP Authentication methods, e.g. basic, forms, digest, or others."
+215,google-play-console,admin-tool,False,False,admin-tool,Google play console is for Android developers who wish for publishing their built Android apps to Google Play
+216,grid-search,ml-concept,False,False,ml-concept,"In machine learning, grid search refers to multiple runs to find the optimal value of parameter(s)/hyperparameter(s) of a model, e.g. mtry for random-forest or alpha, beta, lambda for glm, or C, kernel and gamma for SVM."
+217,cucumber-java,collab-solution,False,False,collab-solution,"Cucumber-JVM is a pure Java implementation of Cucumber that supports the most popular programming languages for the JVM. Cucumber-JVM supports the following JVM languages:
+
+- Java
+- Groovy
+- Scala
+- Clojure
+- Jython
+- JRuby
+- Rhino JavaScript
+- Gosu"
+218,amazon-sagemaker,ml-solution,False,False,ml-solution,"Amazon SageMaker is a fully-managed AWS service that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale."
+219,data-fitting,math-concept,False,False,math-concept,Data fitting is to fit a line through a data set i.e. a series of data points.
+220,firedac,library,False,False,connector-library,"A Delphi/C++Builder data access library, sold by Embarcadero, for developing applications for multiple devices, connected to enterprise databases"
+221,topojson,format,False,False,map-format,"TopoJSON is an extension of GeoJSON that encodes topology. TopoJSON eliminates redundancy, offering much more compact representations of geometry than with GeoJSON; typical TopoJSON files are 80% smaller than their GeoJSON equivalents. In addition, TopoJSON facilitates applications that use topology, such as topology-preserving shape simplification, automatic map coloring, and cartograms."
+222,sinch,sdk,False,False,mobile-sdk,"Use the Sinch SDKs and APIs to enhance your app with Voice, SMS, Verification, and Instant Messaging."
+223,specs2,library,False,False,library,Executable software specification tool that specifies behaviour both at the class and application level using Scala.
+224,ngrx-effects,library,False,False,framework-library,Use this tag for questions related to the effects package of the ngrx platform.
+225,mxnet,ml-framework,False,False,ml-framework,"Apache MXNet is a fast, scalable, open source deep learning framework that supports Python, R, Scala, C++, Julia, Go, and Javascript.  MXNet can run on multiple CPUs and multiple GPUs distributed across multiple hosts, with almost linear scalability."
+226,automata,math-concept,False,False,math-concept,"In theoretical computer science, automata theory is the study of abstract 'mathematical' machines or systems and the computational problems that can be solved using these machines. These abstract machines are called automata.  (""Automata"", Wikipedia)"
+227,aidl,language,False,False,language,Android Interface Definition Language is a special language that allows a server and a client to establish interface for Inter Process Communication (IPC). 
+228,eigenvalue,math-concept,False,False,math-concept,The eigenvalue is the factor by which the eigenvector is scaled when multiplied by the matrix.
+229,node-sass,connector,False,False,framework-connector,"Node-sass is a library that provides binding for Node.js to libsass, the C version of the popular stylesheet preprocessor, Sass."
+230,hibernate-annotations,lang-feature,False,False,library-concept,Hibernate Annotations provide an alternative method of supplying metadata which maps Java objects to the database tables they represent. 
+231,unix-socket,connector,False,False,connector,UNIX domain sockets are a technology for interprocess communication on a single computer.
+232,angular-template,lang-feature,False,False,framework-concept,"Use this tag for Angular questions which are related to templates topics, such as interpolation ({{...}}), template expressions, template statements, data-binding..."
+233,rvalue,tech-concept,False,False,tech-concept,An rvalue is a temporary object (or subobject) or is a value not directly associated with an object.
+234,react-native-firebase,library,False,False,framework-library,This tag is for the react-native-firebase npm package. 
+235,kotlin-android-extensions,library,False,False,mobile-library,Questions related to Kotlin Android Extensions
+236,cntk,library,False,False,ml-library,Microsoft Cognitive Toolkit (CNTK) is an open source library for commercial-grade distributed deep learning. It became open source in January 2016.
+237,netlify,deployment-solution,False,False,deployment-solution,"Ask questions about the Netlify setup, config or just in general using the netlify-cli or online at app.netlify.com"
+238,powerapps,software-solution,False,False,dev-solution,"PowerApps is an enterprise service for innovators everywhere to connect, create and share business apps with your team on any device in minutes, it fundamentally transforms and accelerates how organizations build custom line of business applications.
+"
+239,tpl-dataflow,library,False,False,framework-library,"TPL Dataflow (TDF) is a .NET library for building concurrent applications. It promotes actor/agent-oriented designs through primitives for in-process message passing, dataflow, and pipelining. TDF builds upon the TPL (Task Parallel Library) in .NET 4 and integrates with async language support in C#, Visual Basic, and F#.  TDF lacks join/merge by key (like SSIS) and time-based windowing (available in Rx)."
+240,react-router-redux,library,False,False,framework-library,A library of bindings to keep react-router and redux in sync (formerly known as redux-simple-router).
+241,kotlin-coroutines,library,False,False,library,"A language feature and a library introduced in Kotlin 1.3 that is used to implement the ""green threads"" model. It allows writing non-blocking IO code in a natural way, without resorting to futures or callbacks."
+242,web-push,web-api,False,False,web-api,"The Web Push API http://w3c.github.io/push-api/ lets users of your Web app receive push notifications at any time—even in the background; that is, even when your Web app is not currently running in the foreground on the user’s device (or even when the browser on the user’s device is not currently running). It use Service Workers to handle messages sent using common push services, and to allow your Web app to react to the push notifications it receives."
+243,numerical-integration,math-concept,False,False,math-concept,"Algorithms that integrate functions over one or more dimensions using approximation techniques, instead of exact, closed-form solutions using symbolic algebra and calculus. Includes concepts like adaptive quadrature, Monte-Carlo methods, finite element analysis, Markov chains. "
+244,coreml,ml-framework,False,False,ml-framework,"Apple's Core ML framework and tools for making predictions using Machine Learning. Supports a variety of regression and classification models, as well as general-purpose neural networks."
+245,bulma,web-framework,False,False,web-framework,Bulma is an open source CSS Framework developed using Flexbox and SASS available on GitHub.
+246,web3js,library,False,False,blockchain-library,"The web3.js library is a collection of modules which contain specific functionality for the ethereum ecosystem allowing to ease interactions with Ethereum blockchain, its smart-contracts and related encryption/decryption functions. "
+247,functional-dependencies,tech-concept,False,False,tech-concept,"A functional dependency is a constraint between two sets of attributes in a relation, in relational algebra, databases and type systems.
+"
+248,truffle,dev-solution,False,False,blockchain-dev-solution,"Development environment, testing framework and asset pipeline for Ethereum"
+249,tensorflow.js,ml-library,False,False,ml-library,"TensorFlow.js is a library for developing and training ML models in JavaScript, and deploying in browser or on Node.js"
+250,azure-automation,management-solution,False,False,management-solution,"Azure Automation helps you spend more of your time focused on work that adds business value. By reducing errors and boosting efficiency, it can also help lower your operational costs."
+251,netstat,admin-tool,False,False,admin-tool,"netstat (network statistics) is a command-line tool that displays network connections (both incoming and outgoing), routing tables, and a number of network interface statistics. It is available on Unix, Unix-like, and Windows NT-based operating systems."
+252,mapstruct,lang-feature,False,False,lang-feature,"MapStruct is a code generator for creating efficient, type-safe bean-to-bean mappings in Java."
+253,oidc,connector,False,False,security-connector,"OIDC (OpenID Connect) is a simple identity layer on top of the OAuth 2.0 protocol, which allows computing clients to verify the identity of an end-user based on the authentication performed by an authorization server, as well as to obtain basic profile information about the end-user in an interoperable and REST-like manner."
+254,managed-c++,deprecated-standard,False,False,deprecated-standard,"Managed C++ is a now deprecated Microsoft set of deviations from C++, including grammatical and syntactic extensions, keywords and attributes, to bring the C++ syntax and language to the .NET Framework. These extensions allowed C++ code to be targeted to the Common Language Runtime (CLR) in the form of managed code as well as continue to interoperate with native code."
+255,ansible-inventory,solution-feature,False,False,solution-feature,"Use this tag for questions regarding the Ansible inventory defined either as a static file (aka hosts file), or dynamically through external scripts (for example AWS EC2 inventory)."
+256,google-vr,vr-framework,False,False,vr-framework,"Google VR includes two virtual reality (VR) platforms: Cardboard, the world's most popular and accessible mobile VR platform, and Daydream, a new platform for low-latency, immersive, and interactive mobile VR. Developer documentation: https://developers.google.com/vr/"
+257,apostrophe,tech-concept,False,False,tech-concept,The single-quote character (')
+258,richtext,tech-concept,False,False,tech-concept,"Text that includes formatting commands for page layout such as fonts, bold, underline, italic, etc. It may also refer to a multimedia document that can include images, audio and video."
+259,error-code,tech-concept,False,False,tech-concept,An error code is a value returned to provide context on why an error occurred.  Error codes are often provided in lieu of an error message for the sake of brevity or consistency.
+260,aws-codebuild,software-solution,False,False,cloud-dev-solution,Describes Amazon Web Services CodeBuild questions and answers. Scope should be limited to AWS CodeBuild.
+261,yolo,library,False,False,cv-library,"You Only Look Once (YOLO) is a real-time object detection system written in C. Use this tag for questions about YOLO compilation and installation, usage, and its features and functionality."
+262,powershell-ise,ide,False,False,ide,PowerShell-ISE refers to Microsoft Windows PowerShell's Integrated Scripting Environment.
+263,zoho,company,False,False,company,"Zoho is a SaaS based company which offers a comprehensive suite of on-line business, productivity & collaboration applications."
+264,azure-cognitive-services,ml-solution,False,False,cloud-ml-solution,"Use this tag for Azure Cognitive services & labs related questions including Vision, Speech, Language, Knowledge & Search APIs and SDKs."
+265,django-2.0,web-framework,True,True,web-framework,"Django 2.0 is a version of the Django framework, released December 2017. Please only use this tag if your question relates specifically to this version."
+266,ngrok,web-proxy,False,False,web-proxy,ngrok provides https tunnels from the internet to local machines with the ability to capture and replay traffic.
+267,partial-classes,tech-concept,False,False,tech-concept,"With this keyword classes can be split into multiple definitions, but it compiles into one class."
+268,uicontrol,framework-feature,False,False,mobile-framework-feature,"UIControl is the base class for control objects such as buttons and sliders. You cannot use the UIControl class directly to instantiate controls. It instead defines the common interface and behavioral structure for all its subclasses.
+The main role of UIControl is to define an interface and base implementation for preparing action messages and initially dispatching them to their targets when certain events occur. Available in iOS 2.0 and later in UIKit."
+269,mockmvc,framework-feature,False,False,mvc-framework-feature,MockMVC is the key part of the Spring MVC Test framework is. It simulates the internals of Spring MVC.
+270,frameset,lang-feature,False,False,lang-feature,"In HTML, the frameset element is a container for dividing a browser window into rectangular subspaces called frames. Whilst user agents are still required to render them, Framesets are considered obsolete in HTML5."
+271,amazon-lex,ml-solution,False,False,cloud-ml-solution,"Amazon Lex is ""a service for building conversational interfaces into any application using voice and text."""
+272,undertow,server-solution,False,False,web-server-solution,Undertow is a high performance non-blocking webserver that is the new web server in Red Hat's WildFly.
+273,memory-barriers,tech-concept,False,False,tech-concept,A memory barrier is a special processor instruction that imposes restrictions on the order in which memory accesses become visible to other processors/cores in a multi-processor or multi-core system.
+274,net-http,web-api,False,False,web-api,"An HTTP client API for Ruby.
+
+Net::HTTP provides a rich library which can be used to build HTTP user-agents."
+275,c#-7.0,language,True,True,language,"The versions of C#, released in 2017 that adds value tuples, local functions, basic pattern matching, ref locals and returns, async main and various other new features.
+"
+276,joi,lang-feature,False,False,lang-feature,Object schema description language and validator for JavaScript objects.
+277,p-value,math-concept,False,False,math-concept,In statistical significance testing the p-value is the probability of obtaining a test statistic at least as extreme as the one that was actually observed.
+278,watchdog,tech-concept,False,False,tech-concept,Watchdog and watchdog timers.
+279,fixed-point,tech-concept,False,False,tech-concept,"Questions about fixed-point arithmetic, done using a set number of decimal places. For the combinators used to encode recursion, use [fixpoint-combinators] instead. For the numerical method, use [fixed-point-iteration] instead. For the fixedpoint engine of Z3, use [z3-fixedpoint] instead. "
+280,pundit,library,False,False,library,"Pundit provides a set of helpers that guide Ruby programmer in leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scaleable authorization system."
+281,opcode,tech-concept,False,False,tech-concept,The binary number that represents a machine instruction for a specific processor type.
+282,windows-firewall,security-software,False,False,security-solution,Questions referring to the firewall that comes built-in with windows.  Use this tag only when referring to the firewall that comes with Windows; Other firewalls that run on Windows should contain the two tags [windows] [firewall] instead.
+283,android-instrumentation,lang-feature,False,False,lang-feature,Base class for implementing application instrumentation code.
+284,vmware-workstation,vm-software,False,False,vm-solution,VMware Workstation is a virtual machine software suite for x86 and x86-64 computers from VMware.
+285,workbox,server-solution,False,False,server-build-solution,Questions related to Workbox: build and runtime tools for powering your progressive web app's service worker.
+286,algebraic-data-types,tech-concept,False,False,tech-concept,"Algebraic data types are data structures built from sums, products and recursive types, admitting an algebra. Descriptions of types given as ADTs may be manipulated symbolically to derive other related data structures. The logic for building types algebraically is related to combinatorial species in combinatorial mathematics."
+287,web-api-testing,tech-concept,False,False,tech-concept,Web API testing is the functional testing of HTTP based services.  
+288,surveymonkey,survey-service,False,False,survey-service,SurveyMonkey is an online survey service
+289,replicaset,lang-concept,False,False,database-feature,"This tag is used mostly for a MongoDB replica set (a group of ""mongod"" processes that maintain the same data set) and rarely for a Kubernetes ReplicaSet (the next-generation Replication Controller with set-based selector support)."
+290,java-module,lang-feature,False,False,lang-feature,Refers to the module as defined by the module system in java introduced in Java 9. Hence likely to be coupled with the [java-9] (or above) tag.
+291,superagent,web-api,False,False,web-api,"Super Agent is light-weight progressive ajax API crafted for flexibility, readability, and a low learning curve after being frustrated with many of the existing request APIs. It also works with Node.js! Check http://visionmedia.github.io/superagent/ for details."
+292,save-as,tech-concept,False,False,tech-concept,This tag refers to a common UI prompt type that asks a user under what name they wish to save a file as.
+293,secret-key,security-concept,False,False,security-concept,"A secret key is a piece of data that is known by a limited number of users / programs and that participates in protecting information (or access to the information). Unlike passwords which are meant to be input by users and verified by matching, secret keys are usually read from storage and are an active part of an algorithm to decrypt the protected information. Use this tag for questions related to the creation, storage and usage of secret keys."
+294,.net-core-2.0,web-framework,True,True,web-framework,"Use this tag for questions specifically related to .NET Core 2.0, in addition to using the '.NET Core' tag."
+295,php4,language,True,True,language,"For issues relating to development using PHP, version 4."
+296,aws-serverless,cloud-solution,False,False,cloud-solution,"AWS Serverless implementation with API Gateway, Lambda functions, CloudFormation and SAM (Serverless Application Model)."
+297,laravel-dusk,test-api,False,False,framework-test-api,"Laravel Dusk provides an expressive, easy-to-use browser automation and testing API. By default, Dusk does not require you to install JDK or Selenium on your machine. Instead, Dusk uses a standalone ChromeDriver installation. However, you are free to utilize any other Selenium compatible driver you wish."
+298,azure-kubernetes,container-solution,False,False,cloud-container-solution,"Kubernetes is an open-source system for automating deployment, scaling and management of containerized applications."
+299,azure-api-apps,cloud-solution,False,False,cloud-api-solution,"API Apps are part of the Azure App Service suite that also includes web apps, mobile apps, and logic apps."
+300,tfs2018,dev-solution,True,True,dev-solution,Use this tag for version specific questions about Team Foundation Server 2018. Use [tfs] for general questions and use [azure-devops] for Azure DevOps questions.
+301,orc,format,False,False,format,"The Optimized Row Columnar (ORC) file format provides a highly efficient way to store Hive data. It was designed to overcome limitations of the other Hive file formats. Using ORC files improves performance when Hive is reading, writing, and processing data."
+302,pwm,tech-concept,False,False,hardware-concept,"PWM (Pulse-width modulation) is a technique for controlling power to electrical devices, made practical by modern electronic power switches."
+303,rpa,tech-concept,False,False,ml-concept,Robotic process automation (RPA) is a technology based on the notion of software robots or artificial intelligence workers.
+304,changeset,tech-concept,False,False,versioning-concept,"A changeset is a set of changes between revisions of files under revision control, which should be treated as an indivisible group (i.e., an atomic package)."
+305,firebase-cli,admin-tool,False,False,admin-tool,"The Firebase CLI provide a variety of tools for managing, viewing, and deploying to Firebase projects, as well as a set of emulators for Firebase products.  It's available via the npm module firebase-tools."
+306,swift5,language,True,True,language,"Use this tag only for questions directly related to changes in version 5 of Apple's Swift programming language. Use the tag [swift] for more general language questions, or the tags [ios], [cocoa], [apple-watch] etc. for questions about developing on Apple platforms."
+307,wit.ai,ml-solution,False,False,ml-solution,"Wit.ai is a NLP engine owned by Facebook that makes it easy for developers to build bots, applications and devices that you can talk or text to."
+308,django-1.11,web-framework,True,False,web-framework,"Django 1.11 is a version of the Django framework, released April 2017. It is a Long Term Support (LTS) release, and will be supported until at least April 2020. Please only use this tag if your question relates specifically to this version."
+309,azure-container-service,container-solution,False,False,cloud-container-solution,Microsoft Azure Container Service (ACS) optimizes the configuration of popular open source tools and technologies specifically for Azure. It allows you to easily create and host clusters of Docker containers in Microsoft Azure using either Docker Swarm or DC/OS for cluster orchestration.
+310,wavelet,math-concept,False,False,math-concept,The name given to windows used to analyse/synthesize a signal with wavelet transforms. Used mostly in the analysis of non-stationary signals whose frequency content varies with time. The variable length windows with which the signals are analysed are called wavelets.
+311,mern,dev-solution,False,False,dev-solution,"MERN stands for Mongo, Express, React and NodeJS.
+
+"
+312,rssi,tech-concept,False,False,comms-concept,RSSI stands for Received signal strength indication
+313,inode,tech-concept,False,False,tech-concept,"In computing, an inode (index node) is a data structure found in many Unix file systems. Each inode stores all the information about a file system object (file, device node, socket, pipe, etc.), except data content and file name."
+314,react-context,lang-feature,False,False,framework-feature,React Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+315,holoviews,library,False,False,analytics-library,"HoloViews is a Python library that makes analyzing and visualizing scientific or engineering data much simpler, more intuitive, and more easily reproducible."
+316,ecmascript-2017,language,True,True,language,"Use this tag for questions about features finalized in ECMAScript 2017. Do *not* use this tag if the code in question merely *uses* one of the features, *unless* the feature is cause of the problem."
+317,aot,lang-feature,False,False,management-platform-feature,"In Microsoft Dynamics AX, application objects are defined in the Application Object Tree (AOT) and are instantiated at runtime. The AOT also contains application resources, references, and documentation. This section describes the AOT and its contents, how to use the AOT to define application objects, and how to import and export definitions of application objects."
+318,arcmap,software-tool,False,False,map-tool,ArcMap is a piece of software within the ArcGIS suite.  It is utilized for cartographic production as well as geospatial analysis. 
+319,maven-failsafe-plugin,framework-feature,False,False,framework-feature,The Maven Failsafe Plugin is used to run integration tests with Maven build tools.
+320,read-the-docs,collab-solution,False,False,wiki,Free documentation hosting for the Open Source community
+321,django-2.1,web-framework,True,False,web-framework,"Django 2.1 is a version of the Django framework, released August 2018. Please only use this tag if your question relates specifically to this version."
+322,sightly,language,False,False,language,Sightly (now known as HTL) - the Apache Sling XSS-aware template language
+323,np-complete,math-concept,False,False,math-concept,"NP-Complete refers to the hardest known problems within the complexity class NP.  The ""Traveling salesman problem"" is one of the most widely known NP-Complete problems."
+324,prisma,connector,False,False,database-connector,Prisma replaces traditional ORMs by providing a type-safe layer for your database. 
+325,snort,security-tool,False,False,network-security-tool,Snort is a open-source network intrusion detection/prevention system (NIDS/NIPS). 
+326,heroku-cli,admin-tool,False,False,admin-tool,Use this tag for questions associated with the Heroku Command Line Interface (CLI).
+327,geotiff,standard,False,False,standard,GeoTIFF is a public domain metadata standard which allows georeferencing information to be embedded within a TIFF file. 
+328,hyperparameters,ml-concept,False,False,ml-concept,Machine Learning engines use hyper-parameters for their learning phase behaviour. Different values thus modify the learner's model ability to generalise and avoid overfitting and/or bias towards a given DataSET training-phase observed values.
+329,http-response-codes,tech-concept,False,False,tech-concept,"HTTP Response Codes indicate whether a specific HTTP requests has been successfully completed. Responses are grouped in five classes: informational responses, successful responses, redirections, client errors, and servers errors."
+330,css-variables,lang-concept,False,False,lang-concept,Variables allow to define stylesheet-wide values identified by a token and usable in all CSS declarations.
+331,browser-plugin,web-tool,False,False,web-tool,Browser-plugins allow to display content in browsers that they don't support natively. The two major APIs are NPAPI (supported by all browsers except Internet Explorer) and ActiveX (for so called content extensions for Internet Explorer).
+332,jigsaw,framework,False,False,framework,Project Jigsaw aims to design and implement a standard module system for the Java SE platform. It was released as part of Java 9.
+333,runtime-permissions,lang-feature,False,False,mobile-feature,"This tag refers to Android runtime permissions introduced with Android 6.0 Marshmallow (API level 23). 
+Previously permissions were granted on installation of an app. As of API level 23 permissions need to be requested at runtime.
+"
+334,aws-codecommit,versioning-solution,False,False,versioning-solution,AWS CodeCommit is a fully-managed source control service that makes it easy for companies to host secure and highly scalable private Git repositories. 
+335,fabric8,management-solution,False,False,microserv-solution,"fabric8 is an open source microservices platform based on Docker, Kubernetes and Jenkins which provides Management (with centralized logging and metrics), Continuous Delivery (based on Jenkins, Nexus and Sonarqube with integrated Chat), Integration (Integration Platform as a Service based on Apache ActiveMQ, Camel and CXF) and tools for developers and devops"
+336,qt3d,library,False,False,gfx-library,Qt 3D is a Qt module providing high level 3D scene rendering using OpenGL for Qt/QML applications.
+337,dot-product,math-concept,False,False,math-concept,"In mathematics, the dot product or scalar product is an algebraic operation that takes two equal-length sequences of numbers (usually coordinate vectors) and returns a single number. "
+338,multinomial,math-concept,False,False,math-concept,The multinomial distribution provides a probability distribution over three or more possible outcomes. It generalizes the more fundamental binomial distribution (two outcomes).
+339,zipkin,server-tool,False,False,server-tool,Zipkin is an open source distributed tracing system created by Twitter.
+340,dbeaver,database-tool,False,False,database-tool,DBeaver is free and open source (GPL) universal database tool for developers and database administrators.
+341,windows-10-desktop,ui,False,False,ui,the tag windows-10-desktop is for questions concerning application development for the Windows 10 Desktop. Windows 10 Desktop development uses the Win32 API and provides a user interface similar to a traditional Windows UI that supports and may require the use of a keyboard and mouse. Along with this tag should be a tag indicating the language being used and the platform such as .NET. This tag is not used for posts concerning WinRT application development.
+342,elastica,library,False,False,analytics-library,Elastica is a PHP client for the elasticsearch full-text search and analytics engine.
+343,saga,tech-concept,False,False,design-concept,"A pattern that enables a service bus to deal with long-running processes, fault tolerance and scalability. "
+344,background-subtraction,tech-concept,False,False,cv-concept,"Background-subtraction is a Computer-Vision technique that given a frame sequence from a fixed camera, processes pixels and separates them into foreground and background pixels."
+345,element-ui,library,False,False,framework-library,"Element UI, is a Vue 2.0 based component library"
+346,kotlin-extension,lang-concept,False,False,lang-concept,Kotlin provides the ability to extend a class with new functionality without having to inherit from the class or use any type of design pattern such as Decorator. This is done via special declarations called extensions.
+347,dotnet-cli,admin-tool,False,False,admin-tool,"For use of questions about the .NET Core command line tool-chain. This does not relate to dnx, dvnm, dnu or any of the previous tools build with .NET Core."
+348,ack,software-tool,False,False,compile-tool,"ack is a tool like grep, designed for programmers with large trees of heterogeneous source code."
+349,c++-concepts,language,True,False,language,"Concepts (formerly known as ""Concepts Lite"") in C++ is a proposed language extension designed to improve support for generic programming. Questions referring to this proposed extension or to the boost ""concept check"" library should use this tag; you may also wish to use one or more of the tags [tag:C++], [tag:boost], [tag:template-meta-programming] and [tag:metaprogramming] depending on your question.
+"
+350,ipfs,standard,False,False,standard,IPFS (InterPlanetary File System) is a distributed/P2P content and identity-addressed hypermedia distribution protocol.
+351,batch-normalization,ml-concept,False,False,ml-concept,"Batch Normalization is a technique to improve learning in neural networks by normalizing the distribution of each input feature in each layer across each minibatch to N(0, 1)."
+352,mixed-content,tech-concept,False,False,tech-concept,HTTPS page that includes content retrieved through cleartext HTTP
+353,spatial-index,tech-concept,False,False,tech-concept,"Spatial indexes are data structures the support searches and computation that depend on geometric relationships between the stored data (k-nearest-neighbors, identify elements in a defined region, etc). Use this tag for questions about selecting, writing, or using spatial indexes in your code, including the use of spatial indexes in database management systems."
+354,jenkins-slave,framework-concept,False,False,framework-concept,"Jenkins supports the ""master/slave"" mode, where the workload of building projects are delegated to multiple ""slave"" nodes, allowing a single Jenkins installation to host a large number of projects, or to provide different environments needed for builds/tests."
+355,reactive-forms,framework-concept,False,False,framework-concept,Questions about Angular Reactive Forms(not template-driven forms). Use this tag for questions related to reactive-forms. Please mention the version of the angular used where you see the issue.
+356,bloc,tech-concept,False,False,design-concept,BLoC stands for Business Logic Component. The application implementation pattern of using BLoC is called BLoC pattern.
+357,go-ethereum,library,False,False,blockchain-library,go-ethereum also known as geth is a golang implementation of the Ethereum protocol.
+358,eiffel,language,False,False,language,"Eiffel is a statically typed object-oriented programming language closely related with the programming method of the same name. Both are based on a set of principles like Design by Contract, Command-Query Separation, Uniform Access, etc. Many concepts initially introduced by Eiffel find their way to C#, Java and other languages. The program in Eiffel can be compiled unchanged for almost any target platform."
+359,quantization,tech-concept,False,False,math-concept,"Use this tag for questions related to quantization of any kind, such as vector quantization."
+360,splitter,tech-concept,False,False,tech-concept,Splitters are special windows/controls that are used to split another window/frame to subwindows. Usually splitters can be dragged so the subwindows are resized.
+361,otrs,management-solution,False,False,management-solution,Open-source Help Desk and IT Service Management solution
+362,msg,file-format,False,False,file-format,"""msg"" is the extension of Microsoft Outlook message files"
+363,mle,ml-concept,False,False,ml-concept,"In statistics, maximum-likelihood estimation (MLE) is a method of estimating the parameters of a statistical model."
+364,swift-package-manager,build-tool,False,False,build-solution,Swift Package Manager is a build tool and dependency manager for projects written in Swift. It is made by Apple and is open source.
+365,data-partitioning,tech-concept,False,False,tech-concept,"Data partitioning deals with the dividing of a collection of data into smaller collections of data for the purpose of faster processing, easier statistics gathering and smaller memory/persistence footprint."
+366,docker-swarm-mode,framework-feature,False,False,framework-feature,"Swarm mode refers to cluster management and orchestration features embedded in Docker Engine. When you initialize a new swarm (cluster) or join nodes to a swarm, the Docker Engine runs in swarm mode."
+367,cryptocurrency,security-concept,False,False,security-concept,"a digital currency in which encryption techniques are used to regulate the generation of units of currency and verify the transfer of funds. Cryptocurrency can be mined and stored into an electronic wallet, locally on a computer or flash drive. "
+368,centroid,math-concept,False,False,math-concept,Centroid refers to the center of a geometric shape. It may also refer to the center of a clustered point-cloud.
+369,design-by-contract,tech-concept,False,False,design-concept,"Design by Contract (DbC) or Programming by Contract is an approach to designing computer software. It prescribes that software designers should define formal, precise and verifiable interface specifications for software components, which extend the ordinary definition of abstract data types with preconditions, postconditions and invariants. These specifications are referred to as ""contracts"", in accordance with a conceptual metaphor with the conditions and "
+370,eeprom,hardware,False,False,hardware,"Anything related to Electrically-Erasable Programmable Read Only Memory (EEPROM), a kind of non-volatile electronic memory technology. EEPROMs can be programmed and erased using only electrical signals and maintain their content also in absence of power supply. The now ubiquitous Flash memory is a specialized form of EEPROM."
+371,scss-mixins,lang-feature,False,False,lang-feature,A Mixin is a block of code that lets us group CSS declarations we may reuse throughout our site.
+372,vbox,lang-feature,False,False,library-feature,VBox is a JavaFX layout pane that lays out its children in a single vertical column.
+373,lottie,library,False,False,library,Questions regarding Airbnb's Lottie
+374,nano,ide,False,False,ide,"GNU nano is an open source, curses-based text editor for Unix systems. It is a clone of [tag:pico], the proprietary Pine e-mail client editor."
+375,serde,framework,False,False,framework,Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
+376,bacon.js,library,False,False,library,A small functional reactive programming library for JavaScript.
+377,directory-listing,tech-concept,False,False,tech-concept,Questions related to extracting the names (possibly associated metadata) of files in a directory.
+378,generative-adversarial-network,ml-concept,False,False,ml-concept,"Generative adversarial networks (GANs) are a class of artificial intelligence algorithms used in unsupervised (and semi-supervised) machine learning, implemented by a system of two neural networks contesting with each other in a zero-sum game framework."
+379,django-1.10,web-framework,True,False,web-framework,"Django 1.10 is a version of the Django framework, released August 2016. Please only use this tag if your question relates specifically to this version.
+"
+380,image-caching,tech-concept,False,False,tech-concept,Image cache reduces client-server requests for images.Image cache is useful for fast retrieval of images. we can store server side images in application using image cache and retrieve any time when we want even if server connected or not.
+381,geth,library,False,False,blockchain-library,Go implementation of command line tools for Ethereum blockchain
+382,kvc,tech-concept,False,False,tech-concept,"Key Value Coding is a mechanism for accessing an object’s properties indirectly, using strings to identify properties, rather than through invocation of an accessor method or accessing them directly through instance variables."
+383,seq2seq,library,False,False,ml-library,Seq2Seq is a sequence to sequence learning add-on for the python deep learning library. 
+384,reentrancy,tech-concept,False,False,tech-concept,"Reentrancy usually refers to subroutines, functions, methods and mutexes. A subroutine is considered reentrant if it can be safely called before a previous call has completed."
+385,recompose,library,False,False,framework-library,Recompose is a React utility belt for function components and higher-order components. Think of it like lodash for React.
+386,blazemeter,test-solution,False,False,test-solution,"BlazeMeter is a self-service, web and mobile load testing platform (PaaS) providing developers an enterprise grade, out-of-the-box load testing solution. 100% compatible with Apache JMeter™. Start testing in under five minutes."
+387,ftp-server,tech-concept,False,False,tech-concept,"Server for the File Transfer Protocol (FTP), a standard network protocol used to transfer files from one host to another host over a TCP-based network."
+388,ico,file-format,False,False,file-format,"ICO is an image file format (associated with "".ico"" file extension) developed by Microsoft and designed for storing icons. It is widely used in Microsoft products, notably in Windows operating systems. From there it spread to other platforms and Internet. Use this tag if your question is related to this specific format. Do not use this tag for general questions about icons or concepts such as ""favicon"" if you don't plan to use ICO format for them."
+389,fasttext,ml-library,False,False,ml-library,fastText is a library for efficient learning of word representations and sentence classification.
+390,mongodb-replica-set,lang-feature,False,False,lang-feature,MongoDB's replica set uses redundant nodes to provide a high availability and resilience against network partitions of the primary node.
+391,watson-assistant,ml-solution,False,False,ml-solution,Watson Assistant (formerly Watson Conversation) is a Watson Developer Cloud service that combines a number of cognitive technologies to easily simulate a more human-like conversational interface. See https://www.ibm.com/watson/services/conversation/ for details. For API reference see: https://www.ibm.com/watson/developercloud/conversation/api/v1/
+392,servo,hardware-concept,False,False,hardware-concept,Programming questions related to controlling a servo motor through programming. 
+393,non-deterministic,math-concept,False,False,math-concept,Nondeterminism refers either to a computing system where the result may be one of many specified results or to a theoretical construct in which a computing system is allowed to try many options in parallel to search for a result.
+394,webpack-3,build-tool,True,True,build-tool,Version 3 of the Webpack bundler. Webpack takes modules with dependencies and generates static assets representing those modules.
+395,kestrel,library,False,False,library,"Kestrel is a simple, distributed message queue system written in Scala."
+396,m4,language,False,False,language,m4 is a general purpose macro processing language developed by Brian Kernighan and Dennis Ritchie.
+397,html-validation,tech-concept,False,False,tech-concept,"Use the [html-validation] tag for questions about client-side form validation in browsers, as defined in https://html.spec.whatwg.org/multipage/forms.html#client-side-form-validation. For questions about checking HTML documents for conformance errors, use the [w3c-validation] tag instead."
+398,jwt-auth,standard,False,False,standard,JSON Web Token (JWT) is an open standard that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. Authorisation is the most common scenario for using JWT.
+399,monorepo,tech-concept,False,False,versioning-concept,A monorepo is a single repository containing more than one project (in contrast to the single-repository-per-project approach).
+400,color-mapping,tech-concept,False,False,ui-concept,A color map is used when displaying intensity images (2D arrays). The color maps intensity values to RGB colors of the display.
+401,mixture-model,ml-concept,False,False,ml-concept,"In statistics, a mixture model is a probabilistic model that is formed by a combination of probabilistic models. For example, the Gaussian mixture model is the weighted sum of Gaussian distributions. Mixture models are mainly used in probabilistic clustering of data and modelling of unknown distributional shapes."
+402,elasticsearch-query,lang-concept,False,False,framework-concept,"Elasticsearch provides a full Query DSL based on JSON to define queries. In general, there are basic queries such as term or prefix. There are also compound queries like the bool query. Queries can also have filters associated with them such as the filtered or constant_score queries, with specific filter queries."
+403,circle-pack,math-concept,False,False,math-concept,"In geometry, circle packing is the study of the arrangement of circles (of equal or varying sizes) on a given surface such that no overlapping occurs and so that all circles touch another."
+404,ff,library,False,False,library,An R package that provides memory-efficient storage of large data on disk and fast access functions
+405,persistent-volumes,framework-feature,False,False,framework-feature,This tag is for Kubernetes persistent volume related questions.
+406,forex,commerce-concept,False,False,commerce-concept,"Use this tag for programming-related questions concerning the foreign exchange market (FOREX). Non-programming questions, and questions asking us to recommend an API, library or other off-site resource, are strictly off-topic."
+407,session-scope,lang-concept,False,False,lang-concept,A state of the Java bean that holds it during HTTP session.
+408,aws-sam,cloud-framework,False,False,cloud-framework,"AWS Serverless Application Model (AWS-SAM) is an open source framework used to define, test and deploy serverless applications to the AWS Cloud.  "
+409,readxl,library,False,False,library,"an R package that can be used to import Excel (.xls and .xlsx) files into R
+"
+410,opencv-python,deprecated-library,False,False,deprecated-library,"THIS TAG IS PENDING REMOVAL. Instead, please use [opencv] and [python] tags. (More information: https://meta.stackoverflow.com/questions/385792)
+
+This tag is used when asking questions related to OpenCV, exclusively when Python is used as the programming language. The tag does not suit any question pertaining to OpenCV for any other languages"
+411,cloudify,cloud-solution,False,False,cloud-solution,"Cloudify is a pure-play open source cloud orchestration platform built in Python and a TOSCA-based YAML DSL, that enables the plugging in of any cloud or toolset."
+412,pushdown-automaton,math-concept,False,False,math-concept,A pushdown automaton (PDA) is a finite-state automaton with added stack based memory. It is a mathematical description of an algorithm for parsing context-free languages.
+413,polly,library,False,False,framework-library,"Polly is a .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner. Polly targets .NET Standard 1.1 and .NET Standard 2.0.  http://www.thepollyproject.org . https://github.com/App-vNext/Polly/wiki/ . "
+414,typescript3.0,language,True,True,language,"Tag for questions specific to new features in TypeScript 3.x. For general TypeScript questions, the correct tag is TypeScript."
+415,daydream,vr-solution,False,False,vr-solution,"Daydream is a virtual reality (VR) platform developed by Google for Android Nougat, the seventh major version of the Android mobile operating system. It was announced at the Google I/O developer conference in May 2016, with the first VR headset released on November 10, 2016. It is built into the Android OS starting with Android 7.1 Nougat release. The platform includes software and hardware specifications, designating compatible phones ""Daydream-ready""."
+416,catkin,build-solution,False,False,build-solution,catkin is the official build system of ROS. It combines CMake macros and Python scripts to provide some functionality on top of CMake's normal workflow.
+417,visual-recognition,ml-solution,False,False,cv-solution,Use this tag when asking questions about the IBM Watson Visual Recognition
+418,redux-framework,web-framework,False,False,web-framework,A simple options framework for WordPress themes and plugins.
+419,random-walk,math-concept,False,False,math-concept,"A random walk is a mathematical formalization of a path that consists in a succession of random steps. A random walk can be a Markov chain or process; it can be on a graph or a group. Random walks can model randomized processes, in fields such as: ecology, economics, psychology, computer science, physics, chemistry, and biology."
+420,row-level-security,tech-concept,False,False,database-security-concept,Row-level security is database security term which relates to the ability to define and enforce access control logic on rows of data such that a user can only retrieve the rows of data he or she is allowed to view.
+421,facebook-analytics,analytics-solution,False,False,analytics-solution,"Facebook Analytics is a product analytics tool that lets you quickly see data, analyze trends, and understand the behavior of people who use your app, website, and more."
+422,azure-container-registry,framework-feature,False,False,framework-feature,Manage a Docker private registry as a first-class Azure resource.
+423,free-monad,tech-concept,False,False,design-concept,Free monads give a general way of turning functors into monads. They are useful for many tree-like structures and domain specific languages.
+424,bpf,network-connector,False,False,network-connector,"The Berkeley Packet Filter (BPF, or cBPF) was initially introduced to provide a raw interface to data link layers in a protocol independent fashion, on BSD systems and then on Linux.
+
+More recently, it has been reworked on Linux to give birth to the extended BPF, or eBPF. The latter can be used for network processing at several levels, as well as for security applications, or even tracing and monitoring use cases. This tag is for all cBPF/eBPF questions."
+425,jcache,api,False,False,api,"JCACHE :JSR 107- Java Temporary Caching API. Specifies API and semantics for temporary, in-memory caching of Java objects, including object creation, shared access, spooling, invalidation, and consistency across JVM's. 
+
+source: https://jcp.org/en/jsr/detail?id=107"
+426,powershell-core,admin-tool,False,False,admin-tool,"Use this tag for questions about writing and executing scripts for PowerShell Core, the cross-platform command line and scripting utility from Microsoft. Questions about Windows PowerShell (the original, Windows-only edition) should be tagged [powershell]. Questions about system administration should be asked on SuperUser."
+427,unreal-blueprint,lang-feature,False,False,lang-feature,Blueprints are Unreal Engine 4's visual programming structure. Use this tag for all questions related to blueprint programming in Unreal Engine 4.
+428,stack-memory,tech-concept,False,False,tech-concept,"Questions regarding process stack memory.  Generally, stack memory is sequentially allocated, scoped to successive function calls, and normally referenced by the CPU using a stack pointer register."
+429,vue-material,web-framework,False,False,framework-framework,Vue Material is a framework built exactly according to the Material Design specs. It is used to build web apps that can fit on every screen.
+430,google-slides,cloud-tool,False,False,cloud-collab-solution,Google Slides is a free presentation program part of a software office suite offered by Google within its Google Drive service. The Google Slides allows users to create and edit slides online while collaborating with other users in real-time.
+431,angular-elements,framework-feature,False,False,framework-feature,Angular Elements compiles Angular Components into framework-agnostic Web Components.
+432,volusion,commerce-solution,False,False,web-commerce-solution,Volusion is an online store builder.
+433,orthogonal,math-concept,False,False,math-concept,Orthogonal refers to a line that relates to another line by a right angle.
+434,bounded-contexts,tech-concept,False,False,design-concept,Bounded Context is a concept from Domain Driven Design (DDD). It refers to the explicit boundaries in which a model applies such as the team organisation or physical manifestation. It is also used instead of the generic and deprecated tag [tag:context].
+435,angular-testing,lang-concept,False,False,lang-concept,"Use when dealing with Questions related to testing Angular applications, when a test fails or when enable to solve an issue about testing a component or a service or any other angular element. This tag is similar in use to this other SO tag: angular-test."
+436,conditional-breakpoint,tech-concept,False,False,tech-concept,"In software development, a conditional breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes, when a conditions such as the reading, writing, or modification of a specific location in an area of memory, occurs."
+437,pwd,cmd-tool,False,False,cmd-tool,"`pwd` is a shell command for ""print working directory"". When issued, it prints the path of the current working directory."
+438,graphframes,library,False,False,analytics-library,"DataFrame based graph library for Apache Spark
+"
+439,tailwind-css,web-framework,False,False,web-framework,Tailwind CSS is a utility-first CSS framework for rapidly building custom designs. 
+440,s-expression,tech-concept,False,False,tech-concept,"S-expressions are a notation for nested list or tree-structured data, popularized by the Lisp programming language."
+441,metamask,web-tool,False,False,web-connector,"A browser extension for browsers (i.e. Chrome, Brave) for interacting with distributed applications which require, by design, specific dapp browsers such as Ethereum Mist"
+442,wp-cli,admin-tool,False,False,admin-tool,wp-cli is a command line interface for WordPress.
+443,app-startup,tech-concept,False,False,tech-concept,"Concerns that are a focus of application startup include configuration, startup time optimization, locking/threading/race conditions, preconditions, and configuration changes."
+444,dl4j,library,False,False,ml-library,"Deeplearning4j is the first commercial-grade, open-source, distributed deep-learning library written for Java and Scala"
+445,pisa,library,False,False,library,Pisa is a Python HTML/XHTML/CSS to PDF converter
+446,run-configuration,tech-concept,False,False,tech-concept,"Run configurations enable a user of an IDE such as IntelliJ or Eclipse to save repeatable actions performed within the IDE. They can be viewed as a macro, but with the limitation of only using functionality recognized by the specific IDE it is created in."
+447,natural-join,tech-concept,False,False,database-concept,A natural join is a relational operation that joins on the like-named attributes between tables
+448,backpressure,tech-concept,False,False,tech-concept,Backpressure refers to the build-up of data at an I/O switch when buffers are full and not able to receive additional data. No additional data packets are transferred until the bottleneck of data has been eliminated or the buffer has been emptied.
+449,react-360,vr-framework,False,False,vr-framework,"React VR lets you build VR apps using only JavaScript. It uses the same design as React, letting you compose a rich VR world and UI from declarative components."
+450,google-vr-sdk,vr-sdk,False,False,vr-sdk,"Questions regarding Google VR SDK, available platforms: Android, iOS, Unity or Unreal"
+451,django-deployment,framework-concept,False,False,framework-concept,django-deployment refers to questions about different ways to deploy Django applications
+452,launchpad,collab-solution,False,False,collab-solution,"Launchpad is a software collaboration platform that provides bug tracking, code hosting, Ubuntu package building and hosting, and more"
+453,dropout,ml-concept,False,False,ml-concept,Dropout is a technique to reduce overfitting during the training phase of a neural network.
+454,deap,compute-framework,False,False,compute-framework,DEAP is an evolutionary computation framework for rapid prototyping and testing of ideas
+455,amazon-quicksight,analytics-solution,False,False,cloud-analytics-solution,"Amazon QuickSight is a product offering from Amazon that provides a ""business analytics"" service in order to visualize your data, perform ad hoc data analysis, and also derive useful business insights from the supplied data. Use this tag for programming questions related to Amazon QuickSight. Questions related to the usage of the product itself are not on topic for Stack Overflow. "
+456,auto-value,lang-feature,False,False,lang-feature,Immutable value type code generation for Java 1.6+.
+457,cross-language,tech-concept,False,False,tech-concept,"In programming, ""cross-language"" or ""multi-language"" refers to features that operate across multiple programming languages."
+458,watson-studio,ml-solution,False,False,ml-solution,"IBM Watson Studio, a product that helps accelerate the machine and deep learning workflows required to infuse AI into your business to drive innovation. It provides a suite of tools for data scientists, application developers and subject matter experts to collaboratively and easily work with data and use that data to build, train and deploy models at scale."
+459,feature-descriptor,ml-concept,False,False,ml-concept,Feature descriptor is a phrase in computer vision which is a way to describe the points of interest in a video or image.
+460,zeus,library,False,False,library,"Zeus is an environment preloader for Ruby, so that your development tasks such as console, server, generate, and specs/tests take less time to load."
+461,khan-academy,edu-platform,False,False,edu-platform,"This tag is for questions related to interfacing with Khan Academy, such as through the Khan Academy API. Do not use this tag for questions related to the courses that you are taking on Khan Academy. "
+462,facebook-instant-games,game-platform,False,False,game-platform,Use this tag for support with developing for Facebook Instant Games.
+463,fabric.io,mobile-framework,False,False,mobile-framework,Fabric developed by Twitter is a modular mobile platform that makes it easy for developers to build great apps.
+464,aws-ebs,framework-feature,False,False,framework-feature,"Use this tag for questions related to Amazon Elastic Block Store (Amazon EBS), which provides block level storage volumes for use with EC2 instances."
+465,face-id,ml-solution,False,False,ml-solution,Apple's face recognition technology used in the iPhone X.
+466,binance,deprecated-api,False,False,deprecated-api,"This tag should be avoided, instead someone with more reputation should create api-binance tag"
+467,java-ee-8,language,True,True,language,Use this tag for questions relating specifically to Java Enterprise Edition 8.
+468,htop,cmd-tool,False,False,cmd-tool,htop is an interactive process viewer for Linux. It is a text-mode application (for console or X terminals) and requires ncurses.
+469,specification-pattern,tech-concept,False,False,design-concept,Allows business rules to be recombined by chaining the business rules together using boolean logic. The pattern is frequently used in the context of domain-driven design.
+470,action-mapping,lang-feature,False,False,lang-feature,Maps a request URL to the Struts2 action.
+471,statechart,tech-concept,False,False,design-concept,"A statechart is a hierarchical state machine, introduced by Harel. Since it is hierarchical, its capability to reduce complexity and state proliferation allows to be used also for real-world problems and not only for toy or theoretical examples. The UML state diagram is an OO adaptation of the Harel statechart."
+472,varray,lang-feature,False,False,lang-feature,VARRAY (variable-size arrays) is a PL/SQL datatype
+473,spectron,test-framework,False,False,test-framework,"Spectron is a testing framework, built upon ChromeDriver and WebdriverIO, for end to end testing Electron applications."
+474,python-regex,library,False,False,library,"For questions about the 3rd-party `regex` module, which is a replacement for the standard `re` module. Do not use this tag if you're not using or asking about this very module."
+475,configmap,lang-feature,False,False,lang-feature,ConfigMaps allow you to decouple configuration artifacts from image content to keep containerized applications portable. 
+476,adobe-animate,gfx-tool,False,False,gfx-tool,Adobe Animate is an app (the next generation of Adobe Flash) to create animation for the web and also support the old format .swf
+477,kitura,server-framework,False,False,server-framework,This tag should be used to discuss issues related to the Swift server framework Kitura.
+478,mpd,audio-tool,False,False,audio-tool,"Music Player Daemon, an audio server on Unix-type systems."
+479,redis-server,database,False,False,database,"Redis is an open source, BSD licensed, advanced key-value store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets and sorted sets."
+480,pprof,library,False,False,server-library,pprof is a golang package used to profile various runtime properties of golang's http server.
+481,sku,tech-concept,False,False,business-concept,"SKU stands for Stock Keeping Unit, and is a product or service identification code that helps track the item for inventory. This tag relates to Questions regarding identification systems usually used to track inventory. "
+482,airtable,database,False,False,database,Questions related to interacting with Airtable databases programmatically.
+483,model-comparison,ml-concept,False,False,ml-concept,A task in statistics and machine learning for comparing models that are fit to the same data with the aim of determining which best explains the data. Questions about how to use model comparision to evaluate models are likely more appropriate for CrossValidated (https://stats.stackexchange.com)!
+484,subject-observer,tech-concept,False,False,tech-concept,Use this tag for questions related to an Observer for a Subject. Observers can subscribe to the subject to receive the last (or initial) value and all subsequent notifications.
+485,deform,library,False,False,web-library,"deform is a Python HTML form generation library. It runs under Python 2.6, 2.7, and 3.2. Forms are built with the Collander schemas, and uses Peppercorn for deserialization and Chameleon for templating. "
+486,python-typing,lang-concept,False,False,lang-concept,"For questions related to PEP 484 (Type Hints), PEP 526 (Syntax for Variable Annotations) and the `typing` module."
+487,android-device-monitor,ui-tool,False,False,ui-tool,Android Device Monitor is a standalone tool that provides a UI for several Android application debugging and analysis tools.
+488,authenticity-token,lang-feature,False,False,lang-feature,AuthenticityToken is a feature of Ruby on Rails used to protect against CSRF
+489,knuth,person,False,False,person,"Donald E. Knuth is a computer scientist, best known as the author of the series of books on algorithms The Art of Computer Programming and the creator of the TeX typesetting system."
+490,tmpfs,tech-concept,False,False,tech-concept,tmpfs is a common name for a temporary file storage facility on many Unix-like operating systems.
+491,openvino,ml-solution,False,False,ml-solution,"OpenVINO™ toolkit, short for Open Visual Inference and Neural network Optimization toolkit, provides developers with improved neural network performance on a variety of Intel® processors and helps them further unlock cost-effective, real-time vision applications. The toolkit enables deep learning inference and easy heterogeneous execution across multiple Intel® platforms providing implementations across cloud architectures to edge devices."
+492,microprofile,microserv-framework,False,False,microserv-framework,The Eclipse MicroProfile project defines a programming model for developing microservice applications in an Enterprise Java environment.
+493,ucp,network-library,False,False,network-library,"Oracle UCP (Universal Connection Pool) for JDBC provides a connection pool implementation for caching JDBC connections.
+"
+494,archer,dev-solution,False,False,dev-solution,"Archer refers to the (RSA) Archer GRC Platform.  It is a 5th Generation Application Development Suite / running system/database application for [corporate enterprise] Governance, Regulation, and Compliance.  It is very similar in concept to PeopleSoft and it's accompanying tools for building applications.  "
+495,idoc,language,False,False,language,"IDOC is a proprietary server site scripting language for WebCenter Content server, previously Oracle UCM, previously Stellent Content Managment Server"
+496,mapping-model,tech-concept,False,False,design-concept,A mapping model is a Core Data construct that helps define how one version of a object model is migrated to another version the object model.
+497,snowball,language,False,False,language,"Snowball is a small language for writing stemming algorithms, used primarily in information retrieval and natural language processing. "
+498,referential-transparency,tech-concept,False,False,tech-concept,"A property of a function, variable, or expression whereby the expression can be replaced by its (evaluated) value without affecting the behavior of the program."
+499,dyno,container-solution,False,False,container-solution,Heroku Dynos are lightweight containers for running apps.
+500,kolmogorov-smirnov,math-concept,False,False,math-concept,"In statistics, the Kolmogorov–Smirnov test (K–S test or KS test) is a nonparametric test of the equality of continuous, one-dimensional probability distributions that can be used to compare a sample with a reference probability distribution (one-sample K–S test), or to compare two samples (two-sample K–S test)"
+501,reportng,library,False,False,framework-tool,ReportNG is an HTML and XML reporting plug-in for TestNG.
+502,aws-codestar,cloud-solution,False,False,cloud-solution,"AWS CodeStar is a cloud-based service for creating, managing, and working with software development projects on AWS."
+503,alv,library,False,False,library,ALV stands for ABAP List Viewer. ALV provides a standard grid format and user interface to all ABAP reports. ALV is created by a set of standard function modules and classes provided by SAP.
+504,steamvr,vr-game-platform,False,False,vr-game-platform,Steam is an internet distribution plattform for games. vr stands for virtual reality. So steamvr should be used for questions that are related to steam virtual reality development questions.
+505,srv,framework-feature,False,False,tech-concept,"In the context of the Linux BIND application, a Service record (SRV record) is a specification of data in the Domain Name System defining the location, i.e. the hostname and port number, of servers for specified services."
+506,blue-green-deployment,tech-concept,False,False,deployment-concept,Blue-green deployment minimizes downtime by switching from one identical environment to another. The environments can reside on the same or different hardware.
+507,cert-manager,admin-solution,False,False,admin-solution,"For questions about the open source cert-manager project for Kubernetes, by Jetstack."
+508,docker-engine,container-solution,False,False,container-solution,Docker Engine runs on Linux to create the operating environment for your distributed applications.
+509,symfony-flex,library,False,False,admin-tool,"Symfony Flex is a Composer plugin that helps developers install and manage Symfony applications, from the most simple micro-style projects to the more complex ones with dozens of dependencies. It replaces and improves the Symfony Installer and the Symfony Standard Edition, automating the most common tasks of Symfony applications, like installing and removing bundles and other Composer dependencies. Flex works for Symfony 3.3 and higher."
+510,openvas,security-framework,False,False,security-framework,OpenVAS is a framework of several services and tools offering a comprehensive and powerful vulnerability scanning and vulnerability management solution.
+511,unit-type,tech-concept,False,False,tech-concept,"Tag for content pertaining to unit types such as Scala's `Unit` and Haskell's `()`. This tag should be used in preference to the ""Unit"" tag which is much more ambiguous. This tag is NOT for units of measurement like height and weight: use the units-of-measurement tag for those. "
+512,sld,format,False,False,map-format,A Styled Layer Descriptor (SLD) is an XML schema specified by the Open Geospatial Consortium (OGC) for describing the appearance of map layers. 
+513,calico,compute-framework,False,False,compute-framework,A multi-language computation framework
+514,ether,commerce-concept,False,False,commerce-concept,Ether is the currency used in Ethereum blockchain technology. Refer: https://ethereum.org/ether Questions about Ether which aren't about programming should be asked on the dedicated Ethereum site: https://ethereum.stackexchange.com. Questions which are about programming can be asked on either site.
+515,adaptive-ui,library,False,False,mobile-ui,Adaptive UI was introduced with iOS8 to assist in responsive layouts.
+516,html-object,lang-concept,False,False,lang-concept,"The object element in HTML ""represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin."" (Citation: MDN)"
+517,chefdk,sdk,False,False,sdk,"Chef Development Kit (ChefDK) brings some essential tools for developing and testing Chef cookbooks. 
+
+"
+518,spring-io,framework,False,False,framework,Spring IO brings together the core open source Spring APIs into a cohesive and versioned foundational platform for modern applications and is comprised of the Spring IO Foundation and Spring IO Execution layers.
+519,pathauto,library,False,False,library,PathAuto is a Drupal module that allows to automatically create path aliases for different type of pages.
+520,graphql-tools,library,False,False,library,A set of utilities to build your JavaScript GraphQL schema in a concise and powerful way.
+521,flowable,library,False,False,business-library,Flowable is a light-weight business process engine written in Java. Use this tag for questions related to Flowable usage and workflows.
+522,seneca,library,False,False,microserv-library,"Seneca is a microservices toolkit for Node.js. 
+It helps you write clean, organized code that you can scale and deploy at any time.
+
+"
+523,private-subnet,tech-concept,False,False,network-concept,"Use this tag for questions related to private subnets, i.e. subnets of a private network. A subnet is a part of a greater network/net."
+524,sling-models,lang-concept,False,False,lang-concept,"Sling Models provide the ability to use annotation driven, ""pure"" POJOs in Sling-based projects along with dependency injection capabilities and the ability to adapt various Sling objects OOTB."
+525,torii,lang-feature,False,False,lang-feature,A set of clean abstractions for authentication in Ember.js
+526,siege,web-tool,False,False,web-tool,Siege is an http/https regression testing and benchmarking utility.
+527,highrise,management-tool,False,False,management-solution,Highrise is a CRM for HR specialists.
+528,mlp,ml-concept,False,False,ml-concept,"Tag for questions about Multi layer perceptrons (MLP). It is a class of feedforward artificial neural network. Multilayer perceptrons are sometimes colloquially referred to as ""vanilla"" neural networks, especially when they have a single hidden layer
+"
+529,quora,website,False,False,website,Quora is a community-driven question-and-answer website with a JSON-based API.
+530,shaderlab,language,False,False,language,ShaderLab is a declarative language for writing shaders used in the Unity3D game engine.
+531,cucm,commerce-tool,False,False,business-tool,"Cisco Unified Communications Manager (CUCM), formerly Cisco Unified CallManager and Cisco CallManager (CCM), is a software-based call-processing system developed by Cisco Systems"
+532,createml,ml-solution,False,False,ml-solution,Create ML is a tool created by Apple used to create and train custom machine learning models on the Mac. Models are trained using representative samples such as text and images to find patterns and consequently create models that can be used in the CoreML framework.
+533,wagon,framework-feature,False,False,framework-feature,Maven Wagon is a transport abstraction that is used in Maven's artifact and repository handling code.
+534,cold-start,tech-concept,False,False,tech-concept,"In general, a cold start is the start-up of a recently unused (""cold"") application, typically incurring an above average start-up time. In contrast, a recently used application is considered ""warm."""
+535,tether,library,False,False,library,"Tether is a comprehensive JavaScript library for anchoring elements to other elements, as well as the browser viewport. It can be used with or without jQuery."
+536,windows-server-2019,os,True,True,os,One of Microsoft Windows' server line of operating systems and a successor to Windows Server 2016. Use this tag for questions related to this particular server operating system. 
+537,image-viewer,app,False,False,gfx-tool,Image viewer is an application which displays image files.
+538,hapi.js,web-framework,False,False,framework-server-framework,For questions related to Node.js web server framework hapi.
+539,raw-pointer,tech-concept,False,False,tech-concept,Memory pointer that is neither a smart pointer nor shared pointer.
+540,ddl-trigger,lang-concept,False,False,lang-concept,DDL triggers are a special kind of trigger that fire in response to Data Definition Language (DDL) statements. They can be used to perform administrative tasks in the database such as auditing and regulating database operations.
+541,rook,library,False,False,web-library,Rook is a web server interface and software package for the language R.
+542,pvcs,dev-solution,False,False,dev-solution,"Synergex PVCS is a collection of tools that provide integrated version control, bug tracking, and configuration management for software projects."
+543,upx,compression-tool,False,False,compression-tool,"UPX (Ultimate Packer for eXecutables) is a executable packer that is used to compress executable files.
+"
+544,android-make,lang-concept,False,False,lang-concept,"Use this tag on questions related to ""Android.mk"" files which are written to describe your C/C++ sources to the Android NDK build system."
+545,decentralized-applications,tech-concept,False,False,tech-concept,"A decentralized application (Dapp, dApp or DApp) is an application that is run by many users on a decentralized network with trustless protocols."
+546,radium,library,False,False,framework-library,Radium is a set of tools to manage inline styles on [tag:reactjs] elements. It gives you powerful styling capabilities without CSS. 
+547,canary-deployment,tech-concept,False,False,deployment-concept,Canary deployment is the practice of deploying a new version of an application to a subset of production servers to test whether the new version functions properly in production without affecting all users if it doesn't.
+548,n3,language,False,False,language,"N3 stands for Notation 3, an assertion and logic language which is a superset of RDF."
+549,rcu,tech-concept,False,False,tech-concept,"Read-Copy-Update is a sync mechanism allowing reads to occur concurrently with updates. It maintains multiple versions of objects and ensures they aren't freed until all preexisting read-side crit-sections complete. Since write to aligned
+pointer is atomic, we can atomic insert, remove, replace data items in a linked struct without disrupting
+readers. Concurrent readers can then continue accessing the old
+version, new readers will see updated version."
+550,pbr,tech-concept,False,False,gfx-concept,"Physically-based rendering (PBR), sometimes referred to as physically-based materials or physically-based shading, is a 3D graphics rendering process that attempts to produce realistic images by accurately modeling light-matter interaction.  Use this tag for questions about physically-based rendering, including shading, lighting, and materials."
+551,react-fullstack,web-framework,False,False,web-framework,React (sometimes styled React.js or ReactJS) is an open-source JavaScript library for data rendered as HTML.
+552,nameko,microserv-framework,False,False,microserv-framework,Python framework for building microservices
+553,jquery-ui-plugins,framework-feature,False,False,framework-ui-concept,Stateful jQuery plugins built using the jQuery UI widget factory.
+554,contract-first,tech-concept,False,False,design-concept,A Web Services development strategy where a WSDL is written first and code that provides the service is generated from the WSDL.
+555,azure-stack,cloud-solution,False,False,cloud-solution,Microsoft Azure Stack is an extension of Azure that brings the innovation of cloud computing to build and deploy hybrid applications anywhere. - ONLY QUESTIONS ABOUT PROGRAMMING ARE ON-TOPIC. General server help can be obtained at Super User or Server Fault.
+556,ispf,management-tool,False,False,admin-tool,ISPF (Interactive System Productivity Facility) is a software product for the z/OS operating system (and earlier OSes) that runs on IBM mainframes.  ISPF primarily provides an IBM 3270 terminal interface with a set of panels. Each panel may include menus and dialogs to run tools on the underlying Time Sharing Option (TSO).
+557,elasticsearch-api,lang-concept,False,False,lang-concept,Elasticsearch is a search server based on Lucene.
+558,unfold,tech-concept,False,False,tech-concept,An unfold function is the opposite (or dual) of a fold.  Unfolds recursively generate  a list (or other recursive data structure) of values from a seed value.
+559,kurtosis,math-concept,False,False,math-concept,"Kurtosis is a statistical measure, which characterizes the extreme data (outlier) character of a distribution compared with the normal distribution. Positive (excess) kurtosis indicates a distribution that is more outlier-prone than a normal distribution. Negative (excess) kurtosis indicates a  distribution that is less outlier-prone than a normal distribution."
+560,configuration-profile,config-format,False,False,config-format,A file used for distributing device configuration to iOS and OS X devices.
+561,insomnia,web-client,False,False,web-client,Insomnia is a desktop client for interacting with HTTP-based APIs.
+562,react-fiber,library,False,False,framework-library,React Fiber is a reimplementation of React's core rendering algorithm that was introduced with React v16.0. It introduced scheduling and incremental rendering among many other features.
+563,apex-trigger,lang-concept,False,False,lang-concept,Apex trigger is Apex code that executes before or after operations with Standard or Custom object.
+564,fiddle,library,False,False,library,Fiddle is an extension to translate a foreign function interface (FFI) with ruby.
+565,no-framework,tech-concept,False,False,design-concept,"no-framework is a philosophy of designing software to fit a specific goal, as opposed to conforming to a specific implementation of a software architecture"
+566,.net-core-1.1,framework,True,False,web-framework,".NET Core is a free and open-source cross-platform development platform and the next generation of the Microsoft .NET Framework. .NET Core applications can be developed and run under Windows, Mac, and Linux."
+567,data-access-object,tech-concept,False,False,design-concept,"A Data Access Object (DAO), is a design pattern in object-oriented software design, creating an object that provides an abstract interface to some type of database or other persistence mechanism."
+568,reify,tech-concept,False,False,tech-concept,"To ""reify"" means to take an abstract concept and make a concrete representation out of it. For example, in Lisp lambdas allow you to reify the concepts of procedure abstraction and application. "
+569,p-np,math-concept,False,False,math-concept,Used for questions about the P versus NP problem.
+570,pallet,framework,False,False,deployment-solution,Pallet is a Clojure-based platform for building automated infrastructure deployment tools.
+571,crdt,data-format,False,False,data-format,Commutative Replicated Data Type
+572,multi-catch,lang-feature,False,False,lang-feature,multi-catch refers to new functionality in Java 7 that allows developers to catch multi exceptions type in one catch block.
+573,automatic-failover,tech-concept,False,False,database-concept,"Use this tag for questions related to Automatic failover, which is supported only in database mirroring sessions."
+574,chgrp,cmd-tool,False,False,cmd-tool,chgrp is Change Group UNIX command.
+575,slab,lang-feature,False,False,framework-feature,"Semantic Logging Application Block (SLAB) is designed to help .NET developers move from the unstructured logging approach towards the strongly-typed (semantic) logging approach, making it easier to consume logging information, especially when there is a large volume of log data to be analyzed."
+576,mirage,framework,False,False,framework,"An OCaml-based programming framework for building type-safe, modular systems."
+577,git-track,versioning-concept,False,False,versioning-concept,"In git, tracking branches are local branches that relate to a remote branch."
+578,manifold,software-tool,False,False,map-tool,"Manifold System is a geographic information system (GIS) software package with support for vector and raster data, spatial SQL, a built-in Internet Map Server (IMS), and general programming. It is built for use exclusively on Windows. Further information on Manifold can be found on the website www.manifold.net."
+579,aws-storage-gateway,cloud-connector,False,False,cloud-connector,AWS Storage Gateway connects an on-premises software appliance with cloud-based storage to integrate on-premises IT environments with AWS storage infrastructure in the cloud.
+580,version-compatibility,tech-concept,False,False,tech-concept,"This designation specifies whether and the extent to which different versions of a program, software library, package, operating system or other component are mutually compatible."
+581,account-linking,tech-concept,False,False,database-concept,Account linking is referred to an ability (and a process) to connect the identity of the user with a user account in a different system.  
+582,chirp,hardware-concept,False,False,hardware-concept,Chirp is a wireless communication technology that enables devices to exchange data using sound.
+583,message-channel,framework-feature,False,False,framework-feature,The `MessageChannel` interface of the Channel Messaging API allows us to create a new message channel and send data through it via its two `MessagePort` properties.
+584,fmt,library,False,False,library,The fmt formatting library and the text formatting facility proposed for C++20 (std::format).
+585,cactus,test-framework,False,False,test-framework,"Jakarta Cactus is a framework for unit testing server-side java code.
+
+Apache retired Jakarta Cactus on 2011/08/05."
+586,neutrino,dev-tool,False,False,dev-tool,"Neutrino is a companion tool which lets you build web and Node.js applications with shared presets or configurations. It intends to make the process of initializing and building projects much simpler by providing minimal development dependencies. Use this tag for questions related to Neutrino API usage, CLI usage, or custom configuration"
+587,ecmascript-2016,language,True,True,language,Questions about new features specified in the ECMAScript 2016 specification.
+588,oracle-analytics,lang-concept,False,False,lang-concept,Oracle analytic functions compute an aggregate value based on a group of rows. They differ from aggregate functions in that they return multiple rows for each group. 
+589,treeline,web-framework,False,False,web-framework,"Treeline is a backend framework that makes it easy to build custom, high-performance apps for Node.js. It is designed for building practical, enterprise-grade backends in a matter of hours - not months."
+590,jakarta-ee,dev-solution,False,False,dev-solution,"Formerly known as Java EE and J2EE, Jakarta EE is a major platform for Java-based mission-critical enterprise applications."
+591,docker-ee,container-solution,False,False,container-solution,"Docker Enterprise Edition Platform 2.0 (Docker EE) is a Containers-as-a-Service (CaaS) platform that enables a secure software supply chain and deploys diverse applications for high availability across disparate infrastructure, both on-premises and in the cloud."
+592,floating-ip,tech-concept,False,False,network-concept,Detachable IP assigned dynamically to openstack instance. Which can be moved to any other instance. Especially useful while failover.
+593,dtr,framework-feature,False,False,framework-feature,DTR(Docker Trusted Registry) allows you to store and manage your Docker images on-premises.
+594,geopackage,format,False,False,map-format,"A GeoPackage is an open, standards-based, platform-independent, portable, self-describing, compact format for transferring geospatial information."
+595,argon,web-client,False,False,web-client,"Argon is a mobile web browser for iOS, and associated software suite, for creating augmented reality-enabled websites."
+596,spring-modules,lang-concept,False,False,lang-concept,Modules for the Spring application development framework.
+597,map-basic,language,False,False,map-language,MapBasic is a programming language for the creation of additional tools and functionality for the GIS application MapInfo Professional. MapBasic also allows programmers to develop software in popular programming languages such as C# .NET and use these with MapInfo Professional to create feature-rich tools and extensions.
+598,rls,ide,False,False,ide,"The Rust Language Server (RLS) provides useful functionalities to IDEs, editors and other tools for Rust development, including code completion, 'goto definition', symbol search and reformatting. "
+599,option-type,lang-feature,False,False,lang-feature,"The option type in F# is used when an actual value might not exist for a named value or variable. An option has an underlying type and can hold a value of that type, or it might not have a value."
+600,list-processing,tech-concept,False,False,tech-concept,List processing is a concept in many data-oriented languages that involves performing an action once for each member of a list.
+601,connection-points,framework-feature,False,False,connector-concept,"Connection points are the standard COM interface exposed by connectable objects, that allows clients to register for event callbacks. This tag is for questions about implementing and registering clients with the IConnectionPoint interface."
+602,staging-table,tech-concept,False,False,data-concept,Staging tables are used in data ETL (extraction transformation and loading) processes and data warehousing.
+603,access-protection,tech-concept,False,False,tech-concept,Restrictions that allow to protect variables from external/ unintended modification.
+604,reaper,software-tool,False,False,audio-tool,"REAPER is digital audio workstation software: a complete multitrack audio and MIDI recording, editing, processing, mixing, and mastering environment. "
+605,zen-of-python,tech-concept,False,False,design-concept,"Related to python best practices. A set of guiding principles for Python's code design comprising 20 aphorisms, only 19 of which have been written down; Created by Tim Peters."
+606,npn,standard,False,False,standard,The Next Protocol Negotiation extension (NPN) is currently used to negotiate the use of SPDY as an application level protocol.
+607,sysdig,admin-tool,False,False,admin-tool,Linux system exploration and troubleshooting tool with first class support for containers.
+608,tia-portal,admin-tool,False,False,admin-tool,"The TIA-Portal tag describes the SIMATIC STEP 7 Totally Integrated Automation Portal and is the graphical user interface for the broad range of Siemens PLCs. On this platform you can plan, program, validate, diagnose and control your written PLC program. The device database gives access to basic, advanced and distributed controllers of each generation."
+609,koa.js,framework,False,False,connector-framework,A Koa application is an object containing an array of middleware generator functions which are composed and executed in a stack-like manner upon request
+610,astro,admin-tool,False,False,admin-tool,Some sort of file manager for android
+611,authentication-flows,security-framework,False,False,framework-security-framework,Authentication-Flows is a powerful and highly customizable framework that covers all flows that authentication-server that is based on Spring-Security needs.
+612,hibernate-query,language,False,False,database-language,The Hibernate Query Language
+613,prototype-scope,lang-concept,False,False,framework-concept,A Spring specific scope used to define a Bean that will get newly created on each request.
+614,management-pack,management-tool,False,False,admin-tool,"SCOM (System Center Operation Manager) management packs. Management packs typically contain monitoring settings for applications and services. After a management pack is imported into a management group, System Center 2012 – Operations Manager immediately begins monitoring objects based on default configurations and thresholds that are set by the management pack."
+615,haxl,library,False,False,connector-library,"Haxl is a Haskell library that simplifies access to remote data, such as databases or web-based services."
+616,poet,web-framework,False,False,web-framework,"for questions about Poet, a web framework for Mason"
+617,code-elimination,tech-concept,False,False,compile-concept,A feature in some compilers where unreachable (dead) code is removed from the compiled output for performance and file-size reasons.
+618,smack-stack,framework,False,False,framework,"The big data software stack consisting of Spark, Mesos, Akka, Cassandra and Kafka"
+619,zig,language,False,False,language,"Zig is an open-source programming language designed for robustness, optimality, and clarity."
+620,enclose,library,False,False,framework-compile-library,enclose is a node module which is used to compile the node js application.
+621,dfd,tech-concept,False,False,design-concept,For questions related to Data Flow Diagrams
+622,codemod,library,False,False,compile-tool,codemod is a tool/library to assist you with large-scale codebase refactors that can be partially automated but still require human oversight and occasional intervention.
+623,colossus,framework,False,False,framework,Tumblr's lightweight framework for building high-performance applications in Scala that require non-blocking network I/O.
+624,relationship-extraction,ml-tool,False,False,ml-tool,"Relationship Extraction is an IBM Watson Service that can analyze news articles and use statistical modeling to perform linguistic analysis(Name Entity Recognition) of the input text. It then finds spans of text and clusters them together to form entities, before finally extracting the relationships between them.
+"
+625,loadleveler,library,False,False,tool,"LoadLeveler is a job scheduler written by IBM, to control scheduling of batch jobs.
+"
+626,es2018,language,True,True,language,"ECMAScript (or ES) is a scripting-language specification standardized by Ecma International in ECMA-262 and ISO/IEC 16262. It was created to standardize JavaScript, so as to foster multiple independent implementations. 
+
+The 9th edition, officially known as ECMAScript 2018, was finalized in June 2018. New features include rest/spread properties, asynchronous iteration, Promise.prototype.finally() and additions to RegExp"
+627,mix-and-match,tech-concept,False,False,lang-concept,"Apple's term for mixing Swift and Objective-C code in the same project. 
+"
+628,neptune,ml-solution,False,False,ml-solution,"Neptune is a machine learning lab by deepsense.ai. For Amazon Neptune, the fully managed graph database by AWS, use the tag ""amazon-neptune"". "
+629,dry-run,tech-concept,False,False,tech-concept,Features related to running a command in a manner that merely previews its intended operation.
+630,docker-app,container-tool,False,False,container-tool,utility to help make Compose files more reusable and sharable.
+631,connect-rest,connector,False,False,framework-connector,CONNECT-REST - Exceptionally featureful Restful web services middleware for connect node.js
