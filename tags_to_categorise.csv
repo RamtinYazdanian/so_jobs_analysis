@@ -125,7 +125,7 @@ GLFW is licensed under the zlib/libpng license."
 109,xgboost,FALSE,FALSE,lang-ml-library,"r,python,java,scala,c++","XGBoost is a library for constructing boosted tree models in R, Python, Java, Scala, and C++. Use this tag for issues specific to the package (i.e. input/output, installation, functionality)."
 110,jacoco,FALSE,FALSE,lang-test-tool,java,"JaCoCo a coverage analysis tool. It runs as a JVM Agent and therefore does not require offline instrumentation.
 "
-111,large-files,FALSE,FALSE,tech-concept,,"Large files, whether binary or text, can sometimes be problematic even for an experienced programmer. This tag should be used if issues arise relating to opening and/or writing large files in a text editor, managing resources that run to gigabytes, or strategic decisions for large amounts of data."
+111,large-files,FALSE,FALSE,data-concept,,"Large files, whether binary or text, can sometimes be problematic even for an experienced programmer. This tag should be used if issues arise relating to opening and/or writing large files in a text editor, managing resources that run to gigabytes, or strategic decisions for large amounts of data."
 112,gnupg,FALSE,FALSE,security-framework,,GNU Privacy Guard (GnuPG / GPG) is a cryptography suite implementing secret-key cryptography and public-key cryptography. GnuPG is the GNU project's complete and free implementation of the OpenPGP standard as defined by RFC4880. Use this tag for programmatic use of the GPG tool or its library. Questions about direct usage of the GPG tool or its graphical pendents belong on Super User.
 113,owl-carousel,FALSE,FALSE,web-framework-ui-library,jquery,Owl Carousel is a touch-enabled jQuery plugin that lets you create a beautiful responsive carousel slider.
 114,react-apollo,FALSE,FALSE,web-framework-ui-library,react,"React Apollo allows you to fetch data from your GraphQL server and use it in building complex and reactive UIs using the React framework. React Apollo may be used in any context that React may be used. In the browser, in React Native, or in Node.js when you want to do server-side rendering."
@@ -149,7 +149,7 @@ Questions about shapefiles are best asked on the GIS Stack Exchange. "
 
 To learn more, check out: https://azure.microsoft.com/en-us/solutions/data-lake/"
 129,rubymine,FALSE,FALSE,ide,ruby,"RubyMine is a commercial cross-platform IDE for Ruby and Ruby on Rails development, created and provided by JetBrains."
-130,key-value-observing,FALSE,FALSE,tech-concept,,Key-value Observing or KVO is a technology for observing changes in object properties.
+130,key-value-observing,FALSE,FALSE,code-concept,,Key-value Observing or KVO is a technology for observing changes in object properties.
 131,cpan,FALSE,FALSE,wiki,perl,"CPAN is the Comprehensive Perl Archive Network, a code and documentation archive of over 100,000 open-source Perl modules across more than 25,000 distributions written by more than 10,000 authors. This tag is not for general Perl questions; use [tag:perl] instead."
 132,androidx,FALSE,FALSE,mobile-core-library,android, New Android extension libraries (AndroidX) which represents an Android Support Library.
 133,ode,FALSE,FALSE,math-concept,,"An ODE (ordinary differential equation, in contrast to partial differential equation) is a differential equation containing a function or functions of exactly one independent variable."
@@ -167,19 +167,19 @@ https://webpack.js.org/guides/"
 142,hmac,FALSE,FALSE,security-concept,,"In cryptography, HMAC (Hash-based Message Authentication Code) is a specific construction for calculating a message authentication code (MAC) involving a cryptographic hash function in combination with a secret key."
 143,apollo-client,FALSE,FALSE,lang-ui-library,javascript,Apollo Client is a JavaScript library for building client UIs that fetch data using GraphQL.
 144,traefik,FALSE,FALSE,web-proxy,,Træfɪk is a modern HTTP reverse proxy and load balancer made to deploy microservices with ease
-145,autofill,FALSE,FALSE,tech-concept,,"Autofill relates to auto-populating data into user interface forms, etc."
+145,autofill,FALSE,FALSE,ui-concept,,"Autofill relates to auto-populating data into user interface forms, etc."
 146,scikit-image,FALSE,FALSE,lang-cv-library,python,"scikit-image is a Python image processing toolbox for SciPy.
 "
 147,arcore,FALSE,FALSE,mobile-ar-framework,android,"ARCore is a platform for building augmented reality apps on Android, designed to work on a wide variety of qualified Android phones running Nougat (7.0) and later."
-148,epoch,FALSE,FALSE,tech-concept,,"Unix time, or POSIX time, is a system for describing points in time, defined as the number of seconds elapsed since midnight Coordinated Universal Time (UTC) of January 1, 1970, not counting leap seconds. This tag is *not* for epochs as used in neural networks/machine learning."
+148,epoch,FALSE,FALSE,os-concept,,"Unix time, or POSIX time, is a system for describing points in time, defined as the number of seconds elapsed since midnight Coordinated Universal Time (UTC) of January 1, 1970, not counting leap seconds. This tag is *not* for epochs as used in neural networks/machine learning."
 149,junit5,TRUE,TRUE,lang-test-framework,java,Version 5 of the popular JUnit testing framework for the JVM. JUnit is a framework for writing repeatable tests. It is an instance of the xUnit architecture for unit testing frameworks.
 150,amazon-athena,FALSE,FALSE,cloud-database-tool,,Amazon Athena is a service for running SQL queries against data stored on Amazon S3. Amazon Athena is part of Amazon Web Services (AWS).
-151,httpserver,FALSE,FALSE,tech-concept,,An HTTP Server is any application which receives requests via the HTTP protocol and sends back the corresponding response to fulfill the request.
+151,httpserver,FALSE,FALSE,web-concept,,An HTTP Server is any application which receives requests via the HTTP protocol and sends back the corresponding response to fulfill the request.
 152,visual-studio-2019,TRUE,TRUE,ide,,Visual Studio 2019 is a version of Microsoft's Visual Studio. Do not use this tag unless you have a specific question about this specific version.
 153,rbenv,FALSE,FALSE,lang-versioning-library,ruby,"a simple version manager for Ruby, with a plugin system to modify its behaviour."
 154,rdp,FALSE,FALSE,standard,,"Remote Desktop Protocol (RDP) is a proprietary protocol developed by Microsoft, which provides a user with a graphical interface to another computer."
-155,diacritics,FALSE,FALSE,tech-concept,,A Diacritic is a mark near or through an orthographic or phonetic character or combination of characters indicating a phonetic value different from that given the unmarked or otherwise marked element - http://www.merriam-webster.com/dictionary/diacritic
-156,jsonpath,FALSE,FALSE,tech-concept,,JSONPath is a means of using XPath-like syntax to query JSON structures. Not to be confused with rest-assured's JsonPath implementation based on Groovy's Gpath. Use [tag:json-path-expression] for questions about JSON path expressions in general and for questions about JSON path expression DSLs.
+155,diacritics,FALSE,FALSE,code-concept,,A Diacritic is a mark near or through an orthographic or phonetic character or combination of characters indicating a phonetic value different from that given the unmarked or otherwise marked element - http://www.merriam-webster.com/dictionary/diacritic
+156,jsonpath,FALSE,FALSE,query-language,,JSONPath is a means of using XPath-like syntax to query JSON structures. Not to be confused with rest-assured's JsonPath implementation based on Groovy's Gpath. Use [tag:json-path-expression] for questions about JSON path expressions in general and for questions about JSON path expression DSLs.
 157,gradient-descent,FALSE,FALSE,math-concept,,Gradient Descent is an algorithm for finding the minimum of a function.  It iteratively calculates partial derivatives (gradients) of the function and descends in steps proportional to those partial derivatives.  One major application of Gradient Descent is fitting a parameterized model to a set of data: the function to be minimized is an error function for the model.
 158,force-layout,FALSE,FALSE,ui-concept,,"Force layout is a kind of graph diagram, in which positions of nodes are obtained by a simulation of forces."
 159,mcrypt,FALSE,FALSE,os-security-library,unix,"MCrypt, and the accompanying libmcrypt, are intended to be replacements for the old Unix crypt, except that they are under the GPL and support an ever-wider range of algorithms and modes. MCrypt has not been updated since 2007"
@@ -194,14 +194,14 @@ https://webpack.js.org/guides/"
 168,cpython,FALSE,FALSE,language-version,python,"The reference implementation of the Python programming language. Use this tag for questions specific to this implementation, general Python questions should just be tagged with ""python""."
 169,azure-api-management,FALSE,FALSE,cloud-api-solution,,"Azure API Management is a cloud hosted service that can add many capabilities to an existing HTTP API on any platform.  This includes functions related to security, API key management, caching, documentation, and many other cross cutting policies. For more info, see : http://azure.microsoft.com/apim
 "
-170,access-denied,FALSE,FALSE,tech-concept,,Error message/exception when access to a certain resource is denied due to insufficient privileges.
+170,access-denied,FALSE,FALSE,code-concept,,Error message/exception when access to a certain resource is denied due to insufficient privileges.
 171,react-native-navigation,FALSE,FALSE,web-framework-core-library,react,Use this tag for questions related to the React Native Navigation library that provides a complete native navigation solution for React Native apps.
 172,google-cloud-ml,FALSE,FALSE,ml-cloud-solution,,Google Cloud ML Engine is a managed service that offers training and/or prediction services using Machine Learning models.
 173,tfs2017,FALSE,FALSE,dev-solution,,Use this tag for version specific questions about Team Foundation Server (TFS )2017. Use [tfs] for general questions and use [azure-devops] for Azure DevOps questions.
 174,avx,FALSE,FALSE,language,,Advanced Vector Extensions (AVX) is an extension to the x86 instruction set architecture for microprocessors from Intel and AMD.
 175,autoencoder,FALSE,FALSE,ml-concept,,"An autoencoder, autoassociator or Diabolo network is an artificial neural network used for learning efficient codings. As such, it is part of the dimensionality reduction algorithms."
 176,dlib,FALSE,FALSE,lang-core-library,c++,Dlib is a general purpose cross platform open source software library written in C++
-177,keep-alive,FALSE,FALSE,tech-concept,,"A feature of HTTP where the same connection is used for multiple requests, speeding up downloading of web pages with multiple resources."
+177,keep-alive,FALSE,FALSE,web-concept,,"A feature of HTTP where the same connection is used for multiple requests, speeding up downloading of web pages with multiple resources."
 178,tslint,FALSE,FALSE,lang-code-feature,typescript,tslint is a static analysis linter for TypeScript.
 179,ramda.js,FALSE,FALSE,lang-core-library,javascript,"Ramda is a functional utility library for Javascript, focusing on making it easy to build modular pipelines out of small, composable functions."
 180,autosuggest,FALSE,FALSE,ui-concept,,"Autosuggest is an UI feature provided by applications, where the program predicts and shows a list of possible options that the user wants to choose from without the user actually typing it in completely."
@@ -218,7 +218,7 @@ https://webpack.js.org/guides/"
 189,opensuse,FALSE,FALSE,os,,"openSUSE is a free and opensource general purpose operating system built on top of the Linux kernel, developed by the community-supported openSUSE Project and sponsored by SUSE. "
 190,arm-template,FALSE,FALSE,cloud-solution-build-feature,,"Azure Resource Manager(ARM) Templates are used to deploy all the resources required for an application to Azure. In the template, you define the resources that are needed for the application and specify deployment parameters to input values for different environments. They consist of JSON and expressions which you can use to construct values for your deployment. "
 191,vue-cli,FALSE,FALSE,lang-admin-tool,vue.js,Questions related to the use of vue-cli or the project templates created via vue-cli
-192,serial-communication,FALSE,FALSE,tech-concept,,"Serial communication is the process of sending and receiving data via communication channel bit by bit sequentially, one bit at a time.
+192,serial-communication,FALSE,FALSE,data-concept,,"Serial communication is the process of sending and receiving data via communication channel bit by bit sequentially, one bit at a time.
 "
 193,openshift-origin,FALSE,FALSE,container-solution,,"OpenShift Origin was the open source upstream project for OpenShift, a distribution of Kubernetes for the enterprise developed by Red Hat. OpenShift Origin is now known as OKD."
 194,ambari,FALSE,FALSE,analytics-solution-server-solution,hadoop,"The Apache Ambari project is aimed at making Hadoop management simpler by developing software for provisioning, managing, and monitoring Apache Hadoop clusters. Ambari provides an intuitive, easy-to-use Hadoop management web UI backed by its RESTful APIs."
@@ -233,7 +233,7 @@ For more information, please see:  https://docs.docker.com/docker-for-windows/"
 201,azure-machine-learning-studio,FALSE,FALSE,cloud-ml-solution,,"For questions about Microsoft Azure Machine Learning Studio, a collaborative, drag-and-drop visual workspace to build, test, and deploy machine learning solutions without needing to write code."
 202,web3,FALSE,FALSE,lang-blockchain-framework,javascript,Web3 is the JavaScript framework for interacting with Ethereum blockchain. Use web3 for questions involving Ethereum Web3 framework.
 203,google-sites,FALSE,FALSE,web-solution,,Google Sites is an online open source platform for building static websites.
-204,monad-transformers,FALSE,FALSE,tech-concept,,"Monad transformers are an abstraction for combining monads. This allows you to compose different computational effects, building up precisely controlled computational environments."
+204,monad-transformers,FALSE,FALSE,code-concept,,"Monad transformers are an abstraction for combining monads. This allows you to compose different computational effects, building up precisely controlled computational environments."
 205,ngx-bootstrap,FALSE,FALSE,web-framework-connector,"angular,bootstrap","Use this tag for any query related to ngx-bootstrap. ngx-bootstrap is an open-source project, which provides an easy way to quickly integrate Bootstrap 3 or Bootstrap 4 Components with Angular."
 206,mgo,FALSE,FALSE,lang-database-connector,,mgo (pronounced as mango) is a MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
 207,azure-stream-analytics,FALSE,FALSE,cloud-analytics-solution,,Related to Microsoft Azure Cloud Analytics system
@@ -243,7 +243,7 @@ For more information, please see:  https://docs.docker.com/docker-for-windows/"
 211,php-7.2,TRUE,FALSE,language,,Use this tag for version-specific issues relating specifically to PHP 7.2.Use with the [php] tag
 212,laravel-mix,FALSE,FALSE,web-framework-api,"php,laravel",Laravel Mix provides a fluent API for defining Webpack build steps for your Laravel application using several common CSS and JavaScript pre-processors.
 213,semantic-ui-react,FALSE,FALSE,web-framework-ui-library,"react,semantic-ui",Semantic-UI-React is the official React integration for Semantic UI
-214,http-authentication,FALSE,FALSE,tech-concept,,"HTTP authentication is a method for a HTTP user agent to provide a user name and a certain proof confirming the user's identity when making a request. Various proofs define different HTTP Authentication methods, e.g. basic, forms, digest, or others."
+214,http-authentication,FALSE,FALSE,web-concept,,"HTTP authentication is a method for a HTTP user agent to provide a user name and a certain proof confirming the user's identity when making a request. Various proofs define different HTTP Authentication methods, e.g. basic, forms, digest, or others."
 215,google-play-console,FALSE,FALSE,admin-tool,,Google play console is for Android developers who wish for publishing their built Android apps to Google Play
 216,grid-search,FALSE,FALSE,ml-concept,,"In machine learning, grid search refers to multiple runs to find the optimal value of parameter(s)/hyperparameter(s) of a model, e.g. mtry for random-forest or alpha, beta, lambda for glm, or C, kernel and gamma for SVM."
 217,cucumber-java,FALSE,FALSE,collab-solution,,"Cucumber-JVM is a pure Java implementation of Cucumber that supports the most popular programming languages for the JVM. Cucumber-JVM supports the following JVM languages:
@@ -271,7 +271,7 @@ For more information, please see:  https://docs.docker.com/docker-for-windows/"
 230,hibernate-annotations,FALSE,FALSE,database-framework-core-feature,java,Hibernate Annotations provide an alternative method of supplying metadata which maps Java objects to the database tables they represent. 
 231,unix-socket,FALSE,FALSE,os-connector,unix,UNIX domain sockets are a technology for interprocess communication on a single computer.
 232,angular-template,FALSE,FALSE,web-framework-core-feature,angular,"Use this tag for Angular questions which are related to templates topics, such as interpolation ({{...}}), template expressions, template statements, data-binding..."
-233,rvalue,FALSE,FALSE,tech-concept,,An rvalue is a temporary object (or subobject) or is a value not directly associated with an object.
+233,rvalue,FALSE,FALSE,code-concept,,An rvalue is a temporary object (or subobject) or is a value not directly associated with an object.
 234,react-native-firebase,FALSE,FALSE,web-framework-connector,react,This tag is for the react-native-firebase npm package. 
 235,kotlin-android-extensions,FALSE,FALSE,lang-mobile-library,"kotlin,android",Questions related to Kotlin Android Extensions
 236,cntk,FALSE,FALSE,lang-ml-library,python,Microsoft Cognitive Toolkit (CNTK) is an open source library for commercial-grade distributed deep learning. It became open source in January 2016.
@@ -286,7 +286,7 @@ For more information, please see:  https://docs.docker.com/docker-for-windows/"
 244,coreml,FALSE,FALSE,ml-framework,,"Apple's Core ML framework and tools for making predictions using Machine Learning. Supports a variety of regression and classification models, as well as general-purpose neural networks."
 245,bulma,FALSE,FALSE,lang-web-framework,css,Bulma is an open source CSS Framework developed using Flexbox and SASS available on GitHub.
 246,web3js,FALSE,FALSE,lang-blockchain-library,javascript,"The web3.js library is a collection of modules which contain specific functionality for the ethereum ecosystem allowing to ease interactions with Ethereum blockchain, its smart-contracts and related encryption/decryption functions."
-247,functional-dependencies,FALSE,FALSE,tech-concept,,"A functional dependency is a constraint between two sets of attributes in a relation, in relational algebra, databases and type systems.
+247,functional-dependencies,FALSE,FALSE,cs-concept,,"A functional dependency is a constraint between two sets of attributes in a relation, in relational algebra, databases and type systems.
 "
 248,truffle,FALSE,FALSE,blockchain-dev-solution,,"Development environment, testing framework and asset pipeline for Ethereum"
 249,tensorflow.js,FALSE,FALSE,lang-ml-library,"javascript,node.js","TensorFlow.js is a library for developing and training ML models in JavaScript, and deploying in browser or on Node.js"
@@ -297,9 +297,9 @@ For more information, please see:  https://docs.docker.com/docker-for-windows/"
 254,managed-c++,FALSE,FALSE,deprecated-standard,c++,"Managed C++ is a now deprecated Microsoft set of deviations from C++, including grammatical and syntactic extensions, keywords and attributes, to bring the C++ syntax and language to the .NET Framework. These extensions allowed C++ code to be targeted to the Common Language Runtime (CLR) in the form of managed code as well as continue to interoperate with native code."
 255,ansible-inventory,FALSE,FALSE,admin-solution-core-feature,ansible,"Use this tag for questions regarding the Ansible inventory defined either as a static file (aka hosts file), or dynamically through external scripts (for example AWS EC2 inventory)."
 256,google-vr,FALSE,FALSE,vr-framework,,"Google VR includes two virtual reality (VR) platforms: Cardboard, the world's most popular and accessible mobile VR platform, and Daydream, a new platform for low-latency, immersive, and interactive mobile VR. Developer documentation: https://developers.google.com/vr/"
-257,apostrophe,FALSE,FALSE,tech-concept,,The single-quote character (')
-258,richtext,FALSE,FALSE,tech-concept,,"Text that includes formatting commands for page layout such as fonts, bold, underline, italic, etc. It may also refer to a multimedia document that can include images, audio and video."
-259,error-code,FALSE,FALSE,tech-concept,,An error code is a value returned to provide context on why an error occurred.  Error codes are often provided in lieu of an error message for the sake of brevity or consistency.
+257,apostrophe,FALSE,FALSE,code-concept,,The single-quote character (')
+258,richtext,FALSE,FALSE,ui-concept,,"Text that includes formatting commands for page layout such as fonts, bold, underline, italic, etc. It may also refer to a multimedia document that can include images, audio and video."
+259,error-code,FALSE,FALSE,code-concept,,An error code is a value returned to provide context on why an error occurred.  Error codes are often provided in lieu of an error message for the sake of brevity or consistency.
 260,aws-codebuild,FALSE,FALSE,cloud-dev-solution,,Describes Amazon Web Services CodeBuild questions and answers. Scope should be limited to AWS CodeBuild.
 261,yolo,FALSE,FALSE,lang-cv-library,c,"You Only Look Once (YOLO) is a real-time object detection system written in C. Use this tag for questions about YOLO compilation and installation, usage, and its features and functionality."
 262,powershell-ise,FALSE,FALSE,ide,,PowerShell-ISE refers to Microsoft Windows PowerShell's Integrated Scripting Environment.
@@ -314,7 +314,7 @@ The main role of UIControl is to define an interface and base implementation for
 270,frameset,FALSE,FALSE,lang-ui-feature,html,"In HTML, the frameset element is a container for dividing a browser window into rectangular subspaces called frames. Whilst user agents are still required to render them, Framesets are considered obsolete in HTML5."
 271,amazon-lex,FALSE,FALSE,cloud-ml-solution,,"Amazon Lex is ""a service for building conversational interfaces into any application using voice and text."""
 272,undertow,FALSE,FALSE,web-server-solution,,Undertow is a high performance non-blocking webserver that is the new web server in Red Hat's WildFly.
-273,memory-barriers,FALSE,FALSE,tech-concept,,A memory barrier is a special processor instruction that imposes restrictions on the order in which memory accesses become visible to other processors/cores in a multi-processor or multi-core system.
+273,memory-barriers,FALSE,FALSE,ll-concept,,A memory barrier is a special processor instruction that imposes restrictions on the order in which memory accesses become visible to other processors/cores in a multi-processor or multi-core system.
 274,net-http,FALSE,FALSE,lang-web-api,ruby,"An HTTP client API for Ruby.
 
 Net::HTTP provides a rich library which can be used to build HTTP user-agents."
@@ -322,20 +322,20 @@ Net::HTTP provides a rich library which can be used to build HTTP user-agents."
 276,joi,FALSE,FALSE,lang-core-feature,javascript,Object schema description language and validator for JavaScript objects.
 277,p-value,FALSE,FALSE,math-concept,,In statistical significance testing the p-value is the probability of obtaining a test statistic at least as extreme as the one that was actually observed.
 278,watchdog,FALSE,FALSE,design-concept,,Watchdog and watchdog timers.
-279,fixed-point,FALSE,FALSE,tech-concept,,"Questions about fixed-point arithmetic, done using a set number of decimal places. For the combinators used to encode recursion, use [fixpoint-combinators] instead. For the numerical method, use [fixed-point-iteration] instead. For the fixedpoint engine of Z3, use [z3-fixedpoint] instead."
+279,fixed-point,FALSE,FALSE,ll-concept,,"Questions about fixed-point arithmetic, done using a set number of decimal places. For the combinators used to encode recursion, use [fixpoint-combinators] instead. For the numerical method, use [fixed-point-iteration] instead. For the fixedpoint engine of Z3, use [z3-fixedpoint] instead."
 280,pundit,FALSE,FALSE,lang-security-library,ruby,"Pundit provides a set of helpers that guide Ruby programmer in leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scaleable authorization system."
-281,opcode,FALSE,FALSE,tech-concept,,The binary number that represents a machine instruction for a specific processor type.
+281,opcode,FALSE,FALSE,ll-concept,,The binary number that represents a machine instruction for a specific processor type.
 282,windows-firewall,FALSE,FALSE,security-solution,,Questions referring to the firewall that comes built-in with windows.  Use this tag only when referring to the firewall that comes with Windows; Other firewalls that run on Windows should contain the two tags [windows] [firewall] instead.
 283,android-instrumentation,FALSE,FALSE,mobile-core-feature,android,Base class for implementing application instrumentation code.
 284,vmware-workstation,FALSE,FALSE,vm-solution,,VMware Workstation is a virtual machine software suite for x86 and x86-64 computers from VMware.
 285,workbox,FALSE,FALSE,server-build-solution,,Questions related to Workbox: build and runtime tools for powering your progressive web app's service worker.
-286,algebraic-data-types,FALSE,FALSE,tech-concept,,"Algebraic data types are data structures built from sums, products and recursive types, admitting an algebra. Descriptions of types given as ADTs may be manipulated symbolically to derive other related data structures. The logic for building types algebraically is related to combinatorial species in combinatorial mathematics."
-287,web-api-testing,FALSE,FALSE,tech-concept,,Web API testing is the functional testing of HTTP based services.  
+286,algebraic-data-types,FALSE,FALSE,data-concept,,"Algebraic data types are data structures built from sums, products and recursive types, admitting an algebra. Descriptions of types given as ADTs may be manipulated symbolically to derive other related data structures. The logic for building types algebraically is related to combinatorial species in combinatorial mathematics."
+287,web-api-testing,FALSE,FALSE,test-concept,,Web API testing is the functional testing of HTTP based services.  
 288,surveymonkey,FALSE,FALSE,survey-service,,SurveyMonkey is an online survey service
 289,replicaset,FALSE,FALSE,database-core-feature,mongodb,"This tag is used mostly for a MongoDB replica set (a group of ""mongod"" processes that maintain the same data set) and rarely for a Kubernetes ReplicaSet (the next-generation Replication Controller with set-based selector support)."
 290,java-module,FALSE,FALSE,lang-core-feature,java,Refers to the module as defined by the module system in java introduced in Java 9. Hence likely to be coupled with the [java-9] (or above) tag.
 291,superagent,FALSE,FALSE,lang-web-api,ajax,"Super Agent is light-weight progressive ajax API crafted for flexibility, readability, and a low learning curve after being frustrated with many of the existing request APIs. It also works with Node.js! Check http://visionmedia.github.io/superagent/ for details."
-292,save-as,FALSE,FALSE,tech-concept,,This tag refers to a common UI prompt type that asks a user under what name they wish to save a file as.
+292,save-as,FALSE,FALSE,ui-concept,,This tag refers to a common UI prompt type that asks a user under what name they wish to save a file as.
 293,secret-key,FALSE,FALSE,security-concept,,"A secret key is a piece of data that is known by a limited number of users / programs and that participates in protecting information (or access to the information). Unlike passwords which are meant to be input by users and verified by matching, secret keys are usually read from storage and are an active part of an algorithm to decrypt the protected information. Use this tag for questions related to the creation, storage and usage of secret keys."
 294,.net-core-2.0,TRUE,TRUE,lang-app-framework,.net,"Use this tag for questions specifically related to .NET Core 2.0, in addition to using the '.NET Core' tag."
 295,php4,TRUE,TRUE,language,,"For issues relating to development using PHP, version 4."
@@ -358,7 +358,7 @@ Net::HTTP provides a rich library which can be used to build HTTP user-agents."
 
 "
 312,rssi,FALSE,FALSE,comms-concept,,RSSI stands for Received signal strength indication
-313,inode,FALSE,FALSE,tech-concept,,"In computing, an inode (index node) is a data structure found in many Unix file systems. Each inode stores all the information about a file system object (file, device node, socket, pipe, etc.), except data content and file name."
+313,inode,FALSE,FALSE,data-concept,,"In computing, an inode (index node) is a data structure found in many Unix file systems. Each inode stores all the information about a file system object (file, device node, socket, pipe, etc.), except data content and file name."
 314,react-context,FALSE,FALSE,web-framework-core-feature,react,React Context provides a way to pass data through the component tree without having to pass props down manually at every level.
 315,holoviews,FALSE,FALSE,lang-analytics-library,python,"HoloViews is a Python library that makes analyzing and visualizing scientific or engineering data much simpler, more intuitive, and more easily reproducible."
 316,ecmascript-2017,TRUE,TRUE,language,,"Use this tag for questions about features finalized in ECMAScript 2017. Do *not* use this tag if the code in question merely *uses* one of the features, *unless* the feature is cause of the problem."
@@ -400,19 +400,19 @@ Previously permissions were granted on installation of an app. As of API level 2
 350,ipfs,FALSE,FALSE,standard,,IPFS (InterPlanetary File System) is a distributed/P2P content and identity-addressed hypermedia distribution protocol.
 351,batch-normalization,FALSE,FALSE,ml-concept,,"Batch Normalization is a technique to improve learning in neural networks by normalizing the distribution of each input feature in each layer across each minibatch to N(0, 1)."
 352,mixed-content,FALSE,FALSE,web-concept,,HTTPS page that includes content retrieved through cleartext HTTP
-353,spatial-index,FALSE,FALSE,tech-concept,,"Spatial indexes are data structures the support searches and computation that depend on geometric relationships between the stored data (k-nearest-neighbors, identify elements in a defined region, etc). Use this tag for questions about selecting, writing, or using spatial indexes in your code, including the use of spatial indexes in database management systems."
+353,spatial-index,FALSE,FALSE,data-concept,,"Spatial indexes are data structures the support searches and computation that depend on geometric relationships between the stored data (k-nearest-neighbors, identify elements in a defined region, etc). Use this tag for questions about selecting, writing, or using spatial indexes in your code, including the use of spatial indexes in database management systems."
 354,jenkins-slave,FALSE,FALSE,build-framework-core-feature,jenkins,"Jenkins supports the ""master/slave"" mode, where the workload of building projects are delegated to multiple ""slave"" nodes, allowing a single Jenkins installation to host a large number of projects, or to provide different environments needed for builds/tests."
 355,reactive-forms,FALSE,FALSE,web-framework-core-feature,angular,Questions about Angular Reactive Forms(not template-driven forms). Use this tag for questions related to reactive-forms. Please mention the version of the angular used where you see the issue.
 356,bloc,FALSE,FALSE,design-concept,,BLoC stands for Business Logic Component. The application implementation pattern of using BLoC is called BLoC pattern.
 357,go-ethereum,FALSE,FALSE,lang-blockchain-library,go,go-ethereum also known as geth is a golang implementation of the Ethereum protocol.
 358,eiffel,FALSE,FALSE,language,,"Eiffel is a statically typed object-oriented programming language closely related with the programming method of the same name. Both are based on a set of principles like Design by Contract, Command-Query Separation, Uniform Access, etc. Many concepts initially introduced by Eiffel find their way to C#, Java and other languages. The program in Eiffel can be compiled unchanged for almost any target platform."
 359,quantization,FALSE,FALSE,math-concept,,"Use this tag for questions related to quantization of any kind, such as vector quantization."
-360,splitter,FALSE,FALSE,tech-concept,,Splitters are special windows/controls that are used to split another window/frame to subwindows. Usually splitters can be dragged so the subwindows are resized.
+360,splitter,FALSE,FALSE,ui-concept,,Splitters are special windows/controls that are used to split another window/frame to subwindows. Usually splitters can be dragged so the subwindows are resized.
 361,otrs,FALSE,FALSE,management-solution,,Open-source Help Desk and IT Service Management solution
 362,msg,FALSE,FALSE,file-format,,"""msg"" is the extension of Microsoft Outlook message files"
 363,mle,FALSE,FALSE,ml-concept,,"In statistics, maximum-likelihood estimation (MLE) is a method of estimating the parameters of a statistical model."
 364,swift-package-manager,FALSE,FALSE,lang-build-solution,swift,Swift Package Manager is a build tool and dependency manager for projects written in Swift. It is made by Apple and is open source.
-365,data-partitioning,FALSE,FALSE,tech-concept,,"Data partitioning deals with the dividing of a collection of data into smaller collections of data for the purpose of faster processing, easier statistics gathering and smaller memory/persistence footprint."
+365,data-partitioning,FALSE,FALSE,data-concept,,"Data partitioning deals with the dividing of a collection of data into smaller collections of data for the purpose of faster processing, easier statistics gathering and smaller memory/persistence footprint."
 366,docker-swarm-mode,FALSE,FALSE,container-core-feature,docker,"Swarm mode refers to cluster management and orchestration features embedded in Docker Engine. When you initialize a new swarm (cluster) or join nodes to a swarm, the Docker Engine runs in swarm mode."
 367,cryptocurrency,FALSE,FALSE,security-concept,,"a digital currency in which encryption techniques are used to regulate the generation of units of currency and verify the transfer of funds. Cryptocurrency can be mined and stored into an electronic wallet, locally on a computer or flash drive. "
 368,centroid,FALSE,FALSE,math-concept,,Centroid refers to the center of a geometric shape. It may also refer to the center of a clustered point-cloud.
@@ -424,17 +424,17 @@ Previously permissions were granted on installation of an app. As of API level 2
 374,nano,FALSE,FALSE,ide,,"GNU nano is an open source, curses-based text editor for Unix systems. It is a clone of [tag:pico], the proprietary Pine e-mail client editor."
 375,serde,FALSE,FALSE,lang-core-framework,rust,Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
 376,bacon.js,FALSE,FALSE,lang-core-library,javascript,A small functional reactive programming library for JavaScript.
-377,directory-listing,FALSE,FALSE,tech-concept,,Questions related to extracting the names (possibly associated metadata) of files in a directory.
+377,directory-listing,FALSE,FALSE,os-concept,,Questions related to extracting the names (possibly associated metadata) of files in a directory.
 378,generative-adversarial-network,FALSE,FALSE,ml-concept,,"Generative adversarial networks (GANs) are a class of artificial intelligence algorithms used in unsupervised (and semi-supervised) machine learning, implemented by a system of two neural networks contesting with each other in a zero-sum game framework."
 379,django-1.10,TRUE,FALSE,lang-web-framework,python,"Django 1.10 is a version of the Django framework, released August 2016. Please only use this tag if your question relates specifically to this version."
-380,image-caching,FALSE,FALSE,tech-concept,,Image cache reduces client-server requests for images.Image cache is useful for fast retrieval of images. we can store server side images in application using image cache and retrieve any time when we want even if server connected or not.
+380,image-caching,FALSE,FALSE,web-concept,,Image cache reduces client-server requests for images.Image cache is useful for fast retrieval of images. we can store server side images in application using image cache and retrieve any time when we want even if server connected or not.
 381,geth,FALSE,FALSE,lang-blockchain-library,go,Go implementation of command line tools for Ethereum blockchain
-382,kvc,FALSE,FALSE,tech-concept,,"Key Value Coding is a mechanism for accessing an object’s properties indirectly, using strings to identify properties, rather than through invocation of an accessor method or accessing them directly through instance variables."
+382,kvc,FALSE,FALSE,code-concept,,"Key Value Coding is a mechanism for accessing an object’s properties indirectly, using strings to identify properties, rather than through invocation of an accessor method or accessing them directly through instance variables."
 383,seq2seq,FALSE,FALSE,lang-ml-library,python,Seq2Seq is a sequence to sequence learning add-on for the python deep learning library.
-384,reentrancy,FALSE,FALSE,tech-concept,,"Reentrancy usually refers to subroutines, functions, methods and mutexes. A subroutine is considered reentrant if it can be safely called before a previous call has completed."
+384,reentrancy,FALSE,FALSE,code-concept,,"Reentrancy usually refers to subroutines, functions, methods and mutexes. A subroutine is considered reentrant if it can be safely called before a previous call has completed."
 385,recompose,FALSE,FALSE,web-framework-core-library,react,Recompose is a React utility belt for function components and higher-order components. Think of it like lodash for React.
 386,blazemeter,FALSE,FALSE,test-solution,,"BlazeMeter is a self-service, web and mobile load testing platform (PaaS) providing developers an enterprise grade, out-of-the-box load testing solution. 100% compatible with Apache JMeter™. Start testing in under five minutes."
-387,ftp-server,FALSE,FALSE,tech-concept,,"Server for the File Transfer Protocol (FTP), a standard network protocol used to transfer files from one host to another host over a TCP-based network."
+387,ftp-server,FALSE,FALSE,server-concept,,"Server for the File Transfer Protocol (FTP), a standard network protocol used to transfer files from one host to another host over a TCP-based network."
 388,ico,FALSE,FALSE,file-format,,"ICO is an image file format (associated with "".ico"" file extension) developed by Microsoft and designed for storing icons. It is widely used in Microsoft products, notably in Windows operating systems. From there it spread to other platforms and Internet. Use this tag if your question is related to this specific format. Do not use this tag for general questions about icons or concepts such as ""favicon"" if you don't plan to use ICO format for them."
 389,fasttext,FALSE,FALSE,lang-ml-library,python,fastText is a library for efficient learning of word representations and sentence classification.
 390,mongodb-replica-set,FALSE,FALSE,database-core-feature,mongodb,MongoDB's replica set uses redundant nodes to provide a high availability and resilience against network partitions of the primary node.
@@ -444,7 +444,7 @@ Previously permissions were granted on installation of an app. As of API level 2
 394,webpack-3,TRUE,TRUE,lang-build-tool,javascript,Version 3 of the Webpack bundler. Webpack takes modules with dependencies and generates static assets representing those modules.
 395,kestrel,FALSE,FALSE,lang-core-library,scala,"Kestrel is a simple, distributed message queue system written in Scala."
 396,m4,FALSE,FALSE,macro-language,,m4 is a general purpose macro processing language developed by Brian Kernighan and Dennis Ritchie.
-397,html-validation,FALSE,FALSE,tech-concept,,"Use the [html-validation] tag for questions about client-side form validation in browsers, as defined in https://html.spec.whatwg.org/multipage/forms.html#client-side-form-validation. For questions about checking HTML documents for conformance errors, use the [w3c-validation] tag instead."
+397,html-validation,FALSE,FALSE,web-concept,,"Use the [html-validation] tag for questions about client-side form validation in browsers, as defined in https://html.spec.whatwg.org/multipage/forms.html#client-side-form-validation. For questions about checking HTML documents for conformance errors, use the [w3c-validation] tag instead."
 398,jwt-auth,FALSE,FALSE,standard,,JSON Web Token (JWT) is an open standard that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. Authorisation is the most common scenario for using JWT.
 399,monorepo,FALSE,FALSE,versioning-concept,,A monorepo is a single repository containing more than one project (in contrast to the single-repository-per-project approach).
 400,color-mapping,FALSE,FALSE,ui-concept,,A color map is used when displaying intensity images (2D arrays). The color maps intensity values to RGB colors of the display.
@@ -482,7 +482,7 @@ More recently, it has been reworked on Linux to give birth to the extended BPF, 
 source: https://jcp.org/en/jsr/detail?id=107"
 426,powershell-core,FALSE,FALSE,admin-tool,,"Use this tag for questions about writing and executing scripts for PowerShell Core, the cross-platform command line and scripting utility from Microsoft. Questions about Windows PowerShell (the original, Windows-only edition) should be tagged [powershell]. Questions about system administration should be asked on SuperUser."
 427,unreal-blueprint,FALSE,FALSE,lang-core-feature,unreal-engine,Blueprints are Unreal Engine 4's visual programming structure. Use this tag for all questions related to blueprint programming in Unreal Engine 4.
-428,stack-memory,FALSE,FALSE,tech-concept,,"Questions regarding process stack memory.  Generally, stack memory is sequentially allocated, scoped to successive function calls, and normally referenced by the CPU using a stack pointer register."
+428,stack-memory,FALSE,FALSE,ll-concept,,"Questions regarding process stack memory.  Generally, stack memory is sequentially allocated, scoped to successive function calls, and normally referenced by the CPU using a stack pointer register."
 429,vue-material,FALSE,FALSE,web-framework-ui-framework,vue.js,Vue Material is a framework built exactly according to the Material Design specs. It is used to build web apps that can fit on every screen.
 430,google-slides,FALSE,FALSE,cloud-collab-solution,,Google Slides is a free presentation program part of a software office suite offered by Google within its Google Drive service. The Google Slides allows users to create and edit slides online while collaborating with other users in real-time.
 431,angular-elements,FALSE,FALSE,web-framework-core-feature,angular,Angular Elements compiles Angular Components into framework-agnostic Web Components.
@@ -490,20 +490,20 @@ source: https://jcp.org/en/jsr/detail?id=107"
 433,orthogonal,FALSE,FALSE,math-concept,,Orthogonal refers to a line that relates to another line by a right angle.
 434,bounded-contexts,FALSE,FALSE,design-concept,,Bounded Context is a concept from Domain Driven Design (DDD). It refers to the explicit boundaries in which a model applies such as the team organisation or physical manifestation. It is also used instead of the generic and deprecated tag [tag:context].
 435,angular-testing,FALSE,FALSE,lang-test-concept,angular,"Use when dealing with Questions related to testing Angular applications, when a test fails or when enable to solve an issue about testing a component or a service or any other angular element. This tag is similar in use to this other SO tag: angular-test."
-436,conditional-breakpoint,FALSE,FALSE,tech-concept,,"In software development, a conditional breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes, when a conditions such as the reading, writing, or modification of a specific location in an area of memory, occurs."
+436,conditional-breakpoint,FALSE,FALSE,code-concept,,"In software development, a conditional breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes, when a conditions such as the reading, writing, or modification of a specific location in an area of memory, occurs."
 437,pwd,FALSE,FALSE,cmd-tool,,"`pwd` is a shell command for ""print working directory"". When issued, it prints the path of the current working directory."
 438,graphframes,FALSE,FALSE,analytics-solution-graph-library,spark,"DataFrame based graph library for Apache Spark
 "
 439,tailwind-css,FALSE,FALSE,lang-ui-framework,css,Tailwind CSS is a utility-first CSS framework for rapidly building custom designs. 
-440,s-expression,FALSE,FALSE,tech-concept,,"S-expressions are a notation for nested list or tree-structured data, popularized by the Lisp programming language."
+440,s-expression,FALSE,FALSE,code-concept,,"S-expressions are a notation for nested list or tree-structured data, popularized by the Lisp programming language."
 441,metamask,FALSE,FALSE,web-connector,,"A browser extension for browsers (i.e. Chrome, Brave) for interacting with distributed applications which require, by design, specific dapp browsers such as Ethereum Mist"
 442,wp-cli,FALSE,FALSE,web-framework-admin-tool,,wp-cli is a command line interface for WordPress.
-443,app-startup,FALSE,FALSE,tech-concept,,"Concerns that are a focus of application startup include configuration, startup time optimization, locking/threading/race conditions, preconditions, and configuration changes."
+443,app-startup,FALSE,FALSE,app-concept,,"Concerns that are a focus of application startup include configuration, startup time optimization, locking/threading/race conditions, preconditions, and configuration changes."
 444,dl4j,FALSE,FALSE,lang-ml-library,"java,scala","Deeplearning4j is the first commercial-grade, open-source, distributed deep-learning library written for Java and Scala"
 445,pisa,FALSE,FALSE,lang-core-library,python,Pisa is a Python HTML/XHTML/CSS to PDF converter
-446,run-configuration,FALSE,FALSE,tech-concept,,"Run configurations enable a user of an IDE such as IntelliJ or Eclipse to save repeatable actions performed within the IDE. They can be viewed as a macro, but with the limitation of only using functionality recognized by the specific IDE it is created in."
+446,run-configuration,FALSE,FALSE,code-concept,,"Run configurations enable a user of an IDE such as IntelliJ or Eclipse to save repeatable actions performed within the IDE. They can be viewed as a macro, but with the limitation of only using functionality recognized by the specific IDE it is created in."
 447,natural-join,FALSE,FALSE,db-concept,,A natural join is a relational operation that joins on the like-named attributes between tables
-448,backpressure,FALSE,FALSE,tech-concept,,Backpressure refers to the build-up of data at an I/O switch when buffers are full and not able to receive additional data. No additional data packets are transferred until the bottleneck of data has been eliminated or the buffer has been emptied.
+448,backpressure,FALSE,FALSE,ll-concept,,Backpressure refers to the build-up of data at an I/O switch when buffers are full and not able to receive additional data. No additional data packets are transferred until the bottleneck of data has been eliminated or the buffer has been emptied.
 449,react-360,FALSE,FALSE,lang-vr-library,javascript,"React VR lets you build VR apps using only JavaScript. It uses the same design as React, letting you compose a rich VR world and UI from declarative components."
 450,google-vr-sdk,FALSE,FALSE,vr-sdk,"android,ios,unity,unreal-engine","Questions regarding Google VR SDK, available platforms: Android, iOS, Unity or Unreal"
 451,django-deployment,FALSE,FALSE,web-framework-build-feature,python,django-deployment refers to questions about different ways to deploy Django applications
@@ -512,7 +512,7 @@ source: https://jcp.org/en/jsr/detail?id=107"
 454,deap,FALSE,FALSE,compute-framework,,DEAP is an evolutionary computation framework for rapid prototyping and testing of ideas
 455,amazon-quicksight,FALSE,FALSE,cloud-analytics-solution,,"Amazon QuickSight is a product offering from Amazon that provides a ""business analytics"" service in order to visualize your data, perform ad hoc data analysis, and also derive useful business insights from the supplied data. Use this tag for programming questions related to Amazon QuickSight. Questions related to the usage of the product itself are not on topic for Stack Overflow. "
 456,auto-value,FALSE,FALSE,lang-core-feature,java,Immutable value type code generation for Java 1.6+.
-457,cross-language,FALSE,FALSE,tech-concept,,"In programming, ""cross-language"" or ""multi-language"" refers to features that operate across multiple programming languages."
+457,cross-language,FALSE,FALSE,code-concept,,"In programming, ""cross-language"" or ""multi-language"" refers to features that operate across multiple programming languages."
 458,watson-studio,FALSE,FALSE,ml-solution,,"IBM Watson Studio, a product that helps accelerate the machine and deep learning workflows required to infuse AI into your business to drive innovation. It provides a suite of tools for data scientists, application developers and subject matter experts to collaboratively and easily work with data and use that data to build, train and deploy models at scale."
 459,feature-descriptor,FALSE,FALSE,ml-concept,,Feature descriptor is a phrase in computer vision which is a way to describe the points of interest in a video or image.
 460,zeus,FALSE,FALSE,lang-core-library,ruby,"Zeus is an environment preloader for Ruby, so that your development tasks such as console, server, generate, and specs/tests take less time to load."
@@ -539,13 +539,13 @@ source: https://jcp.org/en/jsr/detail?id=107"
 481,sku,FALSE,FALSE,business-concept,,"SKU stands for Stock Keeping Unit, and is a product or service identification code that helps track the item for inventory. This tag relates to Questions regarding identification systems usually used to track inventory. "
 482,airtable,FALSE,FALSE,database,,Questions related to interacting with Airtable databases programmatically.
 483,model-comparison,FALSE,FALSE,ml-concept,,A task in statistics and machine learning for comparing models that are fit to the same data with the aim of determining which best explains the data. Questions about how to use model comparision to evaluate models are likely more appropriate for CrossValidated (https://stats.stackexchange.com)!
-484,subject-observer,FALSE,FALSE,tech-concept,,Use this tag for questions related to an Observer for a Subject. Observers can subscribe to the subject to receive the last (or initial) value and all subsequent notifications.
+484,subject-observer,FALSE,FALSE,connector-concept,,Use this tag for questions related to an Observer for a Subject. Observers can subscribe to the subject to receive the last (or initial) value and all subsequent notifications.
 485,deform,FALSE,FALSE,lang-web-library,python,"deform is a Python HTML form generation library. It runs under Python 2.6, 2.7, and 3.2. Forms are built with the Collander schemas, and uses Peppercorn for deserialization and Chameleon for templating."
 486,python-typing,FALSE,FALSE,lang-core-feature,python,"For questions related to PEP 484 (Type Hints), PEP 526 (Syntax for Variable Annotations) and the `typing` module."
 487,android-device-monitor,FALSE,FALSE,mobile-ui-tool,android,Android Device Monitor is a standalone tool that provides a UI for several Android application debugging and analysis tools.
 488,authenticity-token,FALSE,FALSE,lang-security-feature,ruby-on-rails,AuthenticityToken is a feature of Ruby on Rails used to protect against CSRF
 489,knuth,FALSE,FALSE,person,,"Donald E. Knuth is a computer scientist, best known as the author of the series of books on algorithms The Art of Computer Programming and the creator of the TeX typesetting system."
-490,tmpfs,FALSE,FALSE,tech-concept,,tmpfs is a common name for a temporary file storage facility on many Unix-like operating systems.
+490,tmpfs,FALSE,FALSE,os-concept,,tmpfs is a common name for a temporary file storage facility on many Unix-like operating systems.
 491,openvino,FALSE,FALSE,ml-solution,,"OpenVINO™ toolkit, short for Open Visual Inference and Neural network Optimization toolkit, provides developers with improved neural network performance on a variety of Intel® processors and helps them further unlock cost-effective, real-time vision applications. The toolkit enables deep learning inference and easy heterogeneous execution across multiple Intel® platforms providing implementations across cloud architectures to edge devices."
 492,microprofile,FALSE,FALSE,lang-microserv-framework,java,The Eclipse MicroProfile project defines a programming model for developing microservice applications in an Enterprise Java environment.
 493,ucp,FALSE,FALSE,lang-network-library,java,"Oracle UCP (Universal Connection Pool) for JDBC provides a connection pool implementation for caching JDBC connections.
@@ -554,20 +554,20 @@ source: https://jcp.org/en/jsr/detail?id=107"
 495,idoc,FALSE,FALSE,scripting-language,,"IDOC is a proprietary server site scripting language for WebCenter Content server, previously Oracle UCM, previously Stellent Content Managment Server"
 496,mapping-model,FALSE,FALSE,design-concept,,A mapping model is a Core Data construct that helps define how one version of a object model is migrated to another version the object model.
 497,snowball,FALSE,FALSE,language,,"Snowball is a small language for writing stemming algorithms, used primarily in information retrieval and natural language processing. "
-498,referential-transparency,FALSE,FALSE,tech-concept,,"A property of a function, variable, or expression whereby the expression can be replaced by its (evaluated) value without affecting the behavior of the program."
+498,referential-transparency,FALSE,FALSE,code-concept,,"A property of a function, variable, or expression whereby the expression can be replaced by its (evaluated) value without affecting the behavior of the program."
 499,dyno,FALSE,FALSE,container-solution,,Heroku Dynos are lightweight containers for running apps.
 500,kolmogorov-smirnov,FALSE,FALSE,math-concept,,"In statistics, the Kolmogorov–Smirnov test (K–S test or KS test) is a nonparametric test of the equality of continuous, one-dimensional probability distributions that can be used to compare a sample with a reference probability distribution (one-sample K–S test), or to compare two samples (two-sample K–S test)"
 501,reportng,FALSE,FALSE,test-framework-core-tool,testng,ReportNG is an HTML and XML reporting plug-in for TestNG.
 502,aws-codestar,FALSE,FALSE,cloud-dev-solution,,"AWS CodeStar is a cloud-based service for creating, managing, and working with software development projects on AWS."
 503,alv,FALSE,FALSE,lang-ui-library,abap,ALV stands for ABAP List Viewer. ALV provides a standard grid format and user interface to all ABAP reports. ALV is created by a set of standard function modules and classes provided by SAP.
 504,steamvr,FALSE,FALSE,vr-game-platform,,Steam is an internet distribution plattform for games. vr stands for virtual reality. So steamvr should be used for questions that are related to steam virtual reality development questions.
-505,srv,FALSE,FALSE,tech-concept,,"In the context of the Linux BIND application, a Service record (SRV record) is a specification of data in the Domain Name System defining the location, i.e. the hostname and port number, of servers for specified services."
+505,srv,FALSE,FALSE,os-concept,,"In the context of the Linux BIND application, a Service record (SRV record) is a specification of data in the Domain Name System defining the location, i.e. the hostname and port number, of servers for specified services."
 506,blue-green-deployment,FALSE,FALSE,deployment-concept,,Blue-green deployment minimizes downtime by switching from one identical environment to another. The environments can reside on the same or different hardware.
 507,cert-manager,FALSE,FALSE,container-solution-admin-tool,kubernetes,"For questions about the open source cert-manager project for Kubernetes, by Jetstack."
 508,docker-engine,FALSE,FALSE,container-solution-core-feature,linux,Docker Engine runs on Linux to create the operating environment for your distributed applications.
 509,symfony-flex,FALSE,FALSE,web-framework-build-tool,symfony,"Symfony Flex is a Composer plugin that helps developers install and manage Symfony applications, from the most simple micro-style projects to the more complex ones with dozens of dependencies. It replaces and improves the Symfony Installer and the Symfony Standard Edition, automating the most common tasks of Symfony applications, like installing and removing bundles and other Composer dependencies. Flex works for Symfony 3.3 and higher."
 510,openvas,FALSE,FALSE,security-framework,,OpenVAS is a framework of several services and tools offering a comprehensive and powerful vulnerability scanning and vulnerability management solution.
-511,unit-type,FALSE,FALSE,tech-concept,,"Tag for content pertaining to unit types such as Scala's `Unit` and Haskell's `()`. This tag should be used in preference to the ""Unit"" tag which is much more ambiguous. This tag is NOT for units of measurement like height and weight: use the units-of-measurement tag for those. "
+511,unit-type,FALSE,FALSE,code-concept,,"Tag for content pertaining to unit types such as Scala's `Unit` and Haskell's `()`. This tag should be used in preference to the ""Unit"" tag which is much more ambiguous. This tag is NOT for units of measurement like height and weight: use the units-of-measurement tag for those. "
 512,sld,FALSE,FALSE,map-format,,A Styled Layer Descriptor (SLD) is an XML schema specified by the Open Geospatial Consortium (OGC) for describing the appearance of map layers. 
 513,calico,FALSE,FALSE,compute-framework,,A multi-language computation framework
 514,ether,FALSE,FALSE,commerce-concept,,Ether is the currency used in Ethereum blockchain technology. Refer: https://ethereum.org/ether Questions about Ether which aren't about programming should be asked on the dedicated Ethereum site: https://ethereum.stackexchange.com. Questions which are about programming can be asked on either site.
@@ -596,23 +596,23 @@ It helps you write clean, organized code that you can scale and deploy at any ti
 531,cucm,FALSE,FALSE,management-tool,,"Cisco Unified Communications Manager (CUCM), formerly Cisco Unified CallManager and Cisco CallManager (CCM), is a software-based call-processing system developed by Cisco Systems"
 532,createml,FALSE,FALSE,ml-solution,,Create ML is a tool created by Apple used to create and train custom machine learning models on the Mac. Models are trained using representative samples such as text and images to find patterns and consequently create models that can be used in the CoreML framework.
 533,wagon,FALSE,FALSE,build-framework-core-feature,maven,Maven Wagon is a transport abstraction that is used in Maven's artifact and repository handling code.
-534,cold-start,FALSE,FALSE,tech-concept,,"In general, a cold start is the start-up of a recently unused (""cold"") application, typically incurring an above average start-up time. In contrast, a recently used application is considered ""warm."""
+534,cold-start,FALSE,FALSE,app-concept,,"In general, a cold start is the start-up of a recently unused (""cold"") application, typically incurring an above average start-up time. In contrast, a recently used application is considered ""warm."""
 535,tether,FALSE,FALSE,lang-ui-library,javascript,"Tether is a comprehensive JavaScript library for anchoring elements to other elements, as well as the browser viewport. It can be used with or without jQuery."
 536,windows-server-2019,TRUE,TRUE,os,,One of Microsoft Windows' server line of operating systems and a successor to Windows Server 2016. Use this tag for questions related to this particular server operating system.
 537,image-viewer,FALSE,FALSE,gfx-tool,,Image viewer is an application which displays image files.
 538,hapi.js,FALSE,FALSE,web-framework-server-framework,node.js,For questions related to Node.js web server framework hapi.
-539,raw-pointer,FALSE,FALSE,tech-concept,,Memory pointer that is neither a smart pointer nor shared pointer.
+539,raw-pointer,FALSE,FALSE,code-concept,,Memory pointer that is neither a smart pointer nor shared pointer.
 540,ddl-trigger,FALSE,FALSE,lang-core-feature,,DDL triggers are a special kind of trigger that fire in response to Data Definition Language (DDL) statements. They can be used to perform administrative tasks in the database such as auditing and regulating database operations.
 541,rook,FALSE,FALSE,lang-web-library,r,Rook is a web server interface and software package for the language R.
 542,pvcs,FALSE,FALSE,versioning-solution,,"Synergex PVCS is a collection of tools that provide integrated version control, bug tracking, and configuration management for software projects."
 543,upx,FALSE,FALSE,compression-tool,,"UPX (Ultimate Packer for eXecutables) is a executable packer that is used to compress executable files.
 "
 544,android-make,FALSE,FALSE,lang-connector-feature,"android,c,c++","Use this tag on questions related to ""Android.mk"" files which are written to describe your C/C++ sources to the Android NDK build system."
-545,decentralized-applications,FALSE,FALSE,tech-concept,,"A decentralized application (Dapp, dApp or DApp) is an application that is run by many users on a decentralized network with trustless protocols."
+545,decentralized-applications,FALSE,FALSE,app-concept,,"A decentralized application (Dapp, dApp or DApp) is an application that is run by many users on a decentralized network with trustless protocols."
 546,radium,FALSE,FALSE,web-framework-ui-library,react,Radium is a set of tools to manage inline styles on [tag:reactjs] elements. It gives you powerful styling capabilities without CSS. 
 547,canary-deployment,FALSE,FALSE,deployment-concept,,Canary deployment is the practice of deploying a new version of an application to a subset of production servers to test whether the new version functions properly in production without affecting all users if it doesn't.
 548,n3,FALSE,FALSE,language,,"N3 stands for Notation 3, an assertion and logic language which is a superset of RDF."
-549,rcu,FALSE,FALSE,tech-concept,,"Read-Copy-Update is a sync mechanism allowing reads to occur concurrently with updates. It maintains multiple versions of objects and ensures they aren't freed until all preexisting read-side crit-sections complete. Since write to aligned
+549,rcu,FALSE,FALSE,data-concept,,"Read-Copy-Update is a sync mechanism allowing reads to occur concurrently with updates. It maintains multiple versions of objects and ensures they aren't freed until all preexisting read-side crit-sections complete. Since write to aligned
 pointer is atomic, we can atomic insert, remove, replace data items in a linked struct without disrupting
 readers. Concurrent readers can then continue accessing the old
 version, new readers will see updated version."
@@ -624,7 +624,7 @@ version, new readers will see updated version."
 555,azure-stack,FALSE,FALSE,cloud-solution,,Microsoft Azure Stack is an extension of Azure that brings the innovation of cloud computing to build and deploy hybrid applications anywhere. - ONLY QUESTIONS ABOUT PROGRAMMING ARE ON-TOPIC. General server help can be obtained at Super User or Server Fault.
 556,ispf,FALSE,FALSE,os-admin-tool,,ISPF (Interactive System Productivity Facility) is a software product for the z/OS operating system (and earlier OSes) that runs on IBM mainframes.  ISPF primarily provides an IBM 3270 terminal interface with a set of panels. Each panel may include menus and dialogs to run tools on the underlying Time Sharing Option (TSO).
 557,elasticsearch-api,FALSE,FALSE,analytics-framework-api,"java,.net,python,php,ruby,groovy",Elasticsearch is a search server based on Lucene.
-558,unfold,FALSE,FALSE,tech-concept,,An unfold function is the opposite (or dual) of a fold.  Unfolds recursively generate  a list (or other recursive data structure) of values from a seed value.
+558,unfold,FALSE,FALSE,code-concept,,An unfold function is the opposite (or dual) of a fold.  Unfolds recursively generate  a list (or other recursive data structure) of values from a seed value.
 559,kurtosis,FALSE,FALSE,math-concept,,"Kurtosis is a statistical measure, which characterizes the extreme data (outlier) character of a distribution compared with the normal distribution. Positive (excess) kurtosis indicates a distribution that is more outlier-prone than a normal distribution. Negative (excess) kurtosis indicates a  distribution that is less outlier-prone than a normal distribution."
 560,configuration-profile,FALSE,FALSE,config-format,"ios,osx",A file used for distributing device configuration to iOS and OS X devices.
 561,insomnia,FALSE,FALSE,web-client,,Insomnia is a desktop client for interacting with HTTP-based APIs.
@@ -634,7 +634,7 @@ version, new readers will see updated version."
 565,no-framework,FALSE,FALSE,design-concept,,"no-framework is a philosophy of designing software to fit a specific goal, as opposed to conforming to a specific implementation of a software architecture"
 566,.net-core-1.1,TRUE,FALSE,lang-app-framework,.net,".NET Core is a free and open-source cross-platform development platform and the next generation of the Microsoft .NET Framework. .NET Core applications can be developed and run under Windows, Mac, and Linux."
 567,data-access-object,FALSE,FALSE,design-concept,,"A Data Access Object (DAO), is a design pattern in object-oriented software design, creating an object that provides an abstract interface to some type of database or other persistence mechanism."
-568,reify,FALSE,FALSE,tech-concept,,"To ""reify"" means to take an abstract concept and make a concrete representation out of it. For example, in Lisp lambdas allow you to reify the concepts of procedure abstraction and application. "
+568,reify,FALSE,FALSE,cs-concept,,"To ""reify"" means to take an abstract concept and make a concrete representation out of it. For example, in Lisp lambdas allow you to reify the concepts of procedure abstraction and application. "
 569,p-np,FALSE,FALSE,math-concept,,Used for questions about the P versus NP problem.
 570,pallet,FALSE,FALSE,lang-deployment-solution,clojure,Pallet is a Clojure-based platform for building automated infrastructure deployment tools.
 571,crdt,FALSE,FALSE,format,,Commutative Replicated Data Type
@@ -646,7 +646,7 @@ version, new readers will see updated version."
 577,git-track,FALSE,FALSE,versioning-concept,,"In git, tracking branches are local branches that relate to a remote branch."
 578,manifold,FALSE,FALSE,map-tool,,"Manifold System is a geographic information system (GIS) software package with support for vector and raster data, spatial SQL, a built-in Internet Map Server (IMS), and general programming. It is built for use exclusively on Windows. Further information on Manifold can be found on the website www.manifold.net."
 579,aws-storage-gateway,FALSE,FALSE,cloud-connector,,AWS Storage Gateway connects an on-premises software appliance with cloud-based storage to integrate on-premises IT environments with AWS storage infrastructure in the cloud.
-580,version-compatibility,FALSE,FALSE,tech-concept,,"This designation specifies whether and the extent to which different versions of a program, software library, package, operating system or other component are mutually compatible."
+580,version-compatibility,FALSE,FALSE,app-concept,,"This designation specifies whether and the extent to which different versions of a program, software library, package, operating system or other component are mutually compatible."
 581,account-linking,FALSE,FALSE,db-concept,,Account linking is referred to an ability (and a process) to connect the identity of the user with a user account in a different system.  
 582,chirp,FALSE,FALSE,hardware-concept,,Chirp is a wireless communication technology that enables devices to exchange data using sound.
 583,message-channel,FALSE,FALSE,connector-api-core-feature,channel,The `MessageChannel` interface of the Channel Messaging API allows us to create a new message channel and send data through it via its two `MessagePort` properties.
@@ -668,10 +668,10 @@ Apache retired Jakarta Cactus on 2011/08/05."
 597,map-basic,FALSE,FALSE,map-language,,MapBasic is a programming language for the creation of additional tools and functionality for the GIS application MapInfo Professional. MapBasic also allows programmers to develop software in popular programming languages such as C# .NET and use these with MapInfo Professional to create feature-rich tools and extensions.
 598,rls,FALSE,FALSE,ide-tool,rust,"The Rust Language Server (RLS) provides useful functionalities to IDEs, editors and other tools for Rust development, including code completion, 'goto definition', symbol search and reformatting. "
 599,option-type,FALSE,FALSE,lang-core-feature,f#,"The option type in F# is used when an actual value might not exist for a named value or variable. An option has an underlying type and can hold a value of that type, or it might not have a value."
-600,list-processing,FALSE,FALSE,tech-concept,,List processing is a concept in many data-oriented languages that involves performing an action once for each member of a list.
+600,list-processing,FALSE,FALSE,code-concept,,List processing is a concept in many data-oriented languages that involves performing an action once for each member of a list.
 601,connection-points,FALSE,FALSE,connector-concept,,"Connection points are the standard COM interface exposed by connectable objects, that allows clients to register for event callbacks. This tag is for questions about implementing and registering clients with the IConnectionPoint interface."
 602,staging-table,FALSE,FALSE,data-concept,,Staging tables are used in data ETL (extraction transformation and loading) processes and data warehousing.
-603,access-protection,FALSE,FALSE,tech-concept,,Restrictions that allow to protect variables from external/ unintended modification.
+603,access-protection,FALSE,FALSE,code-concept,,Restrictions that allow to protect variables from external/ unintended modification.
 604,reaper,FALSE,FALSE,audio-tool,,"REAPER is digital audio workstation software: a complete multitrack audio and MIDI recording, editing, processing, mixing, and mastering environment. "
 605,zen-of-python,FALSE,FALSE,design-concept,python,"Related to python best practices. A set of guiding principles for Python's code design comprising 20 aphorisms, only 19 of which have been written down; Created by Tim Peters."
 606,npn,FALSE,FALSE,standard,,The Next Protocol Negotiation extension (NPN) is currently used to negotiate the use of SPDY as an application level protocol.
@@ -702,6 +702,6 @@ The 9th edition, officially known as ECMAScript 2018, was finalized in June 2018
 627,mix-and-match,FALSE,FALSE,lang-connector-feature,"swift,objective-c","Apple's term for mixing Swift and Objective-C code in the same project. 
 "
 628,neptune,FALSE,FALSE,ml-solution,,"Neptune is a machine learning lab by deepsense.ai. For Amazon Neptune, the fully managed graph database by AWS, use the tag ""amazon-neptune"". "
-629,dry-run,FALSE,FALSE,tech-concept,,Features related to running a command in a manner that merely previews its intended operation.
+629,dry-run,FALSE,FALSE,app-concept,,Features related to running a command in a manner that merely previews its intended operation.
 630,docker-app,FALSE,FALSE,container-tool,docker,utility to help make Compose files more reusable and sharable.
 631,connect-rest,FALSE,FALSE,web-framework-connector,node.js,CONNECT-REST - Exceptionally featureful Restful web services middleware for connect node.js
