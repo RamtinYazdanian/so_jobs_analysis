@@ -140,7 +140,7 @@ Questions about shapefiles are best asked on the GIS Stack Exchange. "
 121,apache-zeppelin,FALSE,FALSE,analytics-tool,,"Apache Zeppelin is a web-based notebook that enables data-driven interactive data analytics. You can make beautiful data-driven, interactive and collaborative documents with SQL, Python, Scala and more. It also supports Markdown syntax."
 122,private-key,FALSE,FALSE,security-concept,,"Private key that occurs in asymmetric cryptography algorithms such as RSA and Diffie-Hellman as the counterpart to a public key. The private key must never be divulged while the public key can be made available to everyone. If your question is not pertaining specifically to the private key (usage/encoding/etc.), you should use more appropriate tags such as [public-key-encryption], [digital-signature], [diffie-hellman] or even [cryptography]."
 123,android-livedata,FALSE,FALSE,mobile-core-library,android,Android LiveData holds the value and allow it to observe changes and also respects lifecycle of the app components.
-124,p5.js,FALSE,FALSE,lang-access-library,javascript,"p5.js is a JavaScript library that starts with the original goal of processing, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today’s web."
+124,p5.js,FALSE,FALSE,lang-code-library,javascript,"p5.js is a JavaScript library that starts with the original goal of processing, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today’s web."
 125,cache-control,FALSE,FALSE,web-concept,,The HTTP `Cache-Control` header specifies directives which override default HTTP caching behaviour.
 126,server-sent-events,FALSE,FALSE,web-concept,html5,"Server-Sent Events (SSE) are a a part of the HTML5 specification. SSE allows a uni-directional persistent connection between a client and server, such that the client makes only a single request and the server keeps pushing data to the client continuously, until the connection is closed."
 127,lubridate,FALSE,FALSE,lang-core-library,r,lubridate is an R package that makes it easier to work with dates and time objects.
@@ -357,7 +357,7 @@ Net::HTTP provides a rich library which can be used to build HTTP user-agents."
 311,mern,FALSE,FALSE,dev-solution,,"MERN stands for Mongo, Express, React and NodeJS.
 
 "
-312,rssi,FALSE,FALSE,comms-concept,,RSSI stands for Received signal strength indication
+312,rssi,FALSE,FALSE,data-concept,,RSSI stands for Received signal strength indication
 313,inode,FALSE,FALSE,data-concept,,"In computing, an inode (index node) is a data structure found in many Unix file systems. Each inode stores all the information about a file system object (file, device node, socket, pipe, etc.), except data content and file name."
 314,react-context,FALSE,FALSE,web-framework-core-feature,react,React Context provides a way to pass data through the component tree without having to pass props down manually at every level.
 315,holoviews,FALSE,FALSE,lang-analytics-library,python,"HoloViews is a Python library that makes analyzing and visualizing scientific or engineering data much simpler, more intuitive, and more easily reproducible."
@@ -375,7 +375,7 @@ Net::HTTP provides a rich library which can be used to build HTTP user-agents."
 327,geotiff,FALSE,FALSE,standard,,GeoTIFF is a public domain metadata standard which allows georeferencing information to be embedded within a TIFF file. 
 328,hyperparameters,FALSE,FALSE,ml-concept,,Machine Learning engines use hyper-parameters for their learning phase behaviour. Different values thus modify the learner's model ability to generalise and avoid overfitting and/or bias towards a given DataSET training-phase observed values.
 329,http-response-codes,FALSE,FALSE,web-concept,,"HTTP Response Codes indicate whether a specific HTTP requests has been successfully completed. Responses are grouped in five classes: informational responses, successful responses, redirections, client errors, and servers errors."
-330,css-variables,FALSE,FALSE,lang-concept,,Variables allow to define stylesheet-wide values identified by a token and usable in all CSS declarations.
+330,css-variables,FALSE,FALSE,lang-core-feature,css,Variables allow to define stylesheet-wide values identified by a token and usable in all CSS declarations.
 331,browser-plugin,FALSE,FALSE,web-concept,,Browser-plugins allow to display content in browsers that they don't support natively. The two major APIs are NPAPI (supported by all browsers except Internet Explorer) and ActiveX (for so called content extensions for Internet Explorer).
 332,jigsaw,FALSE,FALSE,lang-core-library,java,Project Jigsaw aims to design and implement a standard module system for the Java SE platform. It was released as part of Java 9.
 333,runtime-permissions,FALSE,FALSE,mobile-core-feature,android,"This tag refers to Android runtime permissions introduced with Android 6.0 Marshmallow (API level 23). 
@@ -424,7 +424,7 @@ Previously permissions were granted on installation of an app. As of API level 2
 374,nano,FALSE,FALSE,ide,,"GNU nano is an open source, curses-based text editor for Unix systems. It is a clone of [tag:pico], the proprietary Pine e-mail client editor."
 375,serde,FALSE,FALSE,lang-core-framework,rust,Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
 376,bacon.js,FALSE,FALSE,lang-core-library,javascript,A small functional reactive programming library for JavaScript.
-377,directory-listing,FALSE,FALSE,os-concept,,Questions related to extracting the names (possibly associated metadata) of files in a directory.
+377,directory-listing,FALSE,FALSE,admin-concept,,Questions related to extracting the names (possibly associated metadata) of files in a directory.
 378,generative-adversarial-network,FALSE,FALSE,ml-concept,,"Generative adversarial networks (GANs) are a class of artificial intelligence algorithms used in unsupervised (and semi-supervised) machine learning, implemented by a system of two neural networks contesting with each other in a zero-sum game framework."
 379,django-1.10,TRUE,FALSE,lang-web-framework,python,"Django 1.10 is a version of the Django framework, released August 2016. Please only use this tag if your question relates specifically to this version."
 380,image-caching,FALSE,FALSE,web-concept,,Image cache reduces client-server requests for images.Image cache is useful for fast retrieval of images. we can store server side images in application using image cache and retrieve any time when we want even if server connected or not.
@@ -491,7 +491,7 @@ source: https://jcp.org/en/jsr/detail?id=107"
 434,bounded-contexts,FALSE,FALSE,design-concept,,Bounded Context is a concept from Domain Driven Design (DDD). It refers to the explicit boundaries in which a model applies such as the team organisation or physical manifestation. It is also used instead of the generic and deprecated tag [tag:context].
 435,angular-testing,FALSE,FALSE,lang-test-concept,angular,"Use when dealing with Questions related to testing Angular applications, when a test fails or when enable to solve an issue about testing a component or a service or any other angular element. This tag is similar in use to this other SO tag: angular-test."
 436,conditional-breakpoint,FALSE,FALSE,code-concept,,"In software development, a conditional breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes, when a conditions such as the reading, writing, or modification of a specific location in an area of memory, occurs."
-437,pwd,FALSE,FALSE,cmd-tool,,"`pwd` is a shell command for ""print working directory"". When issued, it prints the path of the current working directory."
+437,pwd,FALSE,FALSE,admin-tool,,"`pwd` is a shell command for ""print working directory"". When issued, it prints the path of the current working directory."
 438,graphframes,FALSE,FALSE,analytics-solution-graph-library,spark,"DataFrame based graph library for Apache Spark
 "
 439,tailwind-css,FALSE,FALSE,lang-ui-framework,css,Tailwind CSS is a utility-first CSS framework for rapidly building custom designs. 
@@ -523,11 +523,11 @@ source: https://jcp.org/en/jsr/detail?id=107"
 465,face-id,FALSE,FALSE,ml-solution,,Apple's face recognition technology used in the iPhone X.
 466,binance,FALSE,FALSE,deprecated-api,,"This tag should be avoided, instead someone with more reputation should create api-binance tag"
 467,java-ee-8,TRUE,TRUE,language,,Use this tag for questions relating specifically to Java Enterprise Edition 8.
-468,htop,FALSE,FALSE,cmd-tool,,htop is an interactive process viewer for Linux. It is a text-mode application (for console or X terminals) and requires ncurses.
+468,htop,FALSE,FALSE,admin-tool,,htop is an interactive process viewer for Linux. It is a text-mode application (for console or X terminals) and requires ncurses.
 469,specification-pattern,FALSE,FALSE,design-concept,,Allows business rules to be recombined by chaining the business rules together using boolean logic. The pattern is frequently used in the context of domain-driven design.
 470,action-mapping,FALSE,FALSE,lang-web-feature,struts2,Maps a request URL to the Struts2 action.
 471,statechart,FALSE,FALSE,design-concept,,"A statechart is a hierarchical state machine, introduced by Harel. Since it is hierarchical, its capability to reduce complexity and state proliferation allows to be used also for real-world problems and not only for toy or theoretical examples. The UML state diagram is an OO adaptation of the Harel statechart."
-472,varray,FALSE,FALSE,lang-concept,,VARRAY (variable-size arrays) is a PL/SQL datatype
+472,varray,FALSE,FALSE,lang-data-feature,sql,VARRAY (variable-size arrays) is a PL/SQL datatype
 473,spectron,FALSE,FALSE,test-framework,electron,"Spectron is a testing framework, built upon ChromeDriver and WebdriverIO, for end to end testing Electron applications."
 474,python-regex,FALSE,FALSE,lang-core-library,python,"For questions about the 3rd-party `regex` module, which is a replacement for the standard `re` module. Do not use this tag if you're not using or asking about this very module."
 475,configmap,FALSE,FALSE,lang-core-feature,,ConfigMaps allow you to decouple configuration artifacts from image content to keep containerized applications portable. 
@@ -561,7 +561,7 @@ source: https://jcp.org/en/jsr/detail?id=107"
 502,aws-codestar,FALSE,FALSE,cloud-dev-solution,,"AWS CodeStar is a cloud-based service for creating, managing, and working with software development projects on AWS."
 503,alv,FALSE,FALSE,lang-ui-library,abap,ALV stands for ABAP List Viewer. ALV provides a standard grid format and user interface to all ABAP reports. ALV is created by a set of standard function modules and classes provided by SAP.
 504,steamvr,FALSE,FALSE,vr-game-platform,,Steam is an internet distribution plattform for games. vr stands for virtual reality. So steamvr should be used for questions that are related to steam virtual reality development questions.
-505,srv,FALSE,FALSE,os-concept,,"In the context of the Linux BIND application, a Service record (SRV record) is a specification of data in the Domain Name System defining the location, i.e. the hostname and port number, of servers for specified services."
+505,srv,FALSE,FALSE,server-concept,,"In the context of the Linux BIND application, a Service record (SRV record) is a specification of data in the Domain Name System defining the location, i.e. the hostname and port number, of servers for specified services."
 506,blue-green-deployment,FALSE,FALSE,deployment-concept,,Blue-green deployment minimizes downtime by switching from one identical environment to another. The environments can reside on the same or different hardware.
 507,cert-manager,FALSE,FALSE,container-solution-admin-tool,kubernetes,"For questions about the open source cert-manager project for Kubernetes, by Jetstack."
 508,docker-engine,FALSE,FALSE,container-solution-core-feature,linux,Docker Engine runs on Linux to create the operating environment for your distributed applications.
@@ -605,7 +605,7 @@ It helps you write clean, organized code that you can scale and deploy at any ti
 540,ddl-trigger,FALSE,FALSE,lang-core-feature,,DDL triggers are a special kind of trigger that fire in response to Data Definition Language (DDL) statements. They can be used to perform administrative tasks in the database such as auditing and regulating database operations.
 541,rook,FALSE,FALSE,lang-web-library,r,Rook is a web server interface and software package for the language R.
 542,pvcs,FALSE,FALSE,versioning-solution,,"Synergex PVCS is a collection of tools that provide integrated version control, bug tracking, and configuration management for software projects."
-543,upx,FALSE,FALSE,compression-tool,,"UPX (Ultimate Packer for eXecutables) is a executable packer that is used to compress executable files.
+543,upx,FALSE,FALSE,admin-tool,,"UPX (Ultimate Packer for eXecutables) is a executable packer that is used to compress executable files.
 "
 544,android-make,FALSE,FALSE,lang-connector-feature,"android,c,c++","Use this tag on questions related to ""Android.mk"" files which are written to describe your C/C++ sources to the Android NDK build system."
 545,decentralized-applications,FALSE,FALSE,app-concept,,"A decentralized application (Dapp, dApp or DApp) is an application that is run by many users on a decentralized network with trustless protocols."
@@ -626,7 +626,7 @@ version, new readers will see updated version."
 557,elasticsearch-api,FALSE,FALSE,analytics-framework-api,"java,.net,python,php,ruby,groovy",Elasticsearch is a search server based on Lucene.
 558,unfold,FALSE,FALSE,code-concept,,An unfold function is the opposite (or dual) of a fold.  Unfolds recursively generate  a list (or other recursive data structure) of values from a seed value.
 559,kurtosis,FALSE,FALSE,math-concept,,"Kurtosis is a statistical measure, which characterizes the extreme data (outlier) character of a distribution compared with the normal distribution. Positive (excess) kurtosis indicates a distribution that is more outlier-prone than a normal distribution. Negative (excess) kurtosis indicates a  distribution that is less outlier-prone than a normal distribution."
-560,configuration-profile,FALSE,FALSE,config-format,"ios,osx",A file used for distributing device configuration to iOS and OS X devices.
+560,configuration-profile,FALSE,FALSE,file-format,"ios,osx",A file used for distributing device configuration to iOS and OS X devices.
 561,insomnia,FALSE,FALSE,web-client,,Insomnia is a desktop client for interacting with HTTP-based APIs.
 562,react-fiber,FALSE,FALSE,web-framework-core-library,react,React Fiber is a reimplementation of React's core rendering algorithm that was introduced with React v16.0. It introduced scheduling and incremental rendering among many other features.
 563,apex-trigger,FALSE,FALSE,lang-core-feature,apex,Apex trigger is Apex code that executes before or after operations with Standard or Custom object.
@@ -640,7 +640,7 @@ version, new readers will see updated version."
 571,crdt,FALSE,FALSE,format,,Commutative Replicated Data Type
 572,multi-catch,FALSE,FALSE,lang-core-feature,java,multi-catch refers to new functionality in Java 7 that allows developers to catch multi exceptions type in one catch block.
 573,automatic-failover,FALSE,FALSE,db-concept,,"Use this tag for questions related to Automatic failover, which is supported only in database mirroring sessions."
-574,chgrp,FALSE,FALSE,cmd-tool,,chgrp is Change Group UNIX command.
+574,chgrp,FALSE,FALSE,admin-tool,,chgrp is Change Group UNIX command.
 575,slab,FALSE,FALSE,app-framework-core-feature,.net,"Semantic Logging Application Block (SLAB) is designed to help .NET developers move from the unstructured logging approach towards the strongly-typed (semantic) logging approach, making it easier to consume logging information, especially when there is a large volume of log data to be analyzed."
 576,mirage,FALSE,FALSE,lang-app-framework,ocaml,"An OCaml-based programming framework for building type-safe, modular systems."
 577,git-track,FALSE,FALSE,versioning-concept,,"In git, tracking branches are local branches that relate to a remote branch."
