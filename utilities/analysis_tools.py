@@ -262,7 +262,10 @@ def calculate_all_adoption_sequences(all_tags_early_appearances, stackoverflow_v
     return adoption_df
 
 def get_proportion_of_starting_element(df, seq_col, starting_elem):
-    return df.loc[df[seq_col].apply(lambda x: x[0] == starting_elem)].TagName.sum() / df.TagName.sum()
+    return df.loc[df[seq_col].apply(lambda x: x[0] == starting_elem)].TagName.count() / df.TagName.count()
+
+def get_all_proportions(df, seq_col, starting_elems=['S','A','C']):
+    return tuple([get_proportion_of_starting_element(df, seq_col, starting_elem) for starting_elem in starting_elems] + [df.shape[0]]) 
 
 def calculate_ordering_proportion(df, seq_col, first_elem, second_elem):
     return (df.loc[df[seq_col].apply(lambda x: x.index(first_elem) != -1 and x.index(second_elem) != -1 and
@@ -296,3 +299,6 @@ def get_topic_and_type(combined_tag_type):
                 result['topic'] = split_by_dashes[0]
                 result['type'] = split_by_dashes[-1]
     return result
+
+def get_subset_of_tags(df, tags_list):
+    return df.loc[df.TagName.apply(lambda x: x in tags_list)]
