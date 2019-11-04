@@ -7,9 +7,9 @@ from bisect import bisect, bisect_right, bisect_left
 from functools import reduce
 from scipy.sparse import coo_matrix
 
-n_for_courses = 5
-n_for_ads = 5
-n_for_soq = 5
+N_FOR_COURSES = 5
+N_FOR_ADS = 5
+N_FOR_SOQ = 5
 
 def load_google_trends_file(filename, names_have_quotations=False):
     trend_df_dict = pickle.load(open(filename, 'rb'))
@@ -173,11 +173,11 @@ def sort_adoption_sequence(data_dict):
 def calculate_full_individual_adoption_sequence(tag_early_appearances, 
                                 so_votes_date=pd.NaT, google_trends_date=pd.NaT):
     data_dict = {'SQ1': tag_early_appearances['TagFirstUseDate'],
-                 'SQ'+str(n_for_soq): tag_early_appearances['TagNthUseDate'],
+                 'SQ'+str(N_FOR_SOQ): tag_early_appearances['TagNthUseDate'],
                  'A1': tag_early_appearances['ad_date'],
                  'C1': tag_early_appearances['course_date'],
-                 'A'+str(n_for_ads): tag_early_appearances['nth_ad_date'],
-                 'C'+str(n_for_courses): tag_early_appearances['nth_course_date'],
+                 'A'+str(N_FOR_ADS): tag_early_appearances['nth_ad_date'],
+                 'C'+str(N_FOR_COURSES): tag_early_appearances['nth_course_date'],
                  'SV': so_votes_date,
                  'GT': google_trends_date}
     return sort_adoption_sequence(data_dict)
@@ -204,21 +204,20 @@ def populate_delays_dict(delays_dict, data_dict):
 def calculate_inter_and_intra_platform_delays(tag_early_appearances, 
                                 so_votes_date=pd.NaT, google_trends_date=pd.NaT):
     data_dict = {'SQ1': tag_early_appearances['TagFirstUseDate'],
-                 'SQ'+str(n_for_soq): tag_early_appearances['TagNthUseDate'],
+                 'SQ'+str(N_FOR_SOQ): tag_early_appearances['TagNthUseDate'],
                  'A1': tag_early_appearances['ad_date'],
                  'C1': tag_early_appearances['course_date'],
-                 'A'+str(n_for_ads): tag_early_appearances['nth_ad_date'],
-                 'C'+str(n_for_courses): tag_early_appearances['nth_course_date'],
+                 'A'+str(N_FOR_ADS): tag_early_appearances['nth_ad_date'],
+                 'C'+str(N_FOR_COURSES): tag_early_appearances['nth_course_date'],
                  'SV': so_votes_date,
                  'GT': google_trends_date}
     
-    return_dict = {'SQ1_SQ5': None,
+    return_dict = {'SQ1_SQ'+str(N_FOR_SOQ): None,
                    'SQ1_SV': None,
                    'SQ1_A1': None,
-                   'SQ1_SV': None,
-                   'A1_A5': None,
-                   'SQ1_C1': None,
-                   'C1_C5': None,
+                   'A1_A'+str(N_FOR_ADS): None,
+                   'SQ1_C'+str(N_FOR_COURSES): None,
+                   'C1_C'+str(N_FOR_COURSES): None,
                    'SV_A1': None,
                    'GT_A1': None,
                    'SV_C1': None,
