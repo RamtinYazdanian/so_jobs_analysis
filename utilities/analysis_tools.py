@@ -286,7 +286,7 @@ def get_all_proportions(df, seq_col, starting_elems):
 
 def calculate_ordering_proportion(df, seq_col, first_elem, second_elem):
     return (df.loc[df[seq_col].apply(lambda x: x.index(first_elem) != -1 and x.index(second_elem) != -1 and
-        x.index(first_elem) < x.index(second_elem))].TagName.sum() / \
+        x.index(first_elem) < x.index(second_elem))].shape[0] / \
         df.loc[df[seq_col].apply(lambda x: x.index(first_elem) != -1 and x.index(second_elem) != -1)].shape[0],
         df.loc[df[seq_col].apply(lambda x: x.index(first_elem) != -1 and x.index(second_elem) != -1)].shape[0])
 
