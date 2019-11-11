@@ -243,7 +243,7 @@ def calculate_stackoverflow_votes_date(tag, stackoverflow_votes_df, threshold_re
     first_date_above_threshold = above_threshold.head(1).index.values[0]
     return first_date_above_threshold
 
-def calculate_google_trends_date(tag, google_trends_df, threshold=5):
+def calculate_google_trends_date(tag, google_trends_df, threshold=1):
     assert threshold > 0
     if tag not in google_trends_df.columns:
         return pd.NaT
@@ -279,7 +279,7 @@ def calculate_all_adoption_sequences(all_tags_early_appearances, stackoverflow_v
 def get_proportion_of_starting_element(df, seq_col, starting_elem):
     return df.loc[df[seq_col].apply(lambda x: x[0] == starting_elem)].TagName.count() / df.TagName.count()
 
-def get_all_proportions(df, seq_col, starting_elems=['S','A','C']):
+def get_all_proportions(df, seq_col, starting_elems=['S','A','C','G']):
     return tuple([get_proportion_of_starting_element(df, seq_col, starting_elem) for starting_elem in starting_elems] + [df.shape[0]]) 
 
 def calculate_ordering_proportion(df, seq_col, first_elem, second_elem):
