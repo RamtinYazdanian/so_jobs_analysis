@@ -228,6 +228,8 @@ def calculate_inter_and_intra_platform_delays(tag_early_appearances,
 
 def calculate_stackoverflow_votes_date(tag, stackoverflow_votes_df, threshold_rel=0.1, threshold_abs=5):
     # calculates the first time when the time series reached 10% of its median
+    if tag not in stackoverflow_votes_df.columns:
+        return pd.NaT
     sub_df = stackoverflow_votes_df.loc[stackoverflow_votes_df[tag] > 0, tag]
     if sub_df.shape[0] == 0:
         return pd.NaT
@@ -241,19 +243,32 @@ def calculate_stackoverflow_votes_date(tag, stackoverflow_votes_df, threshold_re
     first_date_above_threshold = above_threshold.head(1).index.values[0]
     return first_date_above_threshold
 
+def calculate_google_trends_date(tag, google_trends_df, threshold=5):
+    assert threshold > 0
+    if tag not in google_trends_df.columns:
+        return pd.NaT
+    above_threshold = google_trends_df.loc[google_trends_df[tag] >= threshold, tag]
+    if above_threshold.shape[0] == 0:
+        return pd.NaT
+    first_date_above_threshold = above_threshold.head(1).index.values[0]
+    return first_date_above_threshold
+
 def calculate_all_adoption_sequences(all_tags_early_appearances, stackoverflow_votes_df=None, google_trends_df=None):
     full_adoption_sequences = all_tags_early_appearances.apply(lambda x: 
-             calculate_full_individual_adoption_sequence(x, 
-                         so_votes_date=calculate_stackoverflow_votes_date(x['TagName'], stackoverflow_votes_df)), 
+             calculate_full_individual_adoption_sequence(x,
+                         so_votes_date=calculate_stackoverflow_votes_date(x['TagName'], stackoverflow_votes_df),
+                         google_trends_date=calculate_google_trends_date(x['TagName'], google_trends_df)),
                                                                axis=1)
     
     short_adoption_sequences = all_tags_early_appearances.apply(lambda x: 
                              calculate_short_adoption_sequence(x, 
-                    so_votes_date=calculate_stackoverflow_votes_date(x['TagName'], stackoverflow_votes_df)), axis=1)
+                    so_votes_date=calculate_stackoverflow_votes_date(x['TagName'], stackoverflow_votes_df),
+                    google_trends_date=calculate_google_trends_date(x['TagName'], google_trends_df)), axis=1)
     
     adoption_delays = all_tags_early_appearances.apply(lambda x: 
              calculate_inter_and_intra_platform_delays(x, 
-                         so_votes_date=calculate_stackoverflow_votes_date(x['TagName'], stackoverflow_votes_df)), 
+                         so_votes_date=calculate_stackoverflow_votes_date(x['TagName'], stackoverflow_votes_df),
+                         google_trends_date=calculate_google_trends_date(x['TagName'], google_trends_df)),
                                                                axis=1).apply(pd.Series)
     
     adoption_df = pd.concat([all_tags_early_appearances['TagName'], full_adoption_sequences, 
