@@ -229,7 +229,7 @@ def calculate_inter_and_intra_platform_delays(tag_early_appearances,
 
 def calculate_stackoverflow_votes_date(tag, stackoverflow_votes_df, threshold_rel=0.1, threshold_abs=5):
     # calculates the first time when the time series reached 10% of its median
-    if tag not in stackoverflow_votes_df.columns:
+    if stackoverflow_votes_df is None or tag not in stackoverflow_votes_df.columns:
         return pd.NaT
     sub_df = stackoverflow_votes_df.loc[stackoverflow_votes_df[tag] > 0, tag]
     if sub_df.shape[0] == 0:
@@ -246,7 +246,7 @@ def calculate_stackoverflow_votes_date(tag, stackoverflow_votes_df, threshold_re
 
 def calculate_google_trends_date(tag, google_trends_df, threshold=1):
     assert threshold > 0
-    if tag not in google_trends_df.columns:
+    if google_trends_df is None or tag not in google_trends_df.columns:
         return pd.NaT
     above_threshold = google_trends_df.loc[google_trends_df[tag] >= threshold, tag]
     if above_threshold.shape[0] == 0:
