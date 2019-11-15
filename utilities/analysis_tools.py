@@ -244,7 +244,7 @@ def calculate_stackoverflow_votes_date(tag, stackoverflow_votes_df, threshold_re
     first_date_above_threshold = above_threshold.head(1).index.values[0]
     return first_date_above_threshold
 
-def calculate_google_trends_date(tag, google_trends_df, threshold=1):
+def calculate_google_trends_date(tag, google_trends_df, threshold=.0000001):
     assert threshold > 0
     if google_trends_df is None or tag not in google_trends_df.columns:
         return pd.NaT
