@@ -170,23 +170,26 @@ def sort_adoption_sequence(data_dict):
     keys_ordered = [keys[i] for i in sorting_indices]
     return '-'.join(keys_ordered)
 
+def get_date_column_or_none(df, col_name):
+    return df[col_name] if col_name in df.columns else pd.NaT
+
 def calculate_full_individual_adoption_sequence(tag_early_appearances, 
                                 so_votes_date=pd.NaT, google_trends_date=pd.NaT):
-    data_dict = {'SQ1': tag_early_appearances['TagFirstUseDate'],
-                 'SQ'+str(N_FOR_SOQ): tag_early_appearances['TagNthUseDate'],
-                 'A1': tag_early_appearances['ad_date'],
-                 'C1': tag_early_appearances['course_date'],
-                 'A'+str(N_FOR_ADS): tag_early_appearances['nth_ad_date'],
-                 'C'+str(N_FOR_COURSES): tag_early_appearances['nth_course_date'],
+    data_dict = {'SQ1': get_date_column_or_none(tag_early_appearances, 'TagFirstUseDate'),
+                 'SQ'+str(N_FOR_SOQ): get_date_column_or_none(tag_early_appearances, 'TagNthUseDate'),
+                 'A1': get_date_column_or_none(tag_early_appearances, 'ad_date'),
+                 'C1': get_date_column_or_none(tag_early_appearances, 'course_date'),
+                 'A'+str(N_FOR_ADS): get_date_column_or_none(tag_early_appearances, 'nth_ad_date'),
+                 'C'+str(N_FOR_COURSES): get_date_column_or_none(tag_early_appearances, 'nth_course_date'),
                  'SV': so_votes_date,
                  'GT': google_trends_date}
     return sort_adoption_sequence(data_dict)
 
 def calculate_short_adoption_sequence(tag_early_appearances, 
                                 so_votes_date=pd.NaT, google_trends_date=pd.NaT):
-    data_dict = {'SQ': tag_early_appearances['TagFirstUseDate'],
-                 'A': tag_early_appearances['ad_date'],
-                 'C': tag_early_appearances['course_date'],
+    data_dict = {'SQ': get_date_column_or_none(tag_early_appearances, 'TagFirstUseDate'),
+                 'A': get_date_column_or_none(tag_early_appearances, 'ad_date'),
+                 'C': get_date_column_or_none(tag_early_appearances, 'course_date'),
                  'SV': so_votes_date,
                  'GT': google_trends_date}
     return sort_adoption_sequence(data_dict)
@@ -203,12 +206,12 @@ def populate_delays_dict(delays_dict, data_dict):
 
 def calculate_inter_and_intra_platform_delays(tag_early_appearances, 
                                 so_votes_date=pd.NaT, google_trends_date=pd.NaT):
-    data_dict = {'SQ1': tag_early_appearances['TagFirstUseDate'],
-                 'SQ'+str(N_FOR_SOQ): tag_early_appearances['TagNthUseDate'],
-                 'A1': tag_early_appearances['ad_date'],
-                 'C1': tag_early_appearances['course_date'],
-                 'A'+str(N_FOR_ADS): tag_early_appearances['nth_ad_date'],
-                 'C'+str(N_FOR_COURSES): tag_early_appearances['nth_course_date'],
+    data_dict = {'SQ1': get_date_column_or_none(tag_early_appearances, 'TagFirstUseDate'),
+                 'SQ'+str(N_FOR_SOQ): get_date_column_or_none(tag_early_appearances, 'TagNthUseDate'),
+                 'A1': get_date_column_or_none(tag_early_appearances, 'ad_date'),
+                 'C1': get_date_column_or_none(tag_early_appearances, 'course_date'),
+                 'A'+str(N_FOR_ADS): get_date_column_or_none(tag_early_appearances, 'nth_ad_date'),
+                 'C'+str(N_FOR_COURSES): get_date_column_or_none(tag_early_appearances, 'nth_course_date'),
                  'SV': so_votes_date,
                  'GT': google_trends_date}
     
