@@ -214,15 +214,15 @@ def calculate_inter_and_intra_platform_delays(tag_early_appearances,
     
     return_dict = {'SQ1_SQ'+str(N_FOR_SOQ): None,
                    'SQ1_SV': None,
+                   'SQ1_C1': None,
                    'SQ1_A1': None,
                    'A1_A'+str(N_FOR_ADS): None,
-                   'SQ1_C'+str(N_FOR_COURSES): None,
                    'C1_C'+str(N_FOR_COURSES): None,
                    'SV_A1': None,
                    'GT_A1': None,
                    'SV_C1': None,
                    'GT_C1': None,
-                   'A1_C1': None,
+                   'C1_A1': None,
                    'GT_SQ1': None}
     
     return populate_delays_dict(return_dict, data_dict)
