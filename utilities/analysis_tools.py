@@ -216,6 +216,8 @@ def calculate_inter_and_intra_platform_delays(tag_early_appearances, column_name
                  'GT': google_trends_date}
     
     return_dict = {'SQ1_SQ'+str(N_FOR_SOQ): None,
+                   'SQ'+str(N_FOR_SOQ)+'_C1': None,
+                   'SQ' + str(N_FOR_SOQ) + '_A1': None,
                    'SQ1_SV': None,
                    'SQ1_C1': None,
                    'SQ1_A1': None,
