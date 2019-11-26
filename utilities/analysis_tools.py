@@ -232,7 +232,7 @@ def calculate_inter_and_intra_platform_delays(tag_early_appearances, column_name
     
     return populate_delays_dict(return_dict, data_dict)
 
-def calculate_stackoverflow_votes_date(tag, stackoverflow_votes_df, threshold_rel=0.1, threshold_abs=5):
+def calculate_stackoverflow_votes_date(tag, stackoverflow_votes_df, threshold_rel=0.0, threshold_abs=5):
     # calculates the first time when the time series reached 10% of its median
     if stackoverflow_votes_df is None or tag not in stackoverflow_votes_df.columns:
         return pd.NaT
